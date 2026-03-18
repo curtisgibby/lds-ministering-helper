@@ -59,16 +59,16 @@ export function MinisterTile({
       style={style}
       {...listeners}
       {...attributes}
-      className={`group flex items-center gap-2 px-2 py-1.5 bg-blue-50 border border-blue-200 rounded-lg cursor-grab active:cursor-grabbing select-none ${
+      className={`group flex items-center gap-2 px-2 py-1.5 bg-blue-50 dark:bg-blue-950/50 border border-blue-200 dark:border-blue-800 rounded-lg cursor-grab active:cursor-grabbing select-none ${
         isDragging ? "opacity-50 shadow-lg z-50" : "hover:shadow-sm"
       } ${minister.youthBasedOnAge ? "border-dashed" : ""}`}
     >
       <Avatar name={minister.name} personId={minister.personId} size="sm" />
       <div className="min-w-0 flex-1">
-        <div className="text-sm font-medium text-gray-900 truncate">
+        <div className="text-sm font-medium text-gray-900 dark:text-gray-100 truncate">
           {displayName(minister.name, nameFormat)}
         </div>
-        <div className="text-xs text-gray-500">
+        <div className="text-xs text-gray-500 dark:text-gray-400">
           {[office, person?.phone].filter(Boolean).join(" · ")}
         </div>
       </div>
@@ -76,7 +76,7 @@ export function MinisterTile({
         <button
           onPointerDown={(e) => e.stopPropagation()}
           onClick={handleRemove}
-          className="shrink-0 opacity-0 group-hover:opacity-100 transition-opacity p-0.5 rounded-full hover:bg-blue-200 text-blue-400 hover:text-blue-600"
+          className="shrink-0 opacity-0 group-hover:opacity-100 transition-opacity p-0.5 rounded-full hover:bg-blue-200 dark:hover:bg-blue-800 text-blue-400 hover:text-blue-600 dark:hover:text-blue-300"
           title="Remove from companionship"
         >
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

@@ -357,7 +357,12 @@ export function displayName(name: string, format: NameFormat): string {
   return name;
 }
 
-export function districtColor(name: string): { bg: string; border: string } {
+export function districtColor(name: string): {
+  bg: string;
+  border: string;
+  bgDark: string;
+  borderDark: string;
+} {
   // FNV-1a hash
   let hash = 2166136261;
   for (let i = 0; i < name.length; i++) {
@@ -369,5 +374,7 @@ export function districtColor(name: string): { bg: string; border: string } {
   return {
     bg: `hsl(${hue} 60% 95%)`,
     border: `hsl(${hue} 50% 80%)`,
+    bgDark: `hsl(${hue} 30% 15%)`,
+    borderDark: `hsl(${hue} 30% 30%)`,
   };
 }

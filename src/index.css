@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* District colors: swap CSS custom properties in dark mode */
+.dark [style*="--district-bg"] {
+  background-color: var(--district-bg-dark) !important;
+  border-color: var(--district-border-dark) !important;
+}

@@ -35,21 +35,21 @@ export function ImportDialog() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-amber-50 p-4">
-      <div className="bg-white rounded-2xl shadow-xl p-8 max-w-lg w-full">
-        <h1 className="text-2xl font-bold text-gray-800 mb-2">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-amber-50 dark:from-gray-900 dark:to-gray-800 p-4">
+      <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 max-w-lg w-full">
+        <h1 className="text-2xl font-bold text-gray-800 dark:text-gray-100 mb-2">
           Ministering Helper
         </h1>
-        <p className="text-gray-500 mb-6">
+        <p className="text-gray-500 dark:text-gray-400 mb-6">
           Upload your ward's JSON data files to get started. These files are
           exported from the Church's ministering system.
         </p>
 
         <div className="space-y-4">
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
+            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
               Members file
-              <span className="text-gray-400 font-normal ml-1">
+              <span className="text-gray-400 dark:text-gray-500 font-normal ml-1">
                 (members.json)
               </span>
             </label>
@@ -57,14 +57,14 @@ export function ImportDialog() {
               ref={familiesRef}
               type="file"
               accept=".json"
-              className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-medium file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"
+              className="block w-full text-sm text-gray-500 dark:text-gray-400 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-medium file:bg-blue-50 dark:file:bg-blue-900/50 file:text-blue-700 dark:file:text-blue-300 hover:file:bg-blue-100 dark:hover:file:bg-blue-900/70"
             />
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
+            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
               Companionships file
-              <span className="text-gray-400 font-normal ml-1">
+              <span className="text-gray-400 dark:text-gray-500 font-normal ml-1">
                 (companionships.json)
               </span>
             </label>
@@ -72,12 +72,12 @@ export function ImportDialog() {
               ref={companionshipsRef}
               type="file"
               accept=".json"
-              className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-medium file:bg-amber-50 file:text-amber-700 hover:file:bg-amber-100"
+              className="block w-full text-sm text-gray-500 dark:text-gray-400 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-medium file:bg-amber-50 dark:file:bg-amber-900/50 file:text-amber-700 dark:file:text-amber-300 hover:file:bg-amber-100 dark:hover:file:bg-amber-900/70"
             />
           </div>
 
           {error && (
-            <div className="text-sm text-red-600 bg-red-50 rounded-lg p-3">
+            <div className="text-sm text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-900/30 rounded-lg p-3">
               {error}
             </div>
           )}

@@ -15,7 +15,6 @@ export function CompanionshipCard({ companionship }: CompanionshipCardProps) {
     companionship.ministers.length === 0 &&
     companionship.assignments.length === 0;
 
-  // Draggable: the whole companionship card
   const dragData: DragData = {
     type: "companionship",
     companionshipId: companionship.id,
@@ -30,7 +29,6 @@ export function CompanionshipCard({ companionship }: CompanionshipCardProps) {
     data: dragData,
   });
 
-  // Droppable zones for ministers and families
   const ministerDrop: DropTarget = {
     type: "minister",
     companionshipId: companionship.id,
@@ -54,7 +52,7 @@ export function CompanionshipCard({ companionship }: CompanionshipCardProps) {
 
   return (
     <div
-      className={`bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden transition-opacity ${
+      className={`bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm overflow-hidden transition-opacity ${
         isDragging ? "opacity-40" : ""
       }`}
     >
@@ -63,10 +61,10 @@ export function CompanionshipCard({ companionship }: CompanionshipCardProps) {
         ref={setDragRef}
         {...listeners}
         {...attributes}
-        className="flex items-center justify-center h-3 bg-gray-50 border-b border-gray-100 cursor-grab active:cursor-grabbing hover:bg-gray-100 transition-colors"
+        className="flex items-center justify-center h-3 bg-gray-50 dark:bg-gray-700/50 border-b border-gray-100 dark:border-gray-700 cursor-grab active:cursor-grabbing hover:bg-gray-100 dark:hover:bg-gray-600/50 transition-colors"
       >
         <svg
-          className="w-4 h-3 text-gray-300"
+          className="w-4 h-3 text-gray-300 dark:text-gray-600"
           viewBox="0 0 16 6"
           fill="currentColor"
         >
@@ -79,16 +77,16 @@ export function CompanionshipCard({ companionship }: CompanionshipCardProps) {
         </svg>
       </div>
 
-      <div className="flex divide-x divide-gray-100">
+      <div className="flex divide-x divide-gray-100 dark:divide-gray-700">
         {/* Ministers side — 40% */}
         <div
           ref={setMinisterDropRef}
           className={`w-2/5 shrink-0 p-2 space-y-1.5 min-h-[60px] transition-colors ${
-            isMinisterOver ? "bg-blue-50" : ""
+            isMinisterOver ? "bg-blue-50 dark:bg-blue-900/30" : ""
           }`}
         >
           {companionship.ministers.length === 0 && (
-            <div className="text-xs text-gray-400 italic py-2 text-center">
+            <div className="text-xs text-gray-400 dark:text-gray-500 italic py-2 text-center">
               Drop ministers here
             </div>
           )}
@@ -102,7 +100,7 @@ export function CompanionshipCard({ companionship }: CompanionshipCardProps) {
         </div>
 
         {/* Divider arrow */}
-        <div className="flex items-center px-1 text-gray-300">
+        <div className="flex items-center px-1 text-gray-300 dark:text-gray-600">
           <svg
             className="w-4 h-4"
             fill="none"
@@ -118,15 +116,15 @@ export function CompanionshipCard({ companionship }: CompanionshipCardProps) {
           </svg>
         </div>
 
-        {/* Families side — 60% */}
+        {/* Assignments side — 60% */}
         <div
           ref={setAssignmentDropRef}
           className={`flex-1 p-2 space-y-1.5 min-h-[60px] transition-colors ${
-            isAssignmentOver ? "bg-amber-50" : ""
+            isAssignmentOver ? "bg-amber-50 dark:bg-yellow-900/30" : ""
           }`}
         >
           {companionship.assignments.length === 0 && (
-            <div className="text-xs text-gray-400 italic py-2 text-center">
+            <div className="text-xs text-gray-400 dark:text-gray-500 italic py-2 text-center">
               Drop assignments here
             </div>
           )}
@@ -141,10 +139,10 @@ export function CompanionshipCard({ companionship }: CompanionshipCardProps) {
       </div>
 
       {isEmpty && (
-        <div className="border-t border-gray-100 px-3 py-1.5 text-center">
+        <div className="border-t border-gray-100 dark:border-gray-700 px-3 py-1.5 text-center">
           <button
             onClick={() => removeEmptyCompanionship(companionship.id)}
-            className="text-xs text-red-400 hover:text-red-600"
+            className="text-xs text-red-400 hover:text-red-600 dark:text-red-500 dark:hover:text-red-400"
           >
             Remove empty companionship
           </button>

@@ -130,7 +130,7 @@ export function Board() {
       onDragStart={handleDragStart}
       onDragEnd={handleDragEnd}
     >
-      <div className="min-h-screen bg-gray-100">
+      <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
         <Toolbar onToggleSidebar={() => setSidebarOpen((o) => !o)} />
         <div
           className="mx-auto p-4 space-y-6 transition-all duration-300"
@@ -149,7 +149,7 @@ export function Board() {
 
       <DragOverlay>
         {activeDrag && activeDrag.data.type === "companionship" && (
-          <div className="flex items-center gap-2 px-4 py-3 rounded-xl shadow-xl border-2 bg-white border-gray-400">
+          <div className="flex items-center gap-2 px-4 py-3 rounded-xl shadow-xl border-2 bg-white dark:bg-gray-800 border-gray-400 dark:border-gray-500">
             <svg className="w-4 h-4 text-gray-400" viewBox="0 0 16 6" fill="currentColor">
               <circle cx="3" cy="1" r="1" />
               <circle cx="8" cy="1" r="1" />
@@ -158,7 +158,7 @@ export function Board() {
               <circle cx="8" cy="5" r="1" />
               <circle cx="13" cy="5" r="1" />
             </svg>
-            <span className="text-sm font-medium text-gray-700">
+            <span className="text-sm font-medium text-gray-700 dark:text-gray-200">
               {activeDrag.name}
             </span>
           </div>
@@ -167,12 +167,12 @@ export function Board() {
           <div
             className={`flex items-center gap-2 px-3 py-2 rounded-lg shadow-xl border-2 ${
               activeDrag.data.type === "minister"
-                ? "bg-blue-50 border-blue-400"
-                : "bg-amber-50 border-amber-400"
+                ? "bg-blue-50 dark:bg-blue-950 border-blue-400 dark:border-blue-600"
+                : "bg-amber-50 dark:bg-yellow-900/60 border-amber-400 dark:border-yellow-600"
             }`}
           >
             <Avatar name={activeDrag.name} personId={activeDrag.data.personId} size="sm" />
-            <span className="text-sm font-medium">{activeDrag.name}</span>
+            <span className="text-sm font-medium dark:text-gray-100">{activeDrag.name}</span>
           </div>
         )}
       </DragOverlay>

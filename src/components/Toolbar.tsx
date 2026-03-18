@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useStore, type NameFormat } from "@/lib/store";
+import { useThemeStore, type Theme } from "@/lib/theme";
 
 interface ToolbarProps {
   onToggleSidebar: () => void;
@@ -15,6 +16,8 @@ export function Toolbar({ onToggleSidebar }: ToolbarProps) {
   const unassignedFamilies = useStore((s) => s.unassignedFamilies);
   const nameFormat = useStore((s) => s.nameFormat);
   const setNameFormat = useStore((s) => s.setNameFormat);
+  const theme = useThemeStore((s) => s.theme);
+  const setTheme = useThemeStore((s) => s.setTheme);
 
   const totalCompanionships = districts.reduce(
     (acc, d) => acc + d.companionships.length,
@@ -48,32 +51,32 @@ export function Toolbar({ onToggleSidebar }: ToolbarProps) {
   };
 
   return (
-    <div className="bg-white border-b border-gray-200 sticky top-0 z-40">
+    <div className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 sticky top-0 z-40">
       <div className="mx-auto px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-4">
-          <h1 className="text-lg font-bold text-gray-800">
+          <h1 className="text-lg font-bold text-gray-800 dark:text-gray-100">
             Ministering Helper
           </h1>
-          <div className="hidden md:flex items-center gap-3 text-xs text-gray-500">
+          <div className="hidden md:flex items-center gap-3 text-xs text-gray-500 dark:text-gray-400">
             <span>{districts.length} districts</span>
-            <span className="text-gray-300">|</span>
+            <span className="text-gray-300 dark:text-gray-600">|</span>
             <span>{totalCompanionships} companionships</span>
-            <span className="text-gray-300">|</span>
+            <span className="text-gray-300 dark:text-gray-600">|</span>
             <span>{totalMinisters} ministers</span>
-            <span className="text-gray-300">|</span>
+            <span className="text-gray-300 dark:text-gray-600">|</span>
             <span>{totalFamilies} assignments</span>
             {unassignedMinisters.length > 0 && (
               <>
-                <span className="text-gray-300">|</span>
-                <span className="text-blue-600">
+                <span className="text-gray-300 dark:text-gray-600">|</span>
+                <span className="text-blue-600 dark:text-blue-400">
                   {unassignedMinisters.length} unassigned ministers
                 </span>
               </>
             )}
             {unassignedFamilies.length > 0 && (
               <>
-                <span className="text-gray-300">|</span>
-                <span className="text-amber-600">
+                <span className="text-gray-300 dark:text-gray-600">|</span>
+                <span className="text-amber-600 dark:text-yellow-400">
                   {unassignedFamilies.length} unassigned
                 </span>
               </>
@@ -83,16 +86,25 @@ export function Toolbar({ onToggleSidebar }: ToolbarProps) {
 
         <div className="flex items-center gap-2">
           <select
+            value={theme}
+            onChange={(e) => setTheme(e.target.value as Theme)}
+            className="text-sm px-2 py-1.5 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-600 dark:text-gray-300"
+          >
+            <option value="system">System</option>
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+          </select>
+          <select
             value={nameFormat}
             onChange={(e) => setNameFormat(e.target.value as NameFormat)}
-            className="text-sm px-2 py-1.5 border border-gray-300 rounded-lg bg-white text-gray-600"
+            className="text-sm px-2 py-1.5 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-600 dark:text-gray-300"
           >
             <option value="lastFirst">Last, First</option>
             <option value="firstLast">First Last</option>
           </select>
           <button
             onClick={() => createDistrict(`District ${districts.length + 1}`)}
-            className="text-sm px-3 py-1.5 border border-gray-300 rounded-lg hover:bg-gray-50"
+            className="text-sm px-3 py-1.5 border border-gray-300 dark:border-gray-600 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 dark:text-gray-300"
           >
             + District
           </button>
@@ -115,7 +127,7 @@ export function Toolbar({ onToggleSidebar }: ToolbarProps) {
               </button>
               <button
                 onClick={() => setShowConfirmReset(false)}
-                className="text-sm px-3 py-1.5 border border-gray-300 rounded-lg hover:bg-gray-50"
+                className="text-sm px-3 py-1.5 border border-gray-300 dark:border-gray-600 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 dark:text-gray-300"
               >
                 Cancel
               </button>
@@ -123,20 +135,20 @@ export function Toolbar({ onToggleSidebar }: ToolbarProps) {
           ) : (
             <button
               onClick={() => setShowConfirmReset(true)}
-              className="text-sm px-3 py-1.5 border border-red-200 text-red-600 rounded-lg hover:bg-red-50"
+              className="text-sm px-3 py-1.5 border border-red-200 dark:border-red-800 text-red-600 dark:text-red-400 rounded-lg hover:bg-red-50 dark:hover:bg-red-900/30"
             >
               Reset
             </button>
           )}
           <button
             onClick={handleClearAndReimport}
-            className="text-sm px-3 py-1.5 border border-gray-300 text-gray-600 rounded-lg hover:bg-gray-50"
+            className="text-sm px-3 py-1.5 border border-gray-300 dark:border-gray-600 text-gray-600 dark:text-gray-300 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700"
           >
             Re-import
           </button>
           <button
             onClick={onToggleSidebar}
-            className="text-sm px-3 py-1.5 border border-gray-300 text-gray-600 rounded-lg hover:bg-gray-50"
+            className="text-sm px-3 py-1.5 border border-gray-300 dark:border-gray-600 text-gray-600 dark:text-gray-300 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700"
           >
             Unassigned
             {unassignedMinisters.length + unassignedFamilies.length > 0 && (
