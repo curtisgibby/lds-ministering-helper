@@ -1,4 +1,5 @@
 import { useDraggable, useDroppable } from "@dnd-kit/core";
+import { Home, Trash2, UserCheck } from "lucide-react";
 import { MinisterTile } from "./MinisterTile";
 import { FamilyTile } from "./FamilyTile";
 import { useStore } from "@/lib/store";
@@ -52,7 +53,7 @@ export function CompanionshipCard({ companionship }: CompanionshipCardProps) {
 
   return (
     <div
-      className={`bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm overflow-hidden transition-opacity ${
+      className={`bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm overflow-hidden transition-opacity flex flex-col ${
         isDragging ? "opacity-40" : ""
       }`}
     >
@@ -86,7 +87,8 @@ export function CompanionshipCard({ companionship }: CompanionshipCardProps) {
           }`}
         >
           {companionship.ministers.length === 0 && (
-            <div className="text-xs text-gray-400 dark:text-gray-500 italic py-2 text-center">
+            <div className="text-xs text-gray-400 dark:text-gray-500 italic py-2 text-center flex items-center justify-center gap-1">
+              <UserCheck className="w-3 h-3" />
               Drop ministers here
             </div>
           )}
@@ -124,7 +126,8 @@ export function CompanionshipCard({ companionship }: CompanionshipCardProps) {
           }`}
         >
           {companionship.assignments.length === 0 && (
-            <div className="text-xs text-gray-400 dark:text-gray-500 italic py-2 text-center">
+            <div className="text-xs text-gray-400 dark:text-gray-500 italic py-2 text-center flex items-center justify-center gap-1">
+              <Home className="w-3 h-3" />
               Drop assignments here
             </div>
           )}
@@ -139,11 +142,12 @@ export function CompanionshipCard({ companionship }: CompanionshipCardProps) {
       </div>
 
       {isEmpty && (
-        <div className="border-t border-gray-100 dark:border-gray-700 px-3 py-1.5 text-center">
+        <div className="border-t border-gray-100 dark:border-gray-700 px-3 py-1.5 flex flex-1 items-center justify-center">
           <button
             onClick={() => removeEmptyCompanionship(companionship.id)}
-            className="text-xs text-red-400 hover:text-red-600 dark:text-red-500 dark:hover:text-red-400"
+            className="text-xs text-red-400 hover:text-red-600 dark:text-red-500 dark:hover:text-red-400 flex items-center gap-1"
           >
+            <Trash2 className="w-3 h-3" />
             Remove empty companionship
           </button>
         </div>

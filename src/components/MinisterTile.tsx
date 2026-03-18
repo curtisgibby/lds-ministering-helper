@@ -1,4 +1,5 @@
 import { useDraggable } from "@dnd-kit/core";
+import { CircleMinus } from "lucide-react";
 import { Avatar } from "./Avatar";
 import type { DragData } from "@/lib/dnd";
 import type { Minister } from "@/lib/types";
@@ -79,10 +80,7 @@ export function MinisterTile({
           className="shrink-0 opacity-0 group-hover:opacity-100 transition-opacity p-0.5 rounded-full hover:bg-blue-200 dark:hover:bg-blue-800 text-blue-400 hover:text-blue-600 dark:hover:text-blue-300"
           title="Remove from companionship"
         >
-          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-            <circle cx="12" cy="12" r="9" />
-            <path strokeLinecap="round" d="M8 12h8" />
-          </svg>
+          <CircleMinus className="w-4 h-4" />
         </button>
       )}
     </div>

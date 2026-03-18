@@ -1,4 +1,5 @@
 import { useDraggable } from "@dnd-kit/core";
+import { CircleMinus } from "lucide-react";
 import { Avatar } from "./Avatar";
 import type { DragData } from "@/lib/dnd";
 import type { Assignment } from "@/lib/types";
@@ -63,10 +64,7 @@ export function FamilyTile({ assignment, companionshipId }: FamilyTileProps) {
           className="shrink-0 opacity-0 group-hover:opacity-100 transition-opacity p-0.5 rounded-full hover:bg-amber-200 dark:hover:bg-yellow-800/50 text-amber-400 dark:text-yellow-600 hover:text-amber-600 dark:hover:text-yellow-400"
           title="Remove from companionship"
         >
-          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-            <circle cx="12" cy="12" r="9" />
-            <path strokeLinecap="round" d="M8 12h8" />
-          </svg>
+          <CircleMinus className="w-4 h-4" />
         </button>
       )}
     </div>
