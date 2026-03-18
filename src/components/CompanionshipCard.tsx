@@ -1,5 +1,5 @@
 import { useDraggable, useDroppable } from "@dnd-kit/core";
-import { ChevronRight, GripHorizontal, Home, Trash2, UserCheck } from "lucide-react";
+import { ChevronRight, Home, Trash2, UserCheck } from "lucide-react";
 import { MinisterTile } from "./MinisterTile";
 import { FamilyTile } from "./FamilyTile";
 import { useStore } from "@/lib/store";
@@ -53,19 +53,13 @@ export function CompanionshipCard({ companionship }: CompanionshipCardProps) {
 
   return (
     <div
-      className={`bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm overflow-hidden transition-opacity flex flex-col ${
+      ref={setDragRef}
+      {...listeners}
+      {...attributes}
+      className={`bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm overflow-hidden transition-opacity flex flex-col cursor-grab active:cursor-grabbing ${
         isDragging ? "opacity-40" : ""
       }`}
     >
-      {/* Drag handle bar */}
-      <div
-        ref={setDragRef}
-        {...listeners}
-        {...attributes}
-        className="flex items-center justify-center h-3 bg-gray-50 dark:bg-gray-700/50 border-b border-gray-100 dark:border-gray-700 cursor-grab active:cursor-grabbing hover:bg-gray-100 dark:hover:bg-gray-600/50 transition-colors"
-      >
-        <GripHorizontal className="w-4 h-3 text-gray-300 dark:text-gray-600" />
-      </div>
 
       <div className="flex divide-x divide-gray-100 dark:divide-gray-700">
         {/* Ministers side — 40% */}
