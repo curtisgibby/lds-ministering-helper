@@ -1,0 +1,18 @@
+node_modules
+dist
+*.tsbuildinfo
+
+# Ward data — never commit real member information
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!examples/*.json
+public/images/*.jpg
+examples/images/
+
+# Photo download artifacts
+member-photos.json
+
+# OS files
+.DS_Store

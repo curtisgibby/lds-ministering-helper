@@ -1,0 +1,3198 @@
+{
+  "reliefSociety": [
+    {
+      "companionships": [
+        {
+          "id": "da9de62d-3e0e-49c6-8f34-0f7aada8bc21",
+          "ministers": [
+            {
+              "personUuid": "a8c1c8f5-ae1e-4b14-9b19-590dffb2c005",
+              "legacyCmisId": 3803129595,
+              "name": "Baker, Diane Wendy",
+              "nameSort": "Baker, Diane Wendy",
+              "email": "diane wendy.baker@outlook.com",
+              "age": 44,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "41e69c5b-242c-43bf-9887-579ffde7ae6f",
+              "legacyCmisId": 7632653115,
+              "name": "Anderson, Sara",
+              "nameSort": "Anderson, Sara",
+              "email": "sanderson@outlook.com",
+              "age": 80,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "9c7005e3-a35d-4b16-a07a-146ef0c56cef",
+              "legacyCmisId": 1330652162,
+              "name": "Russell, Lisa",
+              "nameSort": "Russell, Lisa",
+              "age": 78,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "d76ebec9-14f5-41bb-b447-0c5dca5875d7",
+              "legacyCmisId": 5122069669,
+              "name": "Carter, Nancy",
+              "nameSort": "Carter, Nancy",
+              "age": 72,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "6176705c-5b56-49f1-909f-f77a8adb77a7",
+              "legacyCmisId": 610922706,
+              "name": "Reynolds, Norma",
+              "nameSort": "Reynolds, Norma",
+              "age": 48,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-12-04T04:07:02.861+00:00",
+          "recentlyChangedDateInMilliseconds": 1764821222861
+        },
+        {
+          "id": "59db7e4c-7ece-43ab-ab80-45dd1f263db5",
+          "ministers": [
+            {
+              "personUuid": "9c7005e3-a35d-4b16-a07a-146ef0c56cef",
+              "legacyCmisId": 1925232153,
+              "name": "Russell, Lisa",
+              "nameSort": "Russell, Lisa",
+              "email": "lrussell@hotmail.com",
+              "age": 78,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "d08318b6-a764-465a-b11a-8626ceb0a353",
+              "legacyCmisId": 6820572781,
+              "name": "Ross, Sara Cheryl",
+              "nameSort": "Ross, Sara Cheryl",
+              "email": "sara cheryl.ross@yahoo.com",
+              "age": 66,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "55151cff-d9b4-4a77-8c45-e07e9835d881",
+              "legacyCmisId": 5315035704,
+              "name": "Garcia, Norma",
+              "nameSort": "Garcia, Norma",
+              "age": 77,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "f0e9c67d-6802-4ab9-8275-7dc1e7b2a370",
+              "legacyCmisId": 2849338324,
+              "name": "Reynolds, Janice",
+              "nameSort": "Reynolds, Janice",
+              "age": 69,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "ca32a725-418c-49d2-b69a-bba1bbfba8df",
+              "legacyCmisId": 7034536936,
+              "name": "Wood, Grace Gail",
+              "nameSort": "Wood, Grace Gail",
+              "age": 77,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-12-03T17:47:16.598+00:00",
+          "recentlyChangedDateInMilliseconds": 1764784036598
+        },
+        {
+          "id": "65f46633-4dca-4784-9157-01456134151b",
+          "ministers": [
+            {
+              "personUuid": "f87c2881-6dd1-414d-92b1-95c3a3bd2d92",
+              "legacyCmisId": 3334848654,
+              "name": "Wilson, Stacy Irene",
+              "nameSort": "Wilson, Stacy Irene",
+              "email": "swilson@gmail.com",
+              "age": 71,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "e35c39ba-bbf5-4e04-b0a1-da0bda0db657",
+              "legacyCmisId": 8369958857,
+              "name": "Thomas, Katie",
+              "nameSort": "Thomas, Katie",
+              "email": "katiethomas@gmail.com",
+              "age": 38,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "a09de771-ad36-4de3-8831-edc0d7581c92",
+              "legacyCmisId": 7085437654,
+              "name": "Johnson, Kristin",
+              "nameSort": "Johnson, Kristin",
+              "age": 22,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "e2484391-05b8-4695-be0a-ec24b1cbb1ba",
+              "legacyCmisId": 1402894939,
+              "name": "Smith, Karen Chelsea",
+              "nameSort": "Smith, Karen Chelsea",
+              "age": 27,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "e7f31edf-aedd-496e-8687-970e79203b1e",
+              "legacyCmisId": 4493033717,
+              "name": "Stewart, Joyce",
+              "nameSort": "Stewart, Joyce",
+              "age": 45,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "05dcadb8-fb96-4e40-a315-da2c885d514b",
+              "legacyCmisId": 6358435131,
+              "name": "James, Diane",
+              "nameSort": "James, Diane",
+              "age": 27,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-12-03T17:41:04.037+00:00",
+          "recentlyChangedDateInMilliseconds": 1764783664037
+        },
+        {
+          "id": "8fcc50bf-6f24-427c-b5e8-7c1c349e9ac4",
+          "ministers": [
+            {
+              "personUuid": "38edd467-20f3-431e-99ae-5902dc568033",
+              "legacyCmisId": 4237805475,
+              "name": "Brown, Karen",
+              "nameSort": "Brown, Karen",
+              "email": "karenbrown@yahoo.com",
+              "age": 78,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "9714e861-bb98-4693-af94-7c24a5c2c10e",
+              "legacyCmisId": 2897375667,
+              "name": "Wright, Donna Emma",
+              "nameSort": "Wright, Donna Emma",
+              "email": "donna emma65@yahoo.com",
+              "age": 76,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "28bac78c-6b66-4c25-b353-9cc5f96dbb37",
+              "legacyCmisId": 3502874765,
+              "name": "Phillips, Rose",
+              "nameSort": "Phillips, Rose",
+              "age": 70,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "259b782e-ea08-4aff-bd1f-9c65725d0226",
+              "legacyCmisId": 7720360685,
+              "name": "Jackson, Carolyn",
+              "nameSort": "Jackson, Carolyn",
+              "age": 76,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "0c659b32-f96c-4833-a6d0-3e1a39619aaa",
+              "legacyCmisId": 1383126535,
+              "name": "Evans, Sherry Sherry",
+              "nameSort": "Evans, Sherry Sherry",
+              "age": 76,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-12-03T17:42:35.205+00:00",
+          "recentlyChangedDateInMilliseconds": 1764783755205
+        },
+        {
+          "id": "9485ceb2-4e6f-46fe-ba06-ee26d9dde121",
+          "ministers": [
+            {
+              "personUuid": "d79f8e13-79df-460c-9937-bc74fa64b328",
+              "legacyCmisId": 4804107605,
+              "name": "Price, Melissa Marie",
+              "nameSort": "Price, Melissa Marie",
+              "email": "mprice@gmail.com",
+              "age": 39,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "8d8059fd-333e-4dc6-8874-802ec685bccb",
+              "legacyCmisId": 7381221232,
+              "name": "Young, Norma",
+              "nameSort": "Young, Norma",
+              "email": "normayoung@icloud.com",
+              "age": 37,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "d49e5d00-ccce-413e-92a8-148db9741603",
+              "legacyCmisId": 6327707906,
+              "name": "Bahringer, Margaret",
+              "nameSort": "Bahringer, Margaret",
+              "age": 43,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "b0219329-c591-4e5f-afc0-81ecf98867ae",
+              "legacyCmisId": 712008525,
+              "name": "Thompson, Natalie",
+              "nameSort": "Thompson, Natalie",
+              "age": 40,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "9847e6a0-11c5-43b2-8365-956dedd9a8c8",
+              "legacyCmisId": 907108309,
+              "name": "White, Laura",
+              "nameSort": "White, Laura",
+              "age": 37,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2024-06-18T14:25:34.582+00:00",
+          "recentlyChangedDateInMilliseconds": 1718720734582
+        },
+        {
+          "id": "09a04d13-6d4f-4561-8a3a-36db29a1747c",
+          "ministers": [
+            {
+              "personUuid": "0a59b511-98b8-4660-b5fd-59d7018fb13c",
+              "legacyCmisId": 1320711635,
+              "name": "Abbott, Sherry",
+              "nameSort": "Abbott, Sherry",
+              "email": "sherryabbott@yahoo.com",
+              "age": 53,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "f852088d-8ead-42da-923e-075ad56fce73",
+              "legacyCmisId": 4069947940,
+              "name": "Thomas, Molly Charlotte",
+              "nameSort": "Thomas, Molly Charlotte",
+              "email": "mthomas@yahoo.com",
+              "age": 41,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "133f428d-a48b-4bad-9d96-ad0f27d37262",
+              "legacyCmisId": 2267886664,
+              "name": "Thomas, Penny",
+              "nameSort": "Thomas, Penny",
+              "age": 44,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "e3f2119c-5f62-47ad-a794-af0e84f7523d",
+              "legacyCmisId": 5919778518,
+              "name": "Mitchell, Courtney",
+              "nameSort": "Mitchell, Courtney",
+              "age": 87,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "c6d0c347-7885-42c6-88ae-b0df7f875a31",
+              "legacyCmisId": 7032079148,
+              "name": "Moore, Frances",
+              "nameSort": "Moore, Frances",
+              "age": 62,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-06-10T15:46:38.914+00:00",
+          "recentlyChangedDateInMilliseconds": 1749570398914
+        },
+        {
+          "id": "d6a46efb-5d01-4a4f-b66a-c73c52a1faf5",
+          "ministers": [
+            {
+              "personUuid": "37db91b2-c465-4d29-92be-67e879b1d61c",
+              "legacyCmisId": 1541066252,
+              "name": "Wilderman, Sara",
+              "nameSort": "Wilderman, Sara",
+              "email": "sarawilderman@gmail.com",
+              "age": 69,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "762ec7ae-248c-40f7-b542-cf6fd7a680b0",
+              "legacyCmisId": 5170462053,
+              "name": "Murphy, Peggy",
+              "nameSort": "Murphy, Peggy",
+              "email": "peggymurphy@hotmail.com",
+              "age": 50,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "4f9698c4-5efe-46c7-a739-25d311f86cd5",
+              "legacyCmisId": 7688878366,
+              "name": "Peterson, Chelsea",
+              "nameSort": "Peterson, Chelsea",
+              "age": 71,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "702591f5-ecc9-4aaa-b8fb-cd3178d79809",
+              "legacyCmisId": 5862106105,
+              "name": "Ernser, Cynthia Beth",
+              "nameSort": "Ernser, Cynthia Beth",
+              "age": 58,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "ab7fb79b-9e54-4300-9daa-9d7d5eb49829",
+              "legacyCmisId": 9157951825,
+              "name": "Lynch, Sandy",
+              "nameSort": "Lynch, Sandy",
+              "age": 79,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-02-21T16:59:57.817+00:00",
+          "recentlyChangedDateInMilliseconds": 1740157197817
+        },
+        {
+          "id": "5f9f0bd0-9c81-4b0d-b024-af125d758465",
+          "ministers": [
+            {
+              "personUuid": "6c9b470d-f602-4a9c-84cb-5827e6d93986",
+              "legacyCmisId": 9250131691,
+              "name": "Scott, Brenda Stacy",
+              "nameSort": "Scott, Brenda Stacy",
+              "email": "brenda stacyscott@comcast.net",
+              "age": 76,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "281c91d8-eee1-41f7-a3c4-bdc46672788d",
+              "legacyCmisId": 7493960640,
+              "name": "Hall, Katie",
+              "nameSort": "Hall, Katie",
+              "email": "khall@icloud.com",
+              "age": 81,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "1dab5eb1-6e0f-4aa4-a3f4-c6208f55587e",
+              "legacyCmisId": 6878249451,
+              "name": "Richardson, Andrea",
+              "nameSort": "Richardson, Andrea",
+              "age": 83,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2026-03-01T02:33:34.245+00:00",
+          "recentlyChangedDateInMilliseconds": 1772332414245
+        },
+        {
+          "id": "4aeeb0da-4210-4c30-a672-03a182361255",
+          "ministers": [
+            {
+              "personUuid": "ed31a5a0-2a3d-403f-b6b2-9b5d96892656",
+              "legacyCmisId": 840344820,
+              "name": "James, Donna",
+              "nameSort": "James, Donna",
+              "email": "donna.james@msn.com",
+              "age": 41,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "05b1ee1f-4106-4a5d-9b5b-f147784aa917",
+              "legacyCmisId": 8246529676,
+              "name": "Gottlieb-Kihn, Marilyn",
+              "nameSort": "Gottlieb-Kihn, Marilyn",
+              "email": "mgottlieb-kihn@yahoo.com",
+              "age": 42,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "9d009d55-940b-4a9b-aa35-22adfa21d99c",
+              "legacyCmisId": 3149307887,
+              "name": "Johnson, Amber Susan",
+              "nameSort": "Johnson, Amber Susan",
+              "age": 53,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "30d0ea53-0329-4289-9400-0b5c678b4185",
+              "legacyCmisId": 9184417013,
+              "name": "Price, Marie Heather",
+              "nameSort": "Price, Marie Heather",
+              "age": 70,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "8dd481e6-6474-45cd-b47d-0e3a98d158c3",
+              "legacyCmisId": 2798874259,
+              "name": "Morris, Jamie",
+              "nameSort": "Morris, Jamie",
+              "age": 73,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-12-03T17:44:29.895+00:00",
+          "recentlyChangedDateInMilliseconds": 1764783869895
+        },
+        {
+          "id": "eee7df56-b4c1-4814-b4d3-cc733708f29f",
+          "ministers": [
+            {
+              "personUuid": "c3355fcb-2ed2-4d41-baa1-5fab31433395",
+              "legacyCmisId": 8518763152,
+              "name": "Wood, Beverly Maureen",
+              "nameSort": "Wood, Beverly Maureen",
+              "email": "bwood@comcast.net",
+              "age": 45,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "8ca48d11-8a3b-4ae2-ac19-86d083b0ddd2",
+              "legacyCmisId": 5008344990,
+              "name": "Ross, Pamela",
+              "nameSort": "Ross, Pamela",
+              "email": "pamelaross@hotmail.com",
+              "age": 43,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "b11f55df-fc61-4c86-8e17-07011ab9f54d",
+              "legacyCmisId": 6222639855,
+              "name": "Robinson, Karen",
+              "nameSort": "Robinson, Karen",
+              "age": 36,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "f62a4997-d478-4ac6-8a2e-6b037e8e771c",
+              "legacyCmisId": 5669709173,
+              "name": "Davis, Emma",
+              "nameSort": "Davis, Emma",
+              "age": 30,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "f852088d-8ead-42da-923e-075ad56fce73",
+              "legacyCmisId": 4679592203,
+              "name": "Thomas, Molly Charlotte",
+              "nameSort": "Thomas, Molly Charlotte",
+              "age": 41,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2024-09-23T21:31:11.261+00:00",
+          "recentlyChangedDateInMilliseconds": 1727127071261
+        },
+        {
+          "id": "1c219605-c953-4aea-bd8b-ece6e9d0ad2a",
+          "ministers": [
+            {
+              "personUuid": "81f33887-c89b-409e-806e-57f31dd78db4",
+              "legacyCmisId": 2950698759,
+              "name": "Ross, Vanessa",
+              "nameSort": "Ross, Vanessa",
+              "email": "vanessaross@hotmail.com",
+              "age": 87,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "2978ee77-88fa-448a-8a92-0560d5e2073e",
+              "legacyCmisId": 1076853771,
+              "name": "Hall, Terri Catherine",
+              "nameSort": "Hall, Terri Catherine",
+              "email": "terri catherine22@gmail.com",
+              "age": 79,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "41e69c5b-242c-43bf-9887-579ffde7ae6f",
+              "legacyCmisId": 5770169421,
+              "name": "Anderson, Sara",
+              "nameSort": "Anderson, Sara",
+              "age": 80,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "4581a5ad-2e8e-4396-ac97-e639977fb13f",
+              "legacyCmisId": 7663363237,
+              "name": "Jenkins, Hannah Pam",
+              "nameSort": "Jenkins, Hannah Pam",
+              "age": 90,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-11-03T19:38:20.091+00:00",
+          "recentlyChangedDateInMilliseconds": 1762198700091
+        },
+        {
+          "id": "175dbd0b-8d88-40a4-a01f-5dffee42a71a",
+          "ministers": [
+            {
+              "personUuid": "c7ccadf9-36ca-420a-b47b-9123498312f7",
+              "legacyCmisId": 8644367268,
+              "name": "Koss, Leah",
+              "nameSort": "Koss, Leah",
+              "email": "leah.koss@icloud.com",
+              "age": 54,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "d76ebec9-14f5-41bb-b447-0c5dca5875d7",
+              "legacyCmisId": 9548374147,
+              "name": "Carter, Nancy",
+              "nameSort": "Carter, Nancy",
+              "email": "nancy.carter@gmail.com",
+              "age": 72,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "81a26aca-a250-4bf4-b17d-80fd2e757da0",
+              "legacyCmisId": 2903834707,
+              "name": "Thompson, Sharon Joyce",
+              "nameSort": "Thompson, Sharon Joyce",
+              "age": 31,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "7c70be89-2336-4e83-b469-769310415cb9",
+              "legacyCmisId": 2944837970,
+              "name": "Reed, Norma",
+              "nameSort": "Reed, Norma",
+              "age": 70,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "4be0bc37-1bd1-4dc5-bb0e-89a8d9e92eab",
+              "legacyCmisId": 2413194857,
+              "name": "Turner, Tiffany Jamie",
+              "nameSort": "Turner, Tiffany Jamie",
+              "age": 50,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2026-03-01T02:10:12.217+00:00",
+          "recentlyChangedDateInMilliseconds": 1772331012217
+        },
+        {
+          "id": "5d8361e6-f5d4-4109-b47d-34d7d562eef6",
+          "ministers": [
+            {
+              "personUuid": "1cb5ef89-4974-4143-9899-66d7f7a0adff",
+              "legacyCmisId": 4208041943,
+              "name": "Shaw, Marsha",
+              "nameSort": "Shaw, Marsha",
+              "email": "marshashaw@outlook.com",
+              "age": 71,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "1b325a32-0763-406c-8bd0-f5f4755dbf97",
+              "legacyCmisId": 3215809579,
+              "name": "Cooper, Paula",
+              "nameSort": "Cooper, Paula",
+              "email": "pcooper@comcast.net",
+              "age": 72,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "5c4ac976-5edf-41bf-921b-9d2c322da85e",
+              "legacyCmisId": 3899680816,
+              "name": "Bode, Jenna",
+              "nameSort": "Bode, Jenna",
+              "age": 59,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "d79f8e13-79df-460c-9937-bc74fa64b328",
+              "legacyCmisId": 2552928309,
+              "name": "Price, Melissa Marie",
+              "nameSort": "Price, Melissa Marie",
+              "age": 39,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "e47ae85d-417c-4099-be44-75bacde6f3b8",
+              "legacyCmisId": 6269815414,
+              "name": "Reed, Kelly",
+              "nameSort": "Reed, Kelly",
+              "age": 58,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-12-03T17:46:35.684+00:00",
+          "recentlyChangedDateInMilliseconds": 1764783995684
+        },
+        {
+          "id": "c1908447-ebea-404e-baf2-45547a41b787",
+          "ministers": [
+            {
+              "personUuid": "81a26aca-a250-4bf4-b17d-80fd2e757da0",
+              "legacyCmisId": 5631575471,
+              "name": "Thompson, Sharon Joyce",
+              "nameSort": "Thompson, Sharon Joyce",
+              "email": "sharon joyce.thompson@msn.com",
+              "age": 31,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "b2517830-b0f3-4a60-b78d-b13417f8bad3",
+              "legacyCmisId": 5269080006,
+              "name": "Stroman, Lori",
+              "nameSort": "Stroman, Lori",
+              "email": "lori62@outlook.com",
+              "age": 35,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "dc003a66-eee5-4b43-b256-d1b847496218",
+              "legacyCmisId": 7808021282,
+              "name": "Berge, Emily Monica",
+              "nameSort": "Berge, Emily Monica",
+              "age": 44,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "e853c973-5f86-48c5-a29a-be51f69a83cc",
+              "legacyCmisId": 6798260695,
+              "name": "Smith, Susan",
+              "nameSort": "Smith, Susan",
+              "age": 42,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "f66fbb9f-bebb-444c-a493-d1d9284551f0",
+              "legacyCmisId": 4870098287,
+              "name": "Nader, Molly",
+              "nameSort": "Nader, Molly",
+              "age": 45,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2024-09-23T21:40:21.721+00:00",
+          "recentlyChangedDateInMilliseconds": 1727127621721
+        },
+        {
+          "id": "f61d3b20-2613-4ccd-9d6d-87b3c6212ef5",
+          "ministers": [
+            {
+              "personUuid": "3e0d894f-49fe-48fb-8365-5c90e4fffc38",
+              "legacyCmisId": 2265832628,
+              "name": "Green, Tracy",
+              "nameSort": "Green, Tracy",
+              "email": "tracy29@comcast.net",
+              "age": 38,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "8d8059fd-333e-4dc6-8874-802ec685bccb",
+              "legacyCmisId": 8981565137,
+              "name": "Young, Norma",
+              "nameSort": "Young, Norma",
+              "age": 37,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "f5edfcad-17fc-4fcd-bbc8-edda40e942dd",
+              "legacyCmisId": 5584697558,
+              "name": "Ross, Emma Megan",
+              "nameSort": "Ross, Emma Megan",
+              "age": 39,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-06-25T02:25:13.899+00:00",
+          "recentlyChangedDateInMilliseconds": 1750818313899
+        },
+        {
+          "id": "b9dd9aee-a01d-4133-a994-3ce02accbe31",
+          "ministers": [
+            {
+              "personUuid": "ea26abd2-f0fd-4ab1-b011-83d7ba535c94",
+              "legacyCmisId": 8240531326,
+              "name": "Turner, Theresa",
+              "nameSort": "Turner, Theresa",
+              "email": "theresa97@icloud.com",
+              "age": 23,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "4be0bc37-1bd1-4dc5-bb0e-89a8d9e92eab",
+              "legacyCmisId": 696547179,
+              "name": "Turner, Tiffany Jamie",
+              "nameSort": "Turner, Tiffany Jamie",
+              "email": "tiffany jamieturner@gmail.com",
+              "age": 50,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "0494bc18-85ed-4bb7-9ebb-d4c355fdbb8f",
+              "legacyCmisId": 9116530788,
+              "name": "Taylor, Anna Susan",
+              "nameSort": "Taylor, Anna Susan",
+              "age": 35,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "073b9126-2c61-4712-b3de-d548bf20bdda",
+              "legacyCmisId": 8918973199,
+              "name": "Thomas, Jamie",
+              "nameSort": "Thomas, Jamie",
+              "age": 62,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-12-04T04:27:40.577+00:00",
+          "recentlyChangedDateInMilliseconds": 1764822460577
+        },
+        {
+          "id": "3c049c05-3fa6-419a-8d4f-7458eb9228bc",
+          "ministers": [
+            {
+              "personUuid": "b0219329-c591-4e5f-afc0-81ecf98867ae",
+              "legacyCmisId": 1090985177,
+              "name": "Thompson, Natalie",
+              "nameSort": "Thompson, Natalie",
+              "email": "natalie.thompson@hotmail.com",
+              "age": 40,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "d6a5b40f-0d26-4d3d-b75a-55b43cc78b86",
+              "legacyCmisId": 3304012916,
+              "name": "Hall, Carol",
+              "nameSort": "Hall, Carol",
+              "email": "chall@gmail.com",
+              "age": 37,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "c4b4fa54-3b39-44ad-9cc3-1b56040e380a",
+              "legacyCmisId": 5065790499,
+              "name": "Evans, Kristen",
+              "nameSort": "Evans, Kristen",
+              "age": 45,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "484382c7-9256-4cc3-893f-f9bcbbf9adab",
+              "legacyCmisId": 1755427666,
+              "name": "Nader, June",
+              "nameSort": "Nader, June",
+              "age": 60,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-08-18T00:12:44.380+00:00",
+          "recentlyChangedDateInMilliseconds": 1755475964380
+        },
+        {
+          "id": "ac1dd78b-a012-4c78-ac5b-765fc0fc2149",
+          "ministers": [
+            {
+              "personUuid": "77780a7c-d30b-4f74-a245-6a405d7f843b",
+              "legacyCmisId": 2830916238,
+              "name": "Brown, Sophia",
+              "nameSort": "Brown, Sophia",
+              "email": "sophia20@outlook.com",
+              "age": 40,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "14c8f7a8-f635-4d75-9820-49bde6b10173",
+              "legacyCmisId": 3535212229,
+              "name": "Brown, Theresa",
+              "nameSort": "Brown, Theresa",
+              "email": "theresabrown@outlook.com",
+              "age": 13,
+              "assignType": "RS",
+              "unitOrgId": "4e1f5e9d-f4f6-4658-a288-cd7443054f85",
+              "youthBasedOnAge": true
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "762ec7ae-248c-40f7-b542-cf6fd7a680b0",
+              "legacyCmisId": 861094311,
+              "name": "Murphy, Peggy",
+              "nameSort": "Murphy, Peggy",
+              "age": 50,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "1cb5ef89-4974-4143-9899-66d7f7a0adff",
+              "legacyCmisId": 4680812131,
+              "name": "Shaw, Marsha",
+              "nameSort": "Shaw, Marsha",
+              "age": 71,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2026-03-01T02:14:23.183+00:00",
+          "recentlyChangedDateInMilliseconds": 1772331263183
+        }
+      ],
+      "districtName": "District 1",
+      "districtUuid": "b9754692-c948-4f03-a7a3-eae5d64e1f7f",
+      "supervisorName": "Phillips, Kate Cindy",
+      "supervisorLegacyCmisId": 7599132903,
+      "supervisorPersonUuid": "325f5f72-e7bf-401b-a420-0c27960c0ce6"
+    },
+    {
+      "companionships": [
+        {
+          "id": "07bc2661-7c46-4f09-bbcb-b08c10db6fcf",
+          "ministers": [
+            {
+              "personUuid": "a8c8d88e-620c-49b3-b205-966e58c69df2",
+              "legacyCmisId": 4864806669,
+              "name": "Rogers, Nancy Gail",
+              "nameSort": "Rogers, Nancy Gail",
+              "email": "nrogers@comcast.net",
+              "age": 82,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "6077c434-4975-455f-a3db-0fca6840de2c",
+              "legacyCmisId": 1616996503,
+              "name": "Price, Amy Theresa",
+              "nameSort": "Price, Amy Theresa",
+              "email": "aprice@yahoo.com",
+              "age": 84,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "f5b34852-40b7-4121-a91c-03eb1d7d9af3",
+              "legacyCmisId": 5003819934,
+              "name": "Jones, Nicole",
+              "nameSort": "Jones, Nicole",
+              "age": 72,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "e1c6c80f-19e1-48df-bb4b-bbd11af7ffee",
+              "legacyCmisId": 5850239366,
+              "name": "Roberts, Angela",
+              "nameSort": "Roberts, Angela",
+              "age": 77,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-02-21T17:11:54.674+00:00",
+          "recentlyChangedDateInMilliseconds": 1740157914674
+        },
+        {
+          "id": "d507ec51-ada6-41e4-93df-a950392e3889",
+          "ministers": [
+            {
+              "personUuid": "2141b08f-d949-4862-ae73-56dbc06704c2",
+              "legacyCmisId": 8747988590,
+              "name": "Bennett, Wendy",
+              "nameSort": "Bennett, Wendy",
+              "email": "wendybennett@outlook.com",
+              "age": 43,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "566bea7c-a010-47d5-a6ed-a410148122a9",
+              "legacyCmisId": 6264129591,
+              "name": "Bennett, Suzanne",
+              "nameSort": "Bennett, Suzanne",
+              "age": 60,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-06-25T02:24:41.452+00:00",
+          "recentlyChangedDateInMilliseconds": 1750818281452
+        },
+        {
+          "id": "8ee214f0-a9a3-4361-a119-645363b1f1fd",
+          "ministers": [
+            {
+              "personUuid": "b57d757d-52bd-4132-857b-a95d7fa2a5a1",
+              "legacyCmisId": 9131786390,
+              "name": "Reed, Lisa Brittany",
+              "nameSort": "Reed, Lisa Brittany",
+              "email": "lisa brittanyreed@gmail.com",
+              "age": 45,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "403472db-1aaf-403e-8ebc-1832c27f2ff8",
+              "legacyCmisId": 3177397882,
+              "name": "Wood, Martha",
+              "nameSort": "Wood, Martha",
+              "email": "marthawood@icloud.com",
+              "age": 38,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "f46a0c84-02ea-431b-8965-3af29674d784",
+              "legacyCmisId": 6105635495,
+              "name": "Murphy, Olivia",
+              "nameSort": "Murphy, Olivia",
+              "age": 44,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "0a59b511-98b8-4660-b5fd-59d7018fb13c",
+              "legacyCmisId": 9853176377,
+              "name": "Abbott, Sherry",
+              "nameSort": "Abbott, Sherry",
+              "age": 53,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "062ba0d3-6a67-416c-9e66-bf47c91a288e",
+              "legacyCmisId": 5224780660,
+              "name": "McGlynn, Gail",
+              "nameSort": "McGlynn, Gail",
+              "age": 48,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2024-09-23T21:48:38.678+00:00",
+          "recentlyChangedDateInMilliseconds": 1727128118678
+        },
+        {
+          "id": "65c1f65f-ea0b-4562-a8b4-f31adfc3fe28",
+          "ministers": [
+            {
+              "personUuid": "55151cff-d9b4-4a77-8c45-e07e9835d881",
+              "legacyCmisId": 4481094303,
+              "name": "Garcia, Norma",
+              "nameSort": "Garcia, Norma",
+              "email": "normagarcia@msn.com",
+              "age": 77,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "ca32a725-418c-49d2-b69a-bba1bbfba8df",
+              "legacyCmisId": 5320578926,
+              "name": "Wood, Grace Gail",
+              "nameSort": "Wood, Grace Gail",
+              "email": "gwood@comcast.net",
+              "age": 77,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "9714e861-bb98-4693-af94-7c24a5c2c10e",
+              "legacyCmisId": 7638659303,
+              "name": "Wright, Donna Emma",
+              "nameSort": "Wright, Donna Emma",
+              "age": 76,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "aa66bb8f-f6d8-4809-8ecc-2535958741e0",
+              "legacyCmisId": 5769959526,
+              "name": "Palmer, Becky",
+              "nameSort": "Palmer, Becky",
+              "age": 67,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "2978ee77-88fa-448a-8a92-0560d5e2073e",
+              "legacyCmisId": 2297774139,
+              "name": "Hall, Terri Catherine",
+              "nameSort": "Hall, Terri Catherine",
+              "age": 79,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-12-04T04:20:46.774+00:00",
+          "recentlyChangedDateInMilliseconds": 1764822046774
+        },
+        {
+          "id": "6cd3a108-31b7-4cab-9449-3d83af11d105",
+          "ministers": [
+            {
+              "personUuid": "29a6b680-ba05-4f68-9eb9-cd776fb1d718",
+              "legacyCmisId": 5737499923,
+              "name": "Ross, Courtney",
+              "nameSort": "Ross, Courtney",
+              "email": "cross@outlook.com",
+              "age": 69,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "a1f64841-07d9-4f44-a224-cef3e51da264",
+              "legacyCmisId": 4816908689,
+              "name": "James, Rose",
+              "nameSort": "James, Rose",
+              "email": "rjames@gmail.com",
+              "age": 86,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "95250f9d-6e79-47b9-9429-7168d15da4d7",
+              "legacyCmisId": 409692104,
+              "name": "Palmer, Hailey",
+              "nameSort": "Palmer, Hailey",
+              "age": 74,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "5cefa302-f7d7-4a03-b6a2-c5d1a4c6ae00",
+              "legacyCmisId": 7636020487,
+              "name": "Taylor, Brooke",
+              "nameSort": "Taylor, Brooke",
+              "age": 88,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2026-03-13T17:06:03.243+00:00",
+          "recentlyChangedDateInMilliseconds": 1773421563243
+        },
+        {
+          "id": "f63372a5-5782-4be4-b2c2-0932f4e2d81b",
+          "ministers": [
+            {
+              "personUuid": "325f5f72-e7bf-401b-a420-0c27960c0ce6",
+              "legacyCmisId": 1713868204,
+              "name": "Phillips, Kate Cindy",
+              "nameSort": "Phillips, Kate Cindy",
+              "email": "kate cindy47@comcast.net",
+              "age": 64,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "c6d0c347-7885-42c6-88ae-b0df7f875a31",
+              "legacyCmisId": 363342281,
+              "name": "Moore, Frances",
+              "nameSort": "Moore, Frances",
+              "email": "frances.moore@yahoo.com",
+              "age": 62,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "f87c2881-6dd1-414d-92b1-95c3a3bd2d92",
+              "legacyCmisId": 6325847355,
+              "name": "Wilson, Stacy Irene",
+              "nameSort": "Wilson, Stacy Irene",
+              "age": 71,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "c746db41-4e98-495c-a812-8e4dc301b358",
+              "legacyCmisId": 219629080,
+              "name": "Ross, Christine",
+              "nameSort": "Ross, Christine",
+              "age": 38,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "ed31a5a0-2a3d-403f-b6b2-9b5d96892656",
+              "legacyCmisId": 7140156523,
+              "name": "James, Donna",
+              "nameSort": "James, Donna",
+              "age": 41,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "77780a7c-d30b-4f74-a245-6a405d7f843b",
+              "legacyCmisId": 6070375801,
+              "name": "Brown, Sophia",
+              "nameSort": "Brown, Sophia",
+              "age": 40,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "d6a5b40f-0d26-4d3d-b75a-55b43cc78b86",
+              "legacyCmisId": 7182407991,
+              "name": "Hall, Carol",
+              "nameSort": "Hall, Carol",
+              "age": 37,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2026-03-01T02:18:25.001+00:00",
+          "recentlyChangedDateInMilliseconds": 1772331505001
+        },
+        {
+          "id": "e24f2bba-33a2-4a76-84f8-8faf1d5cd46b",
+          "ministers": [
+            {
+              "personUuid": "d65793c7-513f-4427-8405-8857f6437c3b",
+              "legacyCmisId": 7579781989,
+              "name": "Lee, Beverly",
+              "nameSort": "Lee, Beverly",
+              "email": "beverly92@gmail.com",
+              "age": 75,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "0c659b32-f96c-4833-a6d0-3e1a39619aaa",
+              "legacyCmisId": 1259819650,
+              "name": "Evans, Sherry Sherry",
+              "nameSort": "Evans, Sherry Sherry",
+              "email": "sherry sherryevans@yahoo.com",
+              "age": 76,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "6e340c63-3ed8-4976-ae26-577828321c6a",
+              "legacyCmisId": 8897692047,
+              "name": "Wood, Connie Jill",
+              "nameSort": "Wood, Connie Jill",
+              "age": 78,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "81f33887-c89b-409e-806e-57f31dd78db4",
+              "legacyCmisId": 175980614,
+              "name": "Ross, Vanessa",
+              "nameSort": "Ross, Vanessa",
+              "age": 87,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-06-10T15:49:55.161+00:00",
+          "recentlyChangedDateInMilliseconds": 1749570595161
+        },
+        {
+          "id": "c7839823-1103-4a55-8295-ab9484ec7f85",
+          "ministers": [
+            {
+              "personUuid": "0e3342a1-2a5b-484a-9186-49df963475e5",
+              "legacyCmisId": 5483081883,
+              "name": "Cook, Lauren",
+              "nameSort": "Cook, Lauren",
+              "email": "lauren.cook@msn.com",
+              "age": 27,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "157f6bb3-08bf-45e6-bb90-105b294ccc84",
+              "legacyCmisId": 6537933450,
+              "name": "Cummerata, Shirley",
+              "nameSort": "Cummerata, Shirley",
+              "email": "shirley44@comcast.net",
+              "age": 41,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "22486492-457c-4389-9092-1ffc41a7170e",
+              "legacyCmisId": 8778860800,
+              "name": "Clark, Maria Joyce",
+              "nameSort": "Clark, Maria Joyce",
+              "age": 46,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "a8c1c8f5-ae1e-4b14-9b19-590dffb2c005",
+              "legacyCmisId": 7931002743,
+              "name": "Baker, Diane Wendy",
+              "nameSort": "Baker, Diane Wendy",
+              "age": 44,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "f06e4449-7bea-43e4-8219-12449dc43f0e",
+              "legacyCmisId": 321674556,
+              "name": "Collins, Melissa",
+              "nameSort": "Collins, Melissa",
+              "age": 35,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-11-24T23:59:38.297+00:00",
+          "recentlyChangedDateInMilliseconds": 1764028778297
+        },
+        {
+          "id": "1dd69eec-3b1e-42a9-ac80-b65f9b8ccaf7",
+          "ministers": [
+            {
+              "personUuid": "f5b34852-40b7-4121-a91c-03eb1d7d9af3",
+              "legacyCmisId": 7998001831,
+              "name": "Jones, Nicole",
+              "nameSort": "Jones, Nicole",
+              "email": "nicolejones@hotmail.com",
+              "age": 72,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "e47ae85d-417c-4099-be44-75bacde6f3b8",
+              "legacyCmisId": 3419426974,
+              "name": "Reed, Kelly",
+              "nameSort": "Reed, Kelly",
+              "email": "kelly.reed@outlook.com",
+              "age": 58,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "a4ea8177-d86f-4160-8be4-d4ecc0fb4d4d",
+              "legacyCmisId": 2651277837,
+              "name": "Hill, Hannah",
+              "nameSort": "Hill, Hannah",
+              "age": 46,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "c4c47bbf-3a9e-42c9-9475-9e9a80374285",
+              "legacyCmisId": 8221229334,
+              "name": "Phillips, Cheryl Darlene",
+              "nameSort": "Phillips, Cheryl Darlene",
+              "age": 68,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "3be991d4-9f9b-470c-b0b0-d28975747593",
+              "legacyCmisId": 2852033962,
+              "name": "Carter, Patricia",
+              "nameSort": "Carter, Patricia",
+              "age": 49,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "52bef0bb-f4b0-4a5c-9d58-1652e2aeec2d",
+              "legacyCmisId": 6610463679,
+              "name": "Russell, Ashley",
+              "nameSort": "Russell, Ashley",
+              "age": 42,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-02-21T17:30:07.748+00:00",
+          "recentlyChangedDateInMilliseconds": 1740159007748
+        },
+        {
+          "id": "dcc11408-6847-453a-8add-ba01d3523c47",
+          "ministers": [
+            {
+              "personUuid": "6e340c63-3ed8-4976-ae26-577828321c6a",
+              "legacyCmisId": 6811506072,
+              "name": "Wood, Connie Jill",
+              "nameSort": "Wood, Connie Jill",
+              "email": "connie jillwood@comcast.net",
+              "age": 78,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "29a6b680-ba05-4f68-9eb9-cd776fb1d718",
+              "legacyCmisId": 6949848234,
+              "name": "Ross, Courtney",
+              "nameSort": "Ross, Courtney",
+              "age": 69,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "8ab4cf7b-ba8e-470d-8ad2-0e2cdb2ae667",
+              "legacyCmisId": 7326649356,
+              "name": "Terry, Kelly",
+              "nameSort": "Terry, Kelly",
+              "age": 87,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "9d8356f0-fff7-4f60-93f0-8141d9ebf8a9",
+              "legacyCmisId": 9689708040,
+              "name": "Lewis, Susan Deborah",
+              "nameSort": "Lewis, Susan Deborah",
+              "age": 72,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2026-03-13T17:06:53.945+00:00",
+          "recentlyChangedDateInMilliseconds": 1773421613945
+        },
+        {
+          "id": "3141256e-3fce-4ecc-878e-60c9d193e1d1",
+          "ministers": [
+            {
+              "personUuid": "3824523c-20af-4519-9ec9-581abf408bc3",
+              "legacyCmisId": 2427088357,
+              "name": "Nikolaus, Carol",
+              "nameSort": "Nikolaus, Carol",
+              "email": "carol.nikolaus@hotmail.com",
+              "age": 75,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "875f19ae-ca15-42eb-8ca8-252b2bb7255b",
+              "legacyCmisId": 2122209660,
+              "name": "Cooper, Suzanne",
+              "nameSort": "Cooper, Suzanne",
+              "email": "suzanne03@comcast.net",
+              "age": 82,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "3ff35ef7-58b4-4b00-a655-7534f679f3ab",
+              "legacyCmisId": 9139572962,
+              "name": "Price, Allison Madison",
+              "nameSort": "Price, Allison Madison",
+              "age": 68,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "bcf09651-9719-4bce-86fd-426699b81d4f",
+              "legacyCmisId": 8693134884,
+              "name": "Bennett, Norma Julia",
+              "nameSort": "Bennett, Norma Julia",
+              "age": 88,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "22c7214c-5268-40a6-80ab-a586b91aa5ed",
+              "legacyCmisId": 8962400795,
+              "name": "Lee, Anne",
+              "nameSort": "Lee, Anne",
+              "age": 85,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2023-11-08T16:43:40.797+00:00",
+          "recentlyChangedDateInMilliseconds": 1699461820797
+        },
+        {
+          "id": "1dce4e6a-6685-4cab-93fa-3c218835f42f",
+          "ministers": [
+            {
+              "personUuid": "eebe5699-76fd-46b4-b156-0d5912e9ff54",
+              "legacyCmisId": 6834511364,
+              "name": "James, Lisa",
+              "nameSort": "James, Lisa",
+              "email": "ljames@yahoo.com",
+              "age": 16,
+              "assignType": "RS",
+              "unitOrgId": "19152b36-e386-40c1-878a-b40b8ddd75c7",
+              "youthBasedOnAge": true
+            },
+            {
+              "personUuid": "133f428d-a48b-4bad-9d96-ad0f27d37262",
+              "legacyCmisId": 4384778158,
+              "name": "Thomas, Penny",
+              "nameSort": "Thomas, Penny",
+              "email": "pennythomas@icloud.com",
+              "age": 44,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "0e3342a1-2a5b-484a-9186-49df963475e5",
+              "legacyCmisId": 8359775049,
+              "name": "Cook, Lauren",
+              "nameSort": "Cook, Lauren",
+              "age": 27,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "6c9b470d-f602-4a9c-84cb-5827e6d93986",
+              "legacyCmisId": 3882953292,
+              "name": "Scott, Brenda Stacy",
+              "nameSort": "Scott, Brenda Stacy",
+              "age": 76,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-12-04T04:19:33.296+00:00",
+          "recentlyChangedDateInMilliseconds": 1764821973296
+        },
+        {
+          "id": "96629838-fb7e-4928-82cf-5664c91d2f69",
+          "ministers": [
+            {
+              "personUuid": "acb8c619-fc9a-4e65-8fd5-762f6e380c9a",
+              "legacyCmisId": 3512166419,
+              "name": "Young, Emma Lisa",
+              "nameSort": "Young, Emma Lisa",
+              "email": "emma lisa49@comcast.net",
+              "age": 64,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "f0e9c67d-6802-4ab9-8275-7dc1e7b2a370",
+              "legacyCmisId": 9292864734,
+              "name": "Reynolds, Janice",
+              "nameSort": "Reynolds, Janice",
+              "email": "jreynolds@msn.com",
+              "age": 69,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "9c17ee04-72b2-45a7-9bf1-b360255ebf93",
+              "legacyCmisId": 2293176754,
+              "name": "Murphy, Penny",
+              "nameSort": "Murphy, Penny",
+              "age": 72,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "f2e5c7b2-41d4-4bde-b1e3-bb0376e5e7fb",
+              "legacyCmisId": 8630132780,
+              "name": "Lewis, Darlene Sara",
+              "nameSort": "Lewis, Darlene Sara",
+              "age": 76,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2026-02-11T01:57:53.135+00:00",
+          "recentlyChangedDateInMilliseconds": 1770775073135
+        },
+        {
+          "id": "9b1c4c84-fcf5-4a9b-b04e-6f3fbc6e8a1a",
+          "ministers": [
+            {
+              "personUuid": "f66fbb9f-bebb-444c-a493-d1d9284551f0",
+              "legacyCmisId": 1865003959,
+              "name": "Nader, Molly",
+              "nameSort": "Nader, Molly",
+              "email": "mnader@comcast.net",
+              "age": 45,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "7db3f0e4-8625-4332-87c9-eaba7b1dc3c0",
+              "legacyCmisId": 3606382661,
+              "name": "Nader, Emily",
+              "nameSort": "Nader, Emily",
+              "email": "emily.nader@gmail.com",
+              "age": 15,
+              "assignType": "RS",
+              "unitOrgId": "19152b36-e386-40c1-878a-b40b8ddd75c7",
+              "youthBasedOnAge": true
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "c7d30979-efac-412b-8674-92a2153e0287",
+              "legacyCmisId": 2790613833,
+              "name": "Peterson, Madison",
+              "nameSort": "Peterson, Madison",
+              "age": 72,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "60467848-85d8-45fd-afb6-4afae56ecfc7",
+              "legacyCmisId": 4786056634,
+              "name": "Martin, Stephanie Amber",
+              "nameSort": "Martin, Stephanie Amber",
+              "age": 43,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "3e0d894f-49fe-48fb-8365-5c90e4fffc38",
+              "legacyCmisId": 280927595,
+              "name": "Green, Tracy",
+              "nameSort": "Green, Tracy",
+              "age": 38,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-12-04T04:09:59.209+00:00",
+          "recentlyChangedDateInMilliseconds": 1764821399209
+        },
+        {
+          "id": "00983ae4-da06-48b4-bfa5-1277cb3906c6",
+          "ministers": [
+            {
+              "personUuid": "9d8356f0-fff7-4f60-93f0-8141d9ebf8a9",
+              "legacyCmisId": 9763937372,
+              "name": "Lewis, Susan Deborah",
+              "nameSort": "Lewis, Susan Deborah",
+              "email": "susan deborahlewis@icloud.com",
+              "age": 72,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "5cefa302-f7d7-4a03-b6a2-c5d1a4c6ae00",
+              "legacyCmisId": 6066986646,
+              "name": "Taylor, Brooke",
+              "nameSort": "Taylor, Brooke",
+              "email": "btaylor@comcast.net",
+              "age": 88,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "875f19ae-ca15-42eb-8ca8-252b2bb7255b",
+              "legacyCmisId": 8525024504,
+              "name": "Cooper, Suzanne",
+              "nameSort": "Cooper, Suzanne",
+              "age": 82,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "399095bc-80ab-437f-b433-8f94a992a608",
+              "legacyCmisId": 2739971451,
+              "name": "Morgan, Michelle Theresa",
+              "nameSort": "Morgan, Michelle Theresa",
+              "age": 87,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-11-30T14:43:16.571+00:00",
+          "recentlyChangedDateInMilliseconds": 1764513796571
+        },
+        {
+          "id": "da4ff9d4-6287-43a1-9066-54526e3a255e",
+          "ministers": [
+            {
+              "personUuid": "ad926f5d-1550-413d-a140-b9a53bc2732b",
+              "legacyCmisId": 6935612843,
+              "name": "Martin, Teresa Janice",
+              "nameSort": "Martin, Teresa Janice",
+              "email": "teresa janice.martin@icloud.com",
+              "age": 17,
+              "assignType": "RS",
+              "unitOrgId": "19152b36-e386-40c1-878a-b40b8ddd75c7",
+              "youthBasedOnAge": true
+            },
+            {
+              "personUuid": "60467848-85d8-45fd-afb6-4afae56ecfc7",
+              "legacyCmisId": 543107722,
+              "name": "Martin, Stephanie Amber",
+              "nameSort": "Martin, Stephanie Amber",
+              "email": "stephanie amber30@hotmail.com",
+              "age": 43,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "c859f6e5-0363-40ed-bb21-1be618559b10",
+              "legacyCmisId": 3532965634,
+              "name": "White, Christine",
+              "nameSort": "White, Christine",
+              "age": 68,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "05b1ee1f-4106-4a5d-9b5b-f147784aa917",
+              "legacyCmisId": 6328432602,
+              "name": "Gottlieb-Kihn, Marilyn",
+              "nameSort": "Gottlieb-Kihn, Marilyn",
+              "age": 42,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "ea26abd2-f0fd-4ab1-b011-83d7ba535c94",
+              "legacyCmisId": 166731579,
+              "name": "Turner, Theresa",
+              "nameSort": "Turner, Theresa",
+              "age": 23,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-12-04T04:16:31.126+00:00",
+          "recentlyChangedDateInMilliseconds": 1764821791126
+        },
+        {
+          "id": "f2ab2123-2a68-40d2-8512-aba8f8731858",
+          "ministers": [
+            {
+              "personUuid": "399095bc-80ab-437f-b433-8f94a992a608",
+              "legacyCmisId": 8397909454,
+              "name": "Morgan, Michelle Theresa",
+              "nameSort": "Morgan, Michelle Theresa",
+              "email": "mmorgan@msn.com",
+              "age": 87,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "38edd467-20f3-431e-99ae-5902dc568033",
+              "legacyCmisId": 9961130508,
+              "name": "Brown, Karen",
+              "nameSort": "Brown, Karen",
+              "age": 78,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "d08318b6-a764-465a-b11a-8626ceb0a353",
+              "legacyCmisId": 3492929284,
+              "name": "Ross, Sara Cheryl",
+              "nameSort": "Ross, Sara Cheryl",
+              "age": 66,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-02-21T17:28:25.269+00:00",
+          "recentlyChangedDateInMilliseconds": 1740158905269
+        },
+        {
+          "id": "c39bb3d6-38df-4b02-b116-51e9c565797d",
+          "ministers": [
+            {
+              "personUuid": "22c7214c-5268-40a6-80ab-a586b91aa5ed",
+              "legacyCmisId": 4749870148,
+              "name": "Lee, Anne",
+              "nameSort": "Lee, Anne",
+              "email": "anne97@yahoo.com",
+              "age": 85,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "e1c6c80f-19e1-48df-bb4b-bbd11af7ffee",
+              "legacyCmisId": 7479595962,
+              "name": "Roberts, Angela",
+              "nameSort": "Roberts, Angela",
+              "email": "angelaroberts@gmail.com",
+              "age": 77,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "c2552cb3-51a1-4fc6-a9e8-26daadee18bc",
+              "legacyCmisId": 4264637701,
+              "name": "Green, Renee Jodi",
+              "nameSort": "Green, Renee Jodi",
+              "age": 69,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "a1f64841-07d9-4f44-a224-cef3e51da264",
+              "legacyCmisId": 1658300414,
+              "name": "James, Rose",
+              "nameSort": "James, Rose",
+              "age": 86,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "a2c42614-5dc7-4b95-aba9-9a6d2e5296d6",
+              "legacyCmisId": 8559803878,
+              "name": "Campbell, Dana",
+              "nameSort": "Campbell, Dana",
+              "age": 86,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2024-09-23T21:55:25.742+00:00",
+          "recentlyChangedDateInMilliseconds": 1727128525742
+        }
+      ],
+      "districtName": "District 2",
+      "districtUuid": "95191bc8-2c43-47e4-be01-b35254bbfbbb",
+      "supervisorName": "Jones, Nicole",
+      "supervisorLegacyCmisId": 3032743655,
+      "supervisorPersonUuid": "f5b34852-40b7-4121-a91c-03eb1d7d9af3"
+    },
+    {
+      "companionships": [
+        {
+          "id": "4b3e84c4-ffa1-448d-a211-8e03bdcc26ff",
+          "ministers": [
+            {
+              "personUuid": "a4ea8177-d86f-4160-8be4-d4ecc0fb4d4d",
+              "legacyCmisId": 7121745326,
+              "name": "Hill, Hannah",
+              "nameSort": "Hill, Hannah",
+              "email": "hannah41@msn.com",
+              "age": 46,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "d49e5d00-ccce-413e-92a8-148db9741603",
+              "legacyCmisId": 9605012818,
+              "name": "Bahringer, Margaret",
+              "nameSort": "Bahringer, Margaret",
+              "email": "margaretbahringer@icloud.com",
+              "age": 43,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "2141b08f-d949-4862-ae73-56dbc06704c2",
+              "legacyCmisId": 1771932656,
+              "name": "Bennett, Wendy",
+              "nameSort": "Bennett, Wendy",
+              "age": 43,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "10065bb0-3482-42fc-b265-c82b64675360",
+              "legacyCmisId": 9828282811,
+              "name": "Breitenberg, Holly",
+              "nameSort": "Breitenberg, Holly",
+              "age": 51,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "3e03cb40-d538-4e0c-a96b-f32ea79bce64",
+              "legacyCmisId": 4982524738,
+              "name": "Collins, Danielle Robin",
+              "nameSort": "Collins, Danielle Robin",
+              "age": 40,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2024-09-24T02:09:50.335+00:00",
+          "recentlyChangedDateInMilliseconds": 1727143790335
+        },
+        {
+          "id": "0f7d819f-0d36-45e8-97d0-10b8e73c4e42",
+          "ministers": [
+            {
+              "personUuid": "dc4ef558-fe16-4883-adad-db792a2b3120",
+              "legacyCmisId": 600099667,
+              "name": "Evans, Tiffany",
+              "nameSort": "Evans, Tiffany",
+              "email": "tiffanyevans@gmail.com",
+              "age": 17,
+              "assignType": "RS",
+              "unitOrgId": "19152b36-e386-40c1-878a-b40b8ddd75c7",
+              "youthBasedOnAge": true
+            },
+            {
+              "personUuid": "c4b4fa54-3b39-44ad-9cc3-1b56040e380a",
+              "legacyCmisId": 3030963423,
+              "name": "Evans, Kristen",
+              "nameSort": "Evans, Kristen",
+              "email": "kristen31@outlook.com",
+              "age": 45,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "deab86ae-6566-4177-a959-ef90fb52220e",
+              "legacyCmisId": 7132296612,
+              "name": "Bennett, Janice",
+              "nameSort": "Bennett, Janice",
+              "age": 42,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "e8124040-34f3-43ad-b6e5-3595a3b578a3",
+              "legacyCmisId": 6787837705,
+              "name": "Ziemann, Robin",
+              "nameSort": "Ziemann, Robin",
+              "age": 43,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "60256f67-30e1-4f29-8f26-c0b132e20956",
+              "legacyCmisId": 3998243020,
+              "name": "James, Kendra",
+              "nameSort": "James, Kendra",
+              "age": 22,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-06-24T03:41:37.777+00:00",
+          "recentlyChangedDateInMilliseconds": 1750736497777
+        },
+        {
+          "id": "27e731fb-54e2-48b6-903e-8d8fe759a7d2",
+          "ministers": [
+            {
+              "personUuid": "3ff35ef7-58b4-4b00-a655-7534f679f3ab",
+              "legacyCmisId": 6895125937,
+              "name": "Price, Allison Madison",
+              "nameSort": "Price, Allison Madison",
+              "email": "allison madison49@yahoo.com",
+              "age": 68,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "4c815ec5-f1f3-4065-b8cd-6620a1b83827",
+              "legacyCmisId": 9495666622,
+              "name": "Morgan, Sue",
+              "nameSort": "Morgan, Sue",
+              "email": "suemorgan@comcast.net",
+              "age": 65,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "71fece3d-bdc5-4c45-b1e4-86f5cd66bec3",
+              "legacyCmisId": 5245171479,
+              "name": "Cooper, Laurie",
+              "nameSort": "Cooper, Laurie",
+              "age": 80,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "c7ccadf9-36ca-420a-b47b-9123498312f7",
+              "legacyCmisId": 2601395384,
+              "name": "Koss, Leah",
+              "nameSort": "Koss, Leah",
+              "age": 54,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2026-03-01T02:24:26.369+00:00",
+          "recentlyChangedDateInMilliseconds": 1772331866369
+        },
+        {
+          "id": "f439802c-7274-43f5-90fc-46d5986a70d1",
+          "ministers": [
+            {
+              "personUuid": "9d009d55-940b-4a9b-aa35-22adfa21d99c",
+              "legacyCmisId": 5841017830,
+              "name": "Johnson, Amber Susan",
+              "nameSort": "Johnson, Amber Susan",
+              "email": "amber susanjohnson@icloud.com",
+              "age": 53,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "20097806-b7b3-4d93-a3ad-64da773a5f77",
+              "legacyCmisId": 6569110927,
+              "name": "Johnson, Megan",
+              "nameSort": "Johnson, Megan",
+              "email": "megan.johnson@comcast.net",
+              "age": 15,
+              "assignType": "RS",
+              "unitOrgId": "19152b36-e386-40c1-878a-b40b8ddd75c7",
+              "youthBasedOnAge": true
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "ddc2bfa5-8a81-44cd-82f5-accf5d2bba4d",
+              "legacyCmisId": 1717229465,
+              "name": "Murray, Judith",
+              "nameSort": "Murray, Judith",
+              "age": 42,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "325f5f72-e7bf-401b-a420-0c27960c0ce6",
+              "legacyCmisId": 3521031653,
+              "name": "Phillips, Kate Cindy",
+              "nameSort": "Phillips, Kate Cindy",
+              "age": 64,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2024-09-23T21:56:42.607+00:00",
+          "recentlyChangedDateInMilliseconds": 1727128602607
+        },
+        {
+          "id": "83fe08c3-8639-4f58-85ed-2e21a68a0474",
+          "ministers": [
+            {
+              "personUuid": "c2552cb3-51a1-4fc6-a9e8-26daadee18bc",
+              "legacyCmisId": 958098074,
+              "name": "Green, Renee Jodi",
+              "nameSort": "Green, Renee Jodi",
+              "email": "renee jodigreen@comcast.net",
+              "age": 69,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "e3f2119c-5f62-47ad-a794-af0e84f7523d",
+              "legacyCmisId": 6557269106,
+              "name": "Mitchell, Courtney",
+              "nameSort": "Mitchell, Courtney",
+              "email": "courtney28@msn.com",
+              "age": 87,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "d65793c7-513f-4427-8405-8857f6437c3b",
+              "legacyCmisId": 9569930526,
+              "name": "Lee, Beverly",
+              "nameSort": "Lee, Beverly",
+              "age": 75,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "e624743b-08c4-49aa-875d-c5111905c4cb",
+              "legacyCmisId": 1448960758,
+              "name": "Raynor, Betty",
+              "nameSort": "Raynor, Betty",
+              "age": 77,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "6c4449d7-6f17-4614-80e9-d89be15bffa3",
+              "legacyCmisId": 9739356742,
+              "name": "Robinson, Ashley",
+              "nameSort": "Robinson, Ashley",
+              "age": 71,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-02-21T17:20:53.692+00:00",
+          "recentlyChangedDateInMilliseconds": 1740158453692
+        },
+        {
+          "id": "7f78cb96-cf09-4dac-becb-fdd138b414ce",
+          "ministers": [
+            {
+              "personUuid": "f3e6f8e0-be21-46e8-a820-c1ae3a192b47",
+              "legacyCmisId": 3850780123,
+              "name": "Price, Brittany",
+              "nameSort": "Price, Brittany",
+              "email": "brittany43@hotmail.com",
+              "age": 75,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "702591f5-ecc9-4aaa-b8fb-cd3178d79809",
+              "legacyCmisId": 3647400295,
+              "name": "Ernser, Cynthia Beth",
+              "nameSort": "Ernser, Cynthia Beth",
+              "email": "cynthia bethernser@gmail.com",
+              "age": 58,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "acb8c619-fc9a-4e65-8fd5-762f6e380c9a",
+              "legacyCmisId": 4761345220,
+              "name": "Young, Emma Lisa",
+              "nameSort": "Young, Emma Lisa",
+              "age": 64,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "c3355fcb-2ed2-4d41-baa1-5fab31433395",
+              "legacyCmisId": 2138950136,
+              "name": "Wood, Beverly Maureen",
+              "nameSort": "Wood, Beverly Maureen",
+              "age": 45,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "3fcb58a9-b156-4422-a571-fcb298fb9d20",
+              "legacyCmisId": 4582143966,
+              "name": "Hickle, Dorothy",
+              "nameSort": "Hickle, Dorothy",
+              "age": 68,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2026-01-10T03:56:10.972+00:00",
+          "recentlyChangedDateInMilliseconds": 1768017370972
+        },
+        {
+          "id": "49f8ae52-46a0-4d1e-affc-2b3e55e036ba",
+          "ministers": [
+            {
+              "personUuid": "10065bb0-3482-42fc-b265-c82b64675360",
+              "legacyCmisId": 8812218081,
+              "name": "Breitenberg, Holly",
+              "nameSort": "Breitenberg, Holly",
+              "email": "holly57@gmail.com",
+              "age": 51,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "805d8744-6df7-46d6-883b-8cc3bc520758",
+              "legacyCmisId": 4538309787,
+              "name": "Breitenberg, Kelly Kendra",
+              "nameSort": "Breitenberg, Kelly Kendra",
+              "email": "kelly kendra.breitenberg@gmail.com",
+              "age": 18,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "8c350fae-49a5-4dfe-bb44-f0bb9f451745",
+              "legacyCmisId": 1264769181,
+              "name": "Hintz, Kay",
+              "nameSort": "Hintz, Kay",
+              "age": 31,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "3824523c-20af-4519-9ec9-581abf408bc3",
+              "legacyCmisId": 4318214899,
+              "name": "Nikolaus, Carol",
+              "nameSort": "Nikolaus, Carol",
+              "age": 75,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "40265165-14e4-4b96-8359-531e7a7d87eb",
+              "legacyCmisId": 1868555706,
+              "name": "Clark, Amy",
+              "nameSort": "Clark, Amy",
+              "age": 42,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "6077c434-4975-455f-a3db-0fca6840de2c",
+              "legacyCmisId": 7813745355,
+              "name": "Price, Amy Theresa",
+              "nameSort": "Price, Amy Theresa",
+              "age": 84,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-06-10T15:52:44.959+00:00",
+          "recentlyChangedDateInMilliseconds": 1749570764959
+        },
+        {
+          "id": "d68f8f2d-70ff-46f2-8a33-c6063a3d464a",
+          "ministers": [
+            {
+              "personUuid": "bcf09651-9719-4bce-86fd-426699b81d4f",
+              "legacyCmisId": 4833183789,
+              "name": "Bennett, Norma Julia",
+              "nameSort": "Bennett, Norma Julia",
+              "email": "nbennett@hotmail.com",
+              "age": 88,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "643ca93e-3cfb-4fa3-b350-a4d57f3bc385",
+              "legacyCmisId": 1760036717,
+              "name": "Reynolds, Susan",
+              "nameSort": "Reynolds, Susan",
+              "email": "susan21@gmail.com",
+              "age": 67,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "1b325a32-0763-406c-8bd0-f5f4755dbf97",
+              "legacyCmisId": 9883328033,
+              "name": "Cooper, Paula",
+              "nameSort": "Cooper, Paula",
+              "age": 72,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "e306b77a-4c26-4adc-8b51-3ddf18abac52",
+              "legacyCmisId": 439840784,
+              "name": "Rowe, Brooke",
+              "nameSort": "Rowe, Brooke",
+              "age": 77,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "281c91d8-eee1-41f7-a3c4-bdc46672788d",
+              "legacyCmisId": 4665170658,
+              "name": "Hall, Katie",
+              "nameSort": "Hall, Katie",
+              "age": 81,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-12-04T04:14:46.823+00:00",
+          "recentlyChangedDateInMilliseconds": 1764821686823
+        },
+        {
+          "id": "655e0c46-6411-44d2-8b4e-62f2995fddf7",
+          "ministers": [
+            {
+              "personUuid": "ab7fb79b-9e54-4300-9daa-9d7d5eb49829",
+              "legacyCmisId": 7678013661,
+              "name": "Lynch, Sandy",
+              "nameSort": "Lynch, Sandy",
+              "email": "slynch@hotmail.com",
+              "age": 79,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "28bac78c-6b66-4c25-b353-9cc5f96dbb37",
+              "legacyCmisId": 1796434488,
+              "name": "Phillips, Rose",
+              "nameSort": "Phillips, Rose",
+              "email": "rphillips@comcast.net",
+              "age": 70,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "802b1936-45b4-497a-aeb3-0490795c11b7",
+              "legacyCmisId": 9699241377,
+              "name": "Walker, Kristin Jessica",
+              "nameSort": "Walker, Kristin Jessica",
+              "age": 69,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "543245a1-3c25-4d21-8749-c2982947174d",
+              "legacyCmisId": 2983580086,
+              "name": "Russell, Jodi",
+              "nameSort": "Russell, Jodi",
+              "age": 75,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "e994996f-eb87-424c-a7e2-8a8ef122a5b6",
+              "legacyCmisId": 3105008477,
+              "name": "Kutch, Madison",
+              "nameSort": "Kutch, Madison",
+              "age": 82,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-06-10T15:53:02.971+00:00",
+          "recentlyChangedDateInMilliseconds": 1749570782971
+        },
+        {
+          "id": "6d03b65d-ef4e-4b29-a0bb-c2a2fa12a7b4",
+          "ministers": [
+            {
+              "personUuid": "062ba0d3-6a67-416c-9e66-bf47c91a288e",
+              "legacyCmisId": 1851905663,
+              "name": "McGlynn, Gail",
+              "nameSort": "McGlynn, Gail",
+              "email": "gailmcglynn@outlook.com",
+              "age": 48,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "aa66bb8f-f6d8-4809-8ecc-2535958741e0",
+              "legacyCmisId": 9888745163,
+              "name": "Palmer, Becky",
+              "nameSort": "Palmer, Becky",
+              "email": "becky.palmer@yahoo.com",
+              "age": 67,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "d8d66e4d-7849-4504-a0ff-6b5acf6c4f09",
+              "legacyCmisId": 1855373805,
+              "name": "Wood, Leslie",
+              "nameSort": "Wood, Leslie",
+              "age": 71,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "f3e6f8e0-be21-46e8-a820-c1ae3a192b47",
+              "legacyCmisId": 1859253406,
+              "name": "Price, Brittany",
+              "nameSort": "Price, Brittany",
+              "age": 75,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "4c815ec5-f1f3-4065-b8cd-6620a1b83827",
+              "legacyCmisId": 8598156843,
+              "name": "Morgan, Sue",
+              "nameSort": "Morgan, Sue",
+              "age": 65,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2026-03-01T02:31:06.114+00:00",
+          "recentlyChangedDateInMilliseconds": 1772332266114
+        },
+        {
+          "id": "d71e7765-897e-4594-bc13-c2af825d5bc8",
+          "ministers": [
+            {
+              "personUuid": "67e1c202-c6d8-40b1-ac25-cf5d3ca34263",
+              "legacyCmisId": 3237339743,
+              "name": "White, Samantha",
+              "nameSort": "White, Samantha",
+              "email": "samantha.white@outlook.com",
+              "age": 78,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "f2e5c7b2-41d4-4bde-b1e3-bb0376e5e7fb",
+              "legacyCmisId": 6555162373,
+              "name": "Lewis, Darlene Sara",
+              "nameSort": "Lewis, Darlene Sara",
+              "email": "darlene sara.lewis@icloud.com",
+              "age": 76,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "a8c8d88e-620c-49b3-b205-966e58c69df2",
+              "legacyCmisId": 8825090427,
+              "name": "Rogers, Nancy Gail",
+              "nameSort": "Rogers, Nancy Gail",
+              "age": 82,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "71942881-b937-4b86-959f-a17e1ff1e5d6",
+              "legacyCmisId": 7385443965,
+              "name": "Parker, Tina",
+              "nameSort": "Parker, Tina",
+              "age": 76,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-06-10T15:53:46.068+00:00",
+          "recentlyChangedDateInMilliseconds": 1749570826068
+        },
+        {
+          "id": "56ae2814-a1ae-4f3b-be16-e3e817548771",
+          "ministers": [
+            {
+              "personUuid": "5e021d0d-7062-49a7-b0ad-bd3e50dfa347",
+              "legacyCmisId": 4866249222,
+              "name": "Carter, Martha",
+              "nameSort": "Carter, Martha",
+              "email": "marthacarter@comcast.net",
+              "age": 16,
+              "assignType": "RS",
+              "unitOrgId": "19152b36-e386-40c1-878a-b40b8ddd75c7",
+              "youthBasedOnAge": true
+            },
+            {
+              "personUuid": "3be991d4-9f9b-470c-b0b0-d28975747593",
+              "legacyCmisId": 9121332206,
+              "name": "Carter, Patricia",
+              "nameSort": "Carter, Patricia",
+              "email": "patriciacarter@comcast.net",
+              "age": 49,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "755c5317-7d36-4cd6-874e-1ea80762af8b",
+              "legacyCmisId": 374814785,
+              "name": "Wilson, Kristen",
+              "nameSort": "Wilson, Kristen",
+              "age": 38,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "e35c39ba-bbf5-4e04-b0a1-da0bda0db657",
+              "legacyCmisId": 5305650072,
+              "name": "Thomas, Katie",
+              "nameSort": "Thomas, Katie",
+              "age": 38,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-02-21T17:22:07.084+00:00",
+          "recentlyChangedDateInMilliseconds": 1740158527084
+        },
+        {
+          "id": "1fea1557-296f-4e9a-923e-b39e52f764ed",
+          "ministers": [
+            {
+              "personUuid": "566bea7c-a010-47d5-a6ed-a410148122a9",
+              "legacyCmisId": 403071470,
+              "name": "Bennett, Suzanne",
+              "nameSort": "Bennett, Suzanne",
+              "email": "suzanne.bennett@outlook.com",
+              "age": 60,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "3e03cb40-d538-4e0c-a96b-f32ea79bce64",
+              "legacyCmisId": 1080861679,
+              "name": "Collins, Danielle Robin",
+              "nameSort": "Collins, Danielle Robin",
+              "email": "danielle robincollins@msn.com",
+              "age": 40,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "1f98dd8e-1195-4756-bd9f-c445d03ea33d",
+              "legacyCmisId": 6919232083,
+              "name": "Collins, Sandra",
+              "nameSort": "Collins, Sandra",
+              "email": "scollins@gmail.com",
+              "age": 16,
+              "assignType": "RS",
+              "unitOrgId": "19152b36-e386-40c1-878a-b40b8ddd75c7",
+              "youthBasedOnAge": true
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "b57d757d-52bd-4132-857b-a95d7fa2a5a1",
+              "legacyCmisId": 7015422873,
+              "name": "Reed, Lisa Brittany",
+              "nameSort": "Reed, Lisa Brittany",
+              "age": 45,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "67e1c202-c6d8-40b1-ac25-cf5d3ca34263",
+              "legacyCmisId": 1084968400,
+              "name": "White, Samantha",
+              "nameSort": "White, Samantha",
+              "age": 78,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "b2517830-b0f3-4a60-b78d-b13417f8bad3",
+              "legacyCmisId": 976353442,
+              "name": "Stroman, Lori",
+              "nameSort": "Stroman, Lori",
+              "age": 35,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-12-04T04:17:45.733+00:00",
+          "recentlyChangedDateInMilliseconds": 1764821865733
+        },
+        {
+          "id": "b37fddd9-b5f4-4941-b959-8817c577da1d",
+          "ministers": [
+            {
+              "personUuid": "ecc1d649-dcee-4360-9e2d-5505e060524e",
+              "legacyCmisId": 7561095207,
+              "name": "Mitchell, Bonnie",
+              "nameSort": "Mitchell, Bonnie",
+              "email": "bonnie74@outlook.com",
+              "age": 41,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "dd5f0cf5-a8cd-49d4-936a-2a6c0aafbcea",
+              "legacyCmisId": 8813090633,
+              "name": "Reed, Catherine Betty",
+              "nameSort": "Reed, Catherine Betty",
+              "email": "catherine bettyreed@msn.com",
+              "age": 70,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "7184606c-8074-476e-90ad-f28072d188fa",
+              "legacyCmisId": 1108012233,
+              "name": "Shaw, Leah",
+              "nameSort": "Shaw, Leah",
+              "age": 32,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2026-01-10T03:56:46.954+00:00",
+          "recentlyChangedDateInMilliseconds": 1768017406954
+        },
+        {
+          "id": "8a2719db-6fad-4afd-b85a-9a568dc13003",
+          "ministers": [
+            {
+              "personUuid": "bfa981b9-aecc-4ef9-917c-001b851b54a8",
+              "legacyCmisId": 9057001815,
+              "name": "Reynolds, Shannon",
+              "nameSort": "Reynolds, Shannon",
+              "email": "sreynolds@hotmail.com",
+              "age": 15,
+              "assignType": "RS",
+              "unitOrgId": "19152b36-e386-40c1-878a-b40b8ddd75c7",
+              "youthBasedOnAge": true
+            },
+            {
+              "personUuid": "6176705c-5b56-49f1-909f-f77a8adb77a7",
+              "legacyCmisId": 9138029149,
+              "name": "Reynolds, Norma",
+              "nameSort": "Reynolds, Norma",
+              "email": "norma20@gmail.com",
+              "age": 48,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "403472db-1aaf-403e-8ebc-1832c27f2ff8",
+              "legacyCmisId": 7133883833,
+              "name": "Wood, Martha",
+              "nameSort": "Wood, Martha",
+              "age": 38,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "37db91b2-c465-4d29-92be-67e879b1d61c",
+              "legacyCmisId": 3152005782,
+              "name": "Wilderman, Sara",
+              "nameSort": "Wilderman, Sara",
+              "age": 69,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "63814361-0a9b-4a14-a2db-35f9c43caa89",
+              "legacyCmisId": 8553133890,
+              "name": "Bahringer, Beverly",
+              "nameSort": "Bahringer, Beverly",
+              "age": 19,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-02-21T17:38:12.957+00:00",
+          "recentlyChangedDateInMilliseconds": 1740159492957
+        },
+        {
+          "id": "7f0140c0-b04d-4f6f-ba6c-44a621ca6e6b",
+          "ministers": [
+            {
+              "personUuid": "6537abc5-c07c-4a7a-9e9c-fb9059c7f4b6",
+              "legacyCmisId": 8423083041,
+              "name": "Russell, Sophia Sue",
+              "nameSort": "Russell, Sophia Sue",
+              "email": "sophia sue64@outlook.com",
+              "age": 17,
+              "assignType": "RS",
+              "unitOrgId": "19152b36-e386-40c1-878a-b40b8ddd75c7",
+              "youthBasedOnAge": true
+            },
+            {
+              "personUuid": "52bef0bb-f4b0-4a5c-9d58-1652e2aeec2d",
+              "legacyCmisId": 2649769139,
+              "name": "Russell, Ashley",
+              "nameSort": "Russell, Ashley",
+              "email": "ashley20@outlook.com",
+              "age": 42,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "643ca93e-3cfb-4fa3-b350-a4d57f3bc385",
+              "legacyCmisId": 8657850518,
+              "name": "Reynolds, Susan",
+              "nameSort": "Reynolds, Susan",
+              "age": 67,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "8ca48d11-8a3b-4ae2-ac19-86d083b0ddd2",
+              "legacyCmisId": 353224918,
+              "name": "Ross, Pamela",
+              "nameSort": "Ross, Pamela",
+              "age": 43,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-02-21T17:23:27.365+00:00",
+          "recentlyChangedDateInMilliseconds": 1740158607365
+        },
+        {
+          "id": "37a208d0-5a23-48f4-a76e-19dfb6659bd6",
+          "ministers": [
+            {
+              "personUuid": "c2b1618a-25e7-4cef-8e5f-cd0fcc13f86d",
+              "legacyCmisId": 9170603661,
+              "name": "Russell, Megan Stacy",
+              "nameSort": "Russell, Megan Stacy",
+              "email": "megan stacy76@msn.com",
+              "age": 19,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "52bef0bb-f4b0-4a5c-9d58-1652e2aeec2d",
+              "legacyCmisId": 1913656915,
+              "name": "Russell, Ashley",
+              "nameSort": "Russell, Ashley",
+              "email": "ashley41@gmail.com",
+              "age": 42,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "157f6bb3-08bf-45e6-bb90-105b294ccc84",
+              "legacyCmisId": 6492457029,
+              "name": "Cummerata, Shirley",
+              "nameSort": "Cummerata, Shirley",
+              "age": 41,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2024-06-03T17:55:01.395+00:00",
+          "recentlyChangedDateInMilliseconds": 1717437301395
+        },
+        {
+          "id": "80012f54-0aa2-4ec3-8775-d1667d319216",
+          "ministers": [
+            {
+              "personUuid": "0135844d-27fa-4b60-aaa1-7e377cdc515a",
+              "legacyCmisId": 3676044526,
+              "name": "Ziemann, Claire Olivia",
+              "nameSort": "Ziemann, Claire Olivia",
+              "email": "claire oliviaziemann@yahoo.com",
+              "age": 15,
+              "assignType": "RS",
+              "unitOrgId": "19152b36-e386-40c1-878a-b40b8ddd75c7",
+              "youthBasedOnAge": true
+            },
+            {
+              "personUuid": "e8124040-34f3-43ad-b6e5-3595a3b578a3",
+              "legacyCmisId": 9667115945,
+              "name": "Ziemann, Robin",
+              "nameSort": "Ziemann, Robin",
+              "email": "robin.ziemann@hotmail.com",
+              "age": 43,
+              "assignType": "RS",
+              "unitOrgId": "151d9514-5bae-471b-bc8c-786010a58e36",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "d9d86e0d-3d29-4e7b-bcbe-720328200d95",
+              "legacyCmisId": 7512513220,
+              "name": "Phillips, Diane",
+              "nameSort": "Phillips, Diane",
+              "age": 49,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "ecc1d649-dcee-4360-9e2d-5505e060524e",
+              "legacyCmisId": 8340966468,
+              "name": "Mitchell, Bonnie",
+              "nameSort": "Mitchell, Bonnie",
+              "age": 41,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "dd5f0cf5-a8cd-49d4-936a-2a6c0aafbcea",
+              "legacyCmisId": 2489040614,
+              "name": "Reed, Catherine Betty",
+              "nameSort": "Reed, Catherine Betty",
+              "age": 70,
+              "assignType": "RS",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-12-03T17:55:26.606+00:00",
+          "recentlyChangedDateInMilliseconds": 1764784526606
+        }
+      ],
+      "districtName": "District 3",
+      "districtUuid": "f03c3bdf-7f63-48a7-b968-f74c5d0511a6",
+      "supervisorName": "Abbott, Sherry",
+      "supervisorLegacyCmisId": 5212410864,
+      "supervisorPersonUuid": "0a59b511-98b8-4660-b5fd-59d7018fb13c"
+    }
+  ],
+  "reliefSocietySupervisors": [
+    {
+      "personUuid": "325f5f72-e7bf-401b-a420-0c27960c0ce6",
+      "name": "Phillips, Kate Cindy",
+      "youthBasedOnAge": false
+    },
+    {
+      "personUuid": "0a59b511-98b8-4660-b5fd-59d7018fb13c",
+      "name": "Abbott, Sherry",
+      "youthBasedOnAge": false
+    },
+    {
+      "personUuid": "f5b34852-40b7-4121-a91c-03eb1d7d9af3",
+      "name": "Jones, Nicole",
+      "youthBasedOnAge": false
+    }
+  ],
+  "unitOrgs": [
+    {
+      "children": null,
+      "unitOrgUuid": "151d9514-5bae-471b-bc8c-786010a58e36",
+      "unitUuid": null,
+      "unitNumber": null,
+      "unitOrgName": "Relief Society",
+      "unitOrgTypeIds": [
+        74
+      ],
+      "isClass": false
+    }
+  ],
+  "interviewViewAccess": false,
+  "error": false
+}

@@ -1,0 +1,3156 @@
+{
+  "elders": [
+    {
+      "companionships": [
+        {
+          "id": "aa5df390-b63c-4c10-95ac-89c898e342d6",
+          "ministers": [
+            {
+              "personUuid": "aa590ae9-db1e-4182-9064-790185badb6a",
+              "legacyCmisId": 9815352299,
+              "name": "Hill, Joshua",
+              "nameSort": "Hill, Joshua",
+              "email": "jhill@msn.com",
+              "age": 15,
+              "priesthoodOffice": "TEACHER",
+              "assignType": "EQ",
+              "unitOrgId": "b6735319-a976-4d87-b056-6989cdbf030a",
+              "youthBasedOnAge": true
+            },
+            {
+              "personUuid": "13074944-b0ed-4a9e-a213-c09fd81d911e",
+              "legacyCmisId": 3354225033,
+              "name": "Hill, Sean",
+              "nameSort": "Hill, Sean",
+              "email": "seanhill@gmail.com",
+              "age": 43,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "840b1489-9269-4fbe-ac93-a9978583c216",
+              "legacyCmisId": 3838744413,
+              "name": "Garcia, Raymond & Robyn",
+              "nameSort": "Garcia, Raymond & Robyn",
+              "age": 77,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "c83dbf23-3c21-4f0d-95d8-ee014ae793cf",
+              "legacyCmisId": 9238635014,
+              "name": "Ross, Glen & Gina",
+              "nameSort": "Ross, Glen & Gina",
+              "age": 38,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "e5a3398c-ca7e-49fd-a059-b8c4209b5901",
+              "legacyCmisId": 2719534596,
+              "name": "Thompson, Ethan & Joan",
+              "nameSort": "Thompson, Ethan & Joan",
+              "age": 34,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "ca32a725-418c-49d2-b69a-bba1bbfba8df",
+              "legacyCmisId": 8948689551,
+              "name": "Wood, Grace Gail",
+              "nameSort": "Wood, Grace Gail",
+              "age": 77,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2026-02-26T02:30:53.327+00:00",
+          "recentlyChangedDateInMilliseconds": 1772073053327
+        },
+        {
+          "id": "166e3a2f-9a65-439f-a5e2-e567bb780458",
+          "ministers": [
+            {
+              "personUuid": "c5b69dcd-0b26-4868-9f2a-622feef35a76",
+              "legacyCmisId": 7128007997,
+              "name": "Richardson, Matthew",
+              "nameSort": "Richardson, Matthew",
+              "email": "matthewrichardson@comcast.net",
+              "age": 89,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "f9883b19-9e82-4913-a081-7eb13ae0c88f",
+              "legacyCmisId": 7190002657,
+              "name": "Carter, Connor",
+              "nameSort": "Carter, Connor",
+              "email": "connor.carter@gmail.com",
+              "age": 74,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "c3b5aa81-d520-49a0-a83a-2b6e251ee4ad",
+              "legacyCmisId": 6937597258,
+              "name": "Kuphal, Aaron Drew",
+              "nameSort": "Kuphal, Aaron Drew",
+              "age": 57,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "1685ba5c-aa80-4b6f-9d94-357482f1ee8b",
+              "legacyCmisId": 6202757410,
+              "name": "Young, Wade & Desiree",
+              "nameSort": "Young, Wade & Desiree",
+              "age": 41,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "e306b77a-4c26-4adc-8b51-3ddf18abac52",
+              "legacyCmisId": 8487432525,
+              "name": "Rowe, Brooke",
+              "nameSort": "Rowe, Brooke",
+              "age": 77,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "7f5b4885-7403-4bc4-a603-c934d35a87e3",
+              "legacyCmisId": 3872965605,
+              "name": "Hill, Jerry",
+              "nameSort": "Hill, Jerry",
+              "age": 45,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-05-25T20:14:05.169+00:00",
+          "recentlyChangedDateInMilliseconds": 1748204045169
+        },
+        {
+          "id": "4896e803-7b3f-4580-aec3-e5bdbedf24ab",
+          "ministers": [
+            {
+              "personUuid": "5de51b4c-77c6-4765-98c5-8a44eb9a0988",
+              "legacyCmisId": 831890812,
+              "name": "Mitchell, Noah",
+              "nameSort": "Mitchell, Noah",
+              "email": "noahmitchell@comcast.net",
+              "age": 17,
+              "priesthoodOffice": "PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "3f6700b8-83b2-4374-b3aa-d614f9b0809e",
+              "youthBasedOnAge": true
+            },
+            {
+              "personUuid": "7fa17377-9528-4da5-aee3-0bdfe98037a8",
+              "legacyCmisId": 291206174,
+              "name": "Mitchell, Allen",
+              "nameSort": "Mitchell, Allen",
+              "email": "allenmitchell@yahoo.com",
+              "age": 46,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "54878a64-25bc-4a39-9978-79b1b21ff072",
+              "legacyCmisId": 2836170128,
+              "name": "Wood, Ralph & Allison",
+              "nameSort": "Wood, Ralph & Allison",
+              "age": 83,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "40d1a88e-0c00-461c-8800-9c78c939ab9f",
+              "legacyCmisId": 8393420507,
+              "name": "Ross, Travis & Michelle",
+              "nameSort": "Ross, Travis & Michelle",
+              "age": 40,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2024-09-08T16:54:25.221+00:00",
+          "recentlyChangedDateInMilliseconds": 1725814465221
+        },
+        {
+          "id": "7b432504-aa14-4956-bb04-22f68b03dd55",
+          "ministers": [
+            {
+              "personUuid": "3e6be638-ec1b-49e1-a8e6-7145f47a27bd",
+              "legacyCmisId": 3021195244,
+              "name": "Murphy, Garrett",
+              "nameSort": "Murphy, Garrett",
+              "email": "garrettmurphy@gmail.com",
+              "age": 44,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "cf500c8c-beec-4748-b892-a79363e730a3",
+              "legacyCmisId": 4838934516,
+              "name": "Morgan, Ted",
+              "nameSort": "Morgan, Ted",
+              "email": "ted.morgan@comcast.net",
+              "age": 91,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "a1f64841-07d9-4f44-a224-cef3e51da264",
+              "legacyCmisId": 7118155619,
+              "name": "James, Rose",
+              "nameSort": "James, Rose",
+              "age": 86,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "1b092fe3-90e8-4051-a6a7-6131c2953a76",
+              "legacyCmisId": 3768953891,
+              "name": "Reynolds, Steve & Antoinette",
+              "nameSort": "Reynolds, Steve & Antoinette",
+              "age": 68,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "6077c434-4975-455f-a3db-0fca6840de2c",
+              "legacyCmisId": 2030143244,
+              "name": "Price, Amy Theresa",
+              "nameSort": "Price, Amy Theresa",
+              "age": 84,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-09-28T02:29:53.301+00:00",
+          "recentlyChangedDateInMilliseconds": 1759026593301
+        },
+        {
+          "id": "e94b523a-0433-4adb-8ae0-2656328e60b4",
+          "ministers": [
+            {
+              "personUuid": "1ba5f04e-548d-41fc-b2b6-6cf267650a63",
+              "legacyCmisId": 3310154206,
+              "name": "Abbott, Carl Mike",
+              "nameSort": "Abbott, Carl Mike",
+              "email": "carl mike.abbott@comcast.net",
+              "age": 17,
+              "priesthoodOffice": "PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "3f6700b8-83b2-4374-b3aa-d614f9b0809e",
+              "youthBasedOnAge": true
+            },
+            {
+              "personUuid": "4a43b010-21f4-423e-985d-65365a49136e",
+              "legacyCmisId": 3173734507,
+              "name": "Abbott, Michael",
+              "nameSort": "Abbott, Michael",
+              "email": "michaelabbott@gmail.com",
+              "age": 48,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "04be8817-8346-4053-a51e-9ac7189b6245",
+              "legacyCmisId": 9728323834,
+              "name": "Bode, Troy & Isadore",
+              "nameSort": "Bode, Troy & Isadore",
+              "age": 76,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "a95d0d86-7a0d-4752-b776-a6f9c1659d11",
+              "legacyCmisId": 7229100076,
+              "name": "Cook, Benjamin & Callie",
+              "nameSort": "Cook, Benjamin & Callie",
+              "age": 28,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "a2342afa-965e-4f74-8c2c-d1ffe739636a",
+              "legacyCmisId": 7017525082,
+              "name": "Martin, Tim & Courtney",
+              "nameSort": "Martin, Tim & Courtney",
+              "age": 43,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "4bcd5a4b-7962-4219-9d01-7b243635b91a",
+              "legacyCmisId": 5519137029,
+              "name": "Nelson, Larry Caleb",
+              "nameSort": "Nelson, Larry Caleb",
+              "age": 37,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2024-10-27T13:30:46.084+00:00",
+          "recentlyChangedDateInMilliseconds": 1730035846084
+        },
+        {
+          "id": "0aa2592d-0118-4964-8c14-00534d2ca587",
+          "ministers": [
+            {
+              "personUuid": "1b092fe3-90e8-4051-a6a7-6131c2953a76",
+              "legacyCmisId": 9081134685,
+              "name": "Reynolds, Steve",
+              "nameSort": "Reynolds, Steve",
+              "email": "stevereynolds@outlook.com",
+              "age": 68,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "1fd7aa33-7e0c-407a-8a06-912a828e0a10",
+              "legacyCmisId": 2151979593,
+              "name": "Bennett, Vern",
+              "nameSort": "Bennett, Vern",
+              "email": "vern88@yahoo.com",
+              "age": 85,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "c5b69dcd-0b26-4868-9f2a-622feef35a76",
+              "legacyCmisId": 8154133243,
+              "name": "Richardson, Matthew & Caroline",
+              "nameSort": "Richardson, Matthew & Caroline",
+              "age": 89,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "edb1ccc1-ad9a-4780-aa16-482bc212e871",
+              "legacyCmisId": 210262007,
+              "name": "Phillips, Walter & Coby",
+              "nameSort": "Phillips, Walter & Coby",
+              "age": 68,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "a334630e-f550-4ad2-b2c9-0945cc6f6c7e",
+              "legacyCmisId": 8296951669,
+              "name": "Wilson, Matt & Amy",
+              "nameSort": "Wilson, Matt & Amy",
+              "age": 77,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-11-30T14:43:16.571+00:00",
+          "recentlyChangedDateInMilliseconds": 1764513796571
+        },
+        {
+          "id": "7a653cb5-5019-486d-9862-d91a6ce9b08c",
+          "ministers": [
+            {
+              "personUuid": "202d03c9-cb0e-438a-92f7-0e9b8d0471b6",
+              "legacyCmisId": 5976145886,
+              "name": "Carter, Steven",
+              "nameSort": "Carter, Steven",
+              "email": "steven10@msn.com",
+              "age": 14,
+              "priesthoodOffice": "TEACHER",
+              "assignType": "EQ",
+              "unitOrgId": "b6735319-a976-4d87-b056-6989cdbf030a",
+              "youthBasedOnAge": true
+            },
+            {
+              "personUuid": "05230350-9919-4ff0-ac51-458ab3545fcf",
+              "legacyCmisId": 8246204164,
+              "name": "Turner, Blake",
+              "nameSort": "Turner, Blake",
+              "email": "blake68@comcast.net",
+              "age": 50,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "0494bc18-85ed-4bb7-9ebb-d4c355fdbb8f",
+              "legacyCmisId": 965031467,
+              "name": "Taylor, Anna Susan",
+              "nameSort": "Taylor, Anna Susan",
+              "age": 35,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "f4eec918-5cce-40cf-bc21-0aaf659dec6a",
+              "legacyCmisId": 2442432491,
+              "name": "Thomas, Josh & Chantelle",
+              "nameSort": "Thomas, Josh & Chantelle",
+              "age": 62,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "2978ee77-88fa-448a-8a92-0560d5e2073e",
+              "legacyCmisId": 4007041207,
+              "name": "Hall, Terri Catherine",
+              "nameSort": "Hall, Terri Catherine",
+              "age": 79,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "a00a6202-fb8f-49b4-a926-0316d6da83e0",
+              "legacyCmisId": 1775669289,
+              "name": "James, Thomas Bradley & Francis",
+              "nameSort": "James, Thomas Bradley & Francis",
+              "age": 26,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-03-09T21:41:16.494+00:00",
+          "recentlyChangedDateInMilliseconds": 1741556476494
+        },
+        {
+          "id": "407cdd6b-40aa-4c92-adac-c412137edb05",
+          "ministers": [
+            {
+              "personUuid": "e167fa60-91dc-476e-843f-cd3203c3b46f",
+              "legacyCmisId": 1377386078,
+              "name": "Bahringer, Jeffrey Harry",
+              "nameSort": "Bahringer, Jeffrey Harry",
+              "email": "jeffrey harry93@comcast.net",
+              "age": 17,
+              "priesthoodOffice": "PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "3f6700b8-83b2-4374-b3aa-d614f9b0809e",
+              "youthBasedOnAge": true
+            },
+            {
+              "personUuid": "dc6724ce-b710-4579-b0f5-d82cb881ae14",
+              "legacyCmisId": 1567220913,
+              "name": "Bahringer, Russell",
+              "nameSort": "Bahringer, Russell",
+              "email": "russell01@icloud.com",
+              "age": 45,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "46c88064-f4ea-458d-8e25-509d6ba62bda",
+              "legacyCmisId": 4825903841,
+              "name": "James, Nathan & Lucia",
+              "nameSort": "James, Nathan & Lucia",
+              "age": 43,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "e3f2119c-5f62-47ad-a794-af0e84f7523d",
+              "legacyCmisId": 6781590102,
+              "name": "Mitchell, Courtney",
+              "nameSort": "Mitchell, Courtney",
+              "age": 87,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "7fa17377-9528-4da5-aee3-0bdfe98037a8",
+              "legacyCmisId": 8897546212,
+              "name": "Mitchell, Allen & Vita",
+              "nameSort": "Mitchell, Allen & Vita",
+              "age": 46,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2024-05-09T01:51:44.794+00:00",
+          "recentlyChangedDateInMilliseconds": 1715219504794
+        },
+        {
+          "id": "cb912dc9-7056-47e1-885f-d7f8283aec44",
+          "ministers": [
+            {
+              "personUuid": "caa7a1d0-29b1-4ef9-a7b5-7efe4347559c",
+              "legacyCmisId": 2930091572,
+              "name": "Bennett, Joe Douglas",
+              "nameSort": "Bennett, Joe Douglas",
+              "email": "jbennett@gmail.com",
+              "age": 45,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "8cb986f8-4398-40db-ba15-ed4275af50e0",
+              "legacyCmisId": 689339399,
+              "name": "Bennett, Shawn",
+              "nameSort": "Bennett, Shawn",
+              "email": "shawn.bennett@hotmail.com",
+              "age": 14,
+              "priesthoodOffice": "TEACHER",
+              "assignType": "EQ",
+              "unitOrgId": "b6735319-a976-4d87-b056-6989cdbf030a",
+              "youthBasedOnAge": true
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "80f2e1d2-0b4b-481e-87b8-943876ab0561",
+              "legacyCmisId": 8844696370,
+              "name": "Clark, Arthur & Mandy",
+              "nameSort": "Clark, Arthur & Mandy",
+              "age": 42,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-03-09T20:58:18.526+00:00",
+          "recentlyChangedDateInMilliseconds": 1741553898526
+        },
+        {
+          "id": "7b2e2314-8fc6-499d-9b9a-b23bd6f366e4",
+          "ministers": [
+            {
+              "personUuid": "ebc13fb8-5057-4328-b939-e7de117965a0",
+              "legacyCmisId": 1953615012,
+              "name": "Reed, Jacob",
+              "nameSort": "Reed, Jacob",
+              "email": "jreed@outlook.com",
+              "age": 59,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "85a716f0-bda9-4b61-af6a-80fc2fb79181",
+              "legacyCmisId": 9121984663,
+              "name": "Thompson, Eugene John",
+              "nameSort": "Thompson, Eugene John",
+              "email": "eugene johnthompson@gmail.com",
+              "age": 43,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "b13eb033-4317-4b9a-a1fd-cde839bb815e",
+              "legacyCmisId": 4008133758,
+              "name": "Evans, Lance & Megan",
+              "nameSort": "Evans, Lance & Megan",
+              "age": 47,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "cc07ad0d-8354-4802-9d23-78c7c91266b9",
+              "legacyCmisId": 7334394476,
+              "name": "Wood, Alex Ed & Suzanne",
+              "nameSort": "Wood, Alex Ed & Suzanne",
+              "age": 40,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "b2eeaa0f-eea5-4e49-a1e2-38c930cfc7e6",
+              "legacyCmisId": 375148620,
+              "name": "Jones, Harold & Kathryn",
+              "nameSort": "Jones, Harold & Kathryn",
+              "age": 73,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2024-09-08T17:32:55.977+00:00",
+          "recentlyChangedDateInMilliseconds": 1725816775977
+        },
+        {
+          "id": "5883c494-63a6-4007-a296-af8cce3de65f",
+          "ministers": [
+            {
+              "personUuid": "29b73982-66fd-4beb-9e07-b9255458dbde",
+              "legacyCmisId": 3868697203,
+              "name": "Brown, Warren Leo",
+              "nameSort": "Brown, Warren Leo",
+              "email": "warren leo31@comcast.net",
+              "age": 16,
+              "priesthoodOffice": "PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "3f6700b8-83b2-4374-b3aa-d614f9b0809e",
+              "youthBasedOnAge": true
+            },
+            {
+              "personUuid": "b0c86892-6551-4225-9e36-4c033f92421c",
+              "legacyCmisId": 5705499244,
+              "name": "Brown, Larry",
+              "nameSort": "Brown, Larry",
+              "email": "larry.brown@comcast.net",
+              "age": 42,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "43eca42c-7390-4572-9f32-3c69007de18e",
+              "legacyCmisId": 3915914914,
+              "name": "Ross, Allen Darrell & Cordia",
+              "nameSort": "Ross, Allen Darrell & Cordia",
+              "age": 71,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "aea58af4-deae-46fb-a0e7-7927d0406bcf",
+              "legacyCmisId": 8121370682,
+              "name": "Lynch, Ted & Crystel",
+              "nameSort": "Lynch, Ted & Crystel",
+              "age": 78,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2023-01-22T10:35:33.332+00:00",
+          "recentlyChangedDateInMilliseconds": 1674383733332
+        },
+        {
+          "id": "401b4ab5-76f5-425a-9bee-47be57e57ec3",
+          "ministers": [
+            {
+              "personUuid": "b0c86892-6551-4225-9e36-4c033f92421c",
+              "legacyCmisId": 3594291401,
+              "name": "Brown, Larry",
+              "nameSort": "Brown, Larry",
+              "email": "larry.brown@msn.com",
+              "age": 42,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "db060afa-35f3-486c-ad5a-84482c115176",
+              "legacyCmisId": 200720798,
+              "name": "Brown, Blake Ross",
+              "nameSort": "Brown, Blake Ross",
+              "email": "blake ross36@icloud.com",
+              "age": 16,
+              "priesthoodOffice": "PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "3f6700b8-83b2-4374-b3aa-d614f9b0809e",
+              "youthBasedOnAge": true
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "c859f6e5-0363-40ed-bb21-1be618559b10",
+              "legacyCmisId": 4860237360,
+              "name": "White, Christine",
+              "nameSort": "White, Christine",
+              "age": 68,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "05cc7793-8075-4aa6-904a-11ac57ff4c9f",
+              "legacyCmisId": 9449435237,
+              "name": "Konopelski, Natalie",
+              "nameSort": "Konopelski, Natalie",
+              "age": 92,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "62df6b68-d183-45a0-b94a-2bafe40a9019",
+              "legacyCmisId": 4157414696,
+              "name": "Lewis, Tony & Miriam",
+              "nameSort": "Lewis, Tony & Miriam",
+              "age": 78,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-06-29T20:31:06.295+00:00",
+          "recentlyChangedDateInMilliseconds": 1751229066295
+        }
+      ],
+      "districtName": "District 1",
+      "districtUuid": "ba0432b3-739b-459d-91b5-183d0189b4df",
+      "supervisorName": "Breitenberg, David",
+      "supervisorLegacyCmisId": 7629260513,
+      "supervisorPersonUuid": "acd73bb3-e1fd-4bfb-9371-6b659d062b1a"
+    },
+    {
+      "companionships": [
+        {
+          "id": "8151f3a4-a3c1-4eda-a13d-1284395286b1",
+          "ministers": [
+            {
+              "personUuid": "04be8817-8346-4053-a51e-9ac7189b6245",
+              "legacyCmisId": 4421283936,
+              "name": "Bode, Troy",
+              "nameSort": "Bode, Troy",
+              "email": "tbode@hotmail.com",
+              "age": 76,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "a334630e-f550-4ad2-b2c9-0945cc6f6c7e",
+              "legacyCmisId": 3331459851,
+              "name": "Wilson, Matt",
+              "nameSort": "Wilson, Matt",
+              "email": "matt.wilson@icloud.com",
+              "age": 77,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "1cb5ef89-4974-4143-9899-66d7f7a0adff",
+              "legacyCmisId": 2755908306,
+              "name": "Shaw, Marsha",
+              "nameSort": "Shaw, Marsha",
+              "age": 71,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "259b782e-ea08-4aff-bd1f-9c65725d0226",
+              "legacyCmisId": 9347033547,
+              "name": "Jackson, Carolyn",
+              "nameSort": "Jackson, Carolyn",
+              "age": 76,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "6ecb8e72-d402-4994-abce-9cc447047127",
+              "legacyCmisId": 4318967418,
+              "name": "Bahringer, Jack & Malvina",
+              "nameSort": "Bahringer, Jack & Malvina",
+              "age": 44,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "e1c6c80f-19e1-48df-bb4b-bbd11af7ffee",
+              "legacyCmisId": 8465982257,
+              "name": "Roberts, Angela",
+              "nameSort": "Roberts, Angela",
+              "age": 77,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-06-29T20:32:09.072+00:00",
+          "recentlyChangedDateInMilliseconds": 1751229129072
+        },
+        {
+          "id": "b4960c18-557f-4629-9310-0662c2e90f47",
+          "ministers": [
+            {
+              "personUuid": "c50feef2-6cb2-4d33-9899-1e42efdca816",
+              "legacyCmisId": 7311370850,
+              "name": "Baker, Earl",
+              "nameSort": "Baker, Earl",
+              "email": "earl11@outlook.com",
+              "age": 45,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "eae54d6b-2c84-47b0-9a83-c447ae261c7b",
+              "legacyCmisId": 2447105908,
+              "name": "Hall, Nick",
+              "nameSort": "Hall, Nick",
+              "email": "nick.hall@gmail.com",
+              "age": 40,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "acd73bb3-e1fd-4bfb-9371-6b659d062b1a",
+              "legacyCmisId": 1563554566,
+              "name": "Breitenberg, David & Rosie",
+              "nameSort": "Breitenberg, David & Rosie",
+              "age": 51,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "e853c973-5f86-48c5-a29a-be51f69a83cc",
+              "legacyCmisId": 8428901180,
+              "name": "Smith, Homer & Verda",
+              "nameSort": "Smith, Homer & Verda",
+              "age": 42,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "762ec7ae-248c-40f7-b542-cf6fd7a680b0",
+              "legacyCmisId": 1509507209,
+              "name": "Murphy, Gordon & Frances",
+              "nameSort": "Murphy, Gordon & Frances",
+              "age": 50,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "0fe687eb-476f-421e-bed8-a91905e4f45a",
+              "legacyCmisId": 2426430903,
+              "name": "Green, Ron & Winnie",
+              "nameSort": "Green, Ron & Winnie",
+              "age": 38,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-08-31T20:58:48.300+00:00",
+          "recentlyChangedDateInMilliseconds": 1756673928300
+        },
+        {
+          "id": "ad3306ee-236c-4989-b17f-184899d680c4",
+          "ministers": [
+            {
+              "personUuid": "891c2dcb-0445-41e8-b467-98e7fd3e1d6e",
+              "legacyCmisId": 2729822797,
+              "name": "Bennett, Tom",
+              "nameSort": "Bennett, Tom",
+              "email": "tom.bennett@gmail.com",
+              "age": 14,
+              "priesthoodOffice": "TEACHER",
+              "assignType": "EQ",
+              "unitOrgId": "b6735319-a976-4d87-b056-6989cdbf030a",
+              "youthBasedOnAge": true
+            },
+            {
+              "personUuid": "a19792bd-310a-4983-9697-f2b66bbf21b9",
+              "legacyCmisId": 1177356629,
+              "name": "Bennett, Walter Shane",
+              "nameSort": "Bennett, Walter Shane",
+              "email": "walter shane30@gmail.com",
+              "age": 44,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "d62334a9-b5d3-47c2-b1e5-a0b509361241",
+              "legacyCmisId": 2216035063,
+              "name": "Lewis, Larry",
+              "nameSort": "Lewis, Larry",
+              "age": 75,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "8dd481e6-6474-45cd-b47d-0e3a98d158c3",
+              "legacyCmisId": 5241175349,
+              "name": "Morris, Jamie",
+              "nameSort": "Morris, Jamie",
+              "age": 73,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "5f1e71e4-02af-4172-ab13-38d809c213b9",
+              "legacyCmisId": 6019376898,
+              "name": "Palmer, Tim Clark & Jenna",
+              "nameSort": "Palmer, Tim Clark & Jenna",
+              "age": 71,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-03-23T20:12:08.832+00:00",
+          "recentlyChangedDateInMilliseconds": 1742760728832
+        },
+        {
+          "id": "064399a2-4387-45c1-bf1c-5d155ff3a822",
+          "ministers": [
+            {
+              "personUuid": "8b935c80-c0b3-4f55-b24e-f57be966b095",
+              "legacyCmisId": 4582026936,
+              "name": "Reed, Don",
+              "nameSort": "Reed, Don",
+              "email": "don22@gmail.com",
+              "age": 45,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "a69d07c8-a8f0-4712-a62f-f5a8da0cb8ee",
+              "legacyCmisId": 3421926482,
+              "name": "Palmer, Ted",
+              "nameSort": "Palmer, Ted",
+              "email": "tedpalmer@outlook.com",
+              "age": 75,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "26f6a64f-6e33-40a5-9d7f-2dccdca20e9c",
+              "legacyCmisId": 8908131707,
+              "name": "Miller, Seth",
+              "nameSort": "Miller, Seth",
+              "age": 71,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "c50feef2-6cb2-4d33-9899-1e42efdca816",
+              "legacyCmisId": 3560562703,
+              "name": "Baker, Earl & Olive",
+              "nameSort": "Baker, Earl & Olive",
+              "age": 45,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "7b958b00-72a3-4638-9100-f2b1187ffc97",
+              "legacyCmisId": 4796533457,
+              "name": "Collins, Walter",
+              "nameSort": "Collins, Walter",
+              "age": 33,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "f06e4449-7bea-43e4-8219-12449dc43f0e",
+              "legacyCmisId": 2983484290,
+              "name": "Collins, Melissa",
+              "nameSort": "Collins, Melissa",
+              "age": 35,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-11-24T23:59:38.297+00:00",
+          "recentlyChangedDateInMilliseconds": 1764028778297
+        },
+        {
+          "id": "bd43a3a1-981a-4735-871f-a1d594bb8346",
+          "ministers": [
+            {
+              "personUuid": "b13eb033-4317-4b9a-a1fd-cde839bb815e",
+              "legacyCmisId": 3442791560,
+              "name": "Evans, Lance",
+              "nameSort": "Evans, Lance",
+              "email": "lanceevans@icloud.com",
+              "age": 47,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "f306205c-95a3-40c9-ac0d-999d99fc7b63",
+              "legacyCmisId": 8343161525,
+              "name": "Evans, Clark Cody",
+              "nameSort": "Evans, Clark Cody",
+              "email": "clark cody40@msn.com",
+              "age": 14,
+              "priesthoodOffice": "TEACHER",
+              "assignType": "EQ",
+              "unitOrgId": "b6735319-a976-4d87-b056-6989cdbf030a",
+              "youthBasedOnAge": true
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "e7f31edf-aedd-496e-8687-970e79203b1e",
+              "legacyCmisId": 7861929038,
+              "name": "Stewart, Joyce",
+              "nameSort": "Stewart, Joyce",
+              "age": 45,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "f8ebb130-b5c5-4d22-a565-c15d1ff145c9",
+              "legacyCmisId": 278440106,
+              "name": "Watson, Mark",
+              "nameSort": "Watson, Mark",
+              "age": 49,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "8961e918-709c-4b3d-a5f1-793ca0973fe4",
+              "legacyCmisId": 3849208296,
+              "name": "Hickle, Seth & Lafayette",
+              "nameSort": "Hickle, Seth & Lafayette",
+              "age": 71,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "188cf09a-ffb8-4269-8bab-6b222e1c37e9",
+              "legacyCmisId": 6800081922,
+              "name": "Russell, Hunter & Kaysie",
+              "nameSort": "Russell, Hunter & Kaysie",
+              "age": 45,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "e35c39ba-bbf5-4e04-b0a1-da0bda0db657",
+              "legacyCmisId": 6104358543,
+              "name": "Thomas, Kent & Edith",
+              "nameSort": "Thomas, Kent & Edith",
+              "age": 38,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-10-19T20:35:00.341+00:00",
+          "recentlyChangedDateInMilliseconds": 1760906100341
+        },
+        {
+          "id": "bf61f9f1-52de-4822-b98b-46096ea64e05",
+          "ministers": [
+            {
+              "personUuid": "840b1489-9269-4fbe-ac93-a9978583c216",
+              "legacyCmisId": 6574926769,
+              "name": "Garcia, Raymond",
+              "nameSort": "Garcia, Raymond",
+              "email": "raymondgarcia@outlook.com",
+              "age": 77,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "f3b84c8a-5796-43f8-9b65-668872722e9a",
+              "legacyCmisId": 2557709962,
+              "name": "Anderson, Clayton",
+              "nameSort": "Anderson, Clayton",
+              "email": "clayton19@yahoo.com",
+              "age": 81,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "1088abf8-5c47-410f-8db6-2248ba4fb896",
+              "legacyCmisId": 6414587606,
+              "name": "Rogers, Douglas",
+              "nameSort": "Rogers, Douglas",
+              "age": 63,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "eac751ec-287a-4f98-b012-0bb2d2435476",
+              "legacyCmisId": 9547822110,
+              "name": "Simmons, Jim",
+              "nameSort": "Simmons, Jim",
+              "age": 49,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "4a998432-d922-4dba-864f-c4dc4621b4df",
+              "legacyCmisId": 6028948130,
+              "name": "Young, Tyler & Agnes",
+              "nameSort": "Young, Tyler & Agnes",
+              "age": 65,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "dc6724ce-b710-4579-b0f5-d82cb881ae14",
+              "legacyCmisId": 712614091,
+              "name": "Bahringer, Russell & Julia",
+              "nameSort": "Bahringer, Russell & Julia",
+              "age": 45,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-07-13T20:26:33.763+00:00",
+          "recentlyChangedDateInMilliseconds": 1752438393763
+        },
+        {
+          "id": "7443554f-e9ff-457f-893b-35330e4118f2",
+          "ministers": [
+            {
+              "personUuid": "979037f6-6b94-463f-8250-3c31701cceda",
+              "legacyCmisId": 4439208415,
+              "name": "Ross, Jerry",
+              "nameSort": "Ross, Jerry",
+              "email": "jerry.ross@outlook.com",
+              "age": 15,
+              "priesthoodOffice": "PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "3f6700b8-83b2-4374-b3aa-d614f9b0809e",
+              "youthBasedOnAge": true
+            },
+            {
+              "personUuid": "c83dbf23-3c21-4f0d-95d8-ee014ae793cf",
+              "legacyCmisId": 3210041589,
+              "name": "Ross, Glen",
+              "nameSort": "Ross, Glen",
+              "email": "gross@msn.com",
+              "age": 38,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "4a43b010-21f4-423e-985d-65365a49136e",
+              "legacyCmisId": 9740258155,
+              "name": "Abbott, Michael & Amber",
+              "nameSort": "Abbott, Michael & Amber",
+              "age": 48,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "566bea7c-a010-47d5-a6ed-a410148122a9",
+              "legacyCmisId": 6964213014,
+              "name": "Bennett, Suzanne",
+              "nameSort": "Bennett, Suzanne",
+              "age": 60,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "c3cdec6f-6a2f-4bc1-acca-471735231e86",
+              "legacyCmisId": 3041672333,
+              "name": "Reynolds, Pete & Johanna",
+              "nameSort": "Reynolds, Pete & Johanna",
+              "age": 66,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "e994996f-eb87-424c-a7e2-8a8ef122a5b6",
+              "legacyCmisId": 1585220273,
+              "name": "Kutch, Madison",
+              "nameSort": "Kutch, Madison",
+              "age": 82,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2024-01-26T04:15:04.409+00:00",
+          "recentlyChangedDateInMilliseconds": 1706242504409
+        },
+        {
+          "id": "49d557ac-596b-4246-9e9f-1769cdaaf6de",
+          "ministers": [
+            {
+              "personUuid": "0a403cd7-6f33-4426-9e96-e039906aba51",
+              "legacyCmisId": 7318115528,
+              "name": "Brown, Donald Rob",
+              "nameSort": "Brown, Donald Rob",
+              "email": "donald robbrown@hotmail.com",
+              "age": 86,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "31149fee-241c-4183-93fc-d9daf49b6ef7",
+              "legacyCmisId": 4630231394,
+              "name": "Johnson, Marvin Tim",
+              "nameSort": "Johnson, Marvin Tim",
+              "email": "marvin tim00@msn.com",
+              "age": 91,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "281c91d8-eee1-41f7-a3c4-bdc46672788d",
+              "legacyCmisId": 3377507133,
+              "name": "Hall, Katie",
+              "nameSort": "Hall, Katie",
+              "age": 81,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "6c4449d7-6f17-4614-80e9-d89be15bffa3",
+              "legacyCmisId": 4237583298,
+              "name": "Robinson, Ashley",
+              "nameSort": "Robinson, Ashley",
+              "age": 71,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2023-05-28T14:00:23.330+00:00",
+          "recentlyChangedDateInMilliseconds": 1685282423330
+        },
+        {
+          "id": "610e36fd-18bb-4c72-97a9-11f24c62797e",
+          "ministers": [
+            {
+              "personUuid": "a95d0d86-7a0d-4752-b776-a6f9c1659d11",
+              "legacyCmisId": 6647188390,
+              "name": "Cook, Benjamin",
+              "nameSort": "Cook, Benjamin",
+              "email": "benjamincook@gmail.com",
+              "age": 28,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "2d7e7420-8169-442c-af12-f0f0d4f5a13c",
+              "legacyCmisId": 5938733351,
+              "name": "Wright, Craig",
+              "nameSort": "Wright, Craig",
+              "email": "craig15@yahoo.com",
+              "age": 84,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "ee59ef87-4f29-4446-bf09-12784514ff59",
+              "legacyCmisId": 2335145400,
+              "name": "Phillips, Brett & Tami",
+              "nameSort": "Phillips, Brett & Tami",
+              "age": 65,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "11996608-8211-4193-842f-d35370a8e2cc",
+              "legacyCmisId": 1778767319,
+              "name": "Ernser, Nick Brad & Darlene",
+              "nameSort": "Ernser, Nick Brad & Darlene",
+              "age": 58,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "8ab4cf7b-ba8e-470d-8ad2-0e2cdb2ae667",
+              "legacyCmisId": 5005823969,
+              "name": "Terry, Kelly & Rachael",
+              "nameSort": "Terry, Kelly & Rachael",
+              "age": 87,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "627bc726-c6b8-43c1-b831-87bbb6a969f3",
+              "legacyCmisId": 3772983031,
+              "name": "Collins, Bryan Alan & Tracy",
+              "nameSort": "Collins, Bryan Alan & Tracy",
+              "age": 44,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2024-05-09T02:00:34.458+00:00",
+          "recentlyChangedDateInMilliseconds": 1715220034458
+        },
+        {
+          "id": "243748ac-b318-4318-85c5-fc089b7754f5",
+          "ministers": [
+            {
+              "personUuid": "e88a6a00-78e1-4d36-b562-8c77db74e934",
+              "legacyCmisId": 1756118919,
+              "name": "Price, Keith",
+              "nameSort": "Price, Keith",
+              "email": "kprice@msn.com",
+              "age": 43,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "e5a3398c-ca7e-49fd-a059-b8c4209b5901",
+              "legacyCmisId": 8250040748,
+              "name": "Thompson, Ethan",
+              "nameSort": "Thompson, Ethan",
+              "email": "ethan11@outlook.com",
+              "age": 34,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "3e6be638-ec1b-49e1-a8e6-7145f47a27bd",
+              "legacyCmisId": 5034930657,
+              "name": "Murphy, Garrett & Leigh",
+              "nameSort": "Murphy, Garrett & Leigh",
+              "age": 44,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "6057ff22-2c02-4831-8548-f15ee6b1bf87",
+              "legacyCmisId": 425083138,
+              "name": "Ross, Albert Dan & Alexandrine",
+              "nameSort": "Ross, Albert Dan & Alexandrine",
+              "age": 47,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "7184606c-8074-476e-90ad-f28072d188fa",
+              "legacyCmisId": 7243792191,
+              "name": "Shaw, Leah",
+              "nameSort": "Shaw, Leah",
+              "age": 32,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-12-02T00:02:36.567+00:00",
+          "recentlyChangedDateInMilliseconds": 1764633756567
+        },
+        {
+          "id": "3a8fd691-6b97-42c4-9d95-03ed97a7a4db",
+          "ministers": [
+            {
+              "personUuid": "46c88064-f4ea-458d-8e25-509d6ba62bda",
+              "legacyCmisId": 8323594536,
+              "name": "James, Nathan",
+              "nameSort": "James, Nathan",
+              "email": "nathan10@outlook.com",
+              "age": 43,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "96c8ef26-a44d-4fc8-b787-83ecaf41df90",
+              "legacyCmisId": 8664695961,
+              "name": "James, Dylan",
+              "nameSort": "James, Dylan",
+              "email": "dylanjames@comcast.net",
+              "age": 20,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "e5806dc3-3de1-475d-913c-07756829cc22",
+              "legacyCmisId": 9621189076,
+              "name": "Palmer, Alan Ralph & Sarah",
+              "nameSort": "Palmer, Alan Ralph & Sarah",
+              "age": 25,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "29d0b57e-5701-440a-b682-4af0e9981195",
+              "legacyCmisId": 2489472462,
+              "name": "Morgan, Kirk",
+              "nameSort": "Morgan, Kirk",
+              "age": 49,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "3349a036-5eca-45bd-a9cb-94b3ccd731be",
+              "legacyCmisId": 7644747138,
+              "name": "White, Ryan",
+              "nameSort": "White, Ryan",
+              "age": 92,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "a2c42614-5dc7-4b95-aba9-9a6d2e5296d6",
+              "legacyCmisId": 5781305247,
+              "name": "Campbell, Dana",
+              "nameSort": "Campbell, Dana",
+              "age": 86,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-07-13T20:27:09.299+00:00",
+          "recentlyChangedDateInMilliseconds": 1752438429299
+        },
+        {
+          "id": "08c4e312-d6c8-47c6-8c1a-be396612db6d",
+          "ministers": [
+            {
+              "personUuid": "4a998432-d922-4dba-864f-c4dc4621b4df",
+              "legacyCmisId": 6285261778,
+              "name": "Young, Tyler",
+              "nameSort": "Young, Tyler",
+              "email": "tyler83@msn.com",
+              "age": 65,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "5f1e71e4-02af-4172-ab13-38d809c213b9",
+              "legacyCmisId": 4331934640,
+              "name": "Palmer, Tim Clark",
+              "nameSort": "Palmer, Tim Clark",
+              "email": "tim clarkpalmer@comcast.net",
+              "age": 71,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "f04452c1-a11e-43d8-91f3-d2d08ceede34",
+              "legacyCmisId": 5941257118,
+              "name": "Davis, Walter Raymond",
+              "nameSort": "Davis, Walter Raymond",
+              "age": 31,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "d9d86e0d-3d29-4e7b-bcbe-720328200d95",
+              "legacyCmisId": 5547813356,
+              "name": "Phillips, Diane",
+              "nameSort": "Phillips, Diane",
+              "age": 49,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "cf500c8c-beec-4748-b892-a79363e730a3",
+              "legacyCmisId": 9189278803,
+              "name": "Morgan, Ted & Marnie",
+              "nameSort": "Morgan, Ted & Marnie",
+              "age": 91,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "6d968f13-ff22-460a-9107-f65f86638742",
+              "legacyCmisId": 8276373065,
+              "name": "Morar, Joel & Daija",
+              "nameSort": "Morar, Joel & Daija",
+              "age": 62,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-03-09T21:20:25.021+00:00",
+          "recentlyChangedDateInMilliseconds": 1741555225021
+        },
+        {
+          "id": "19e1dc84-6f39-413c-94f8-80f2866aa27c",
+          "ministers": [
+            {
+              "personUuid": "80032445-610a-487a-8d6a-fd6a28f8e6f9",
+              "legacyCmisId": 1741464261,
+              "name": "Thomas, Dave Clark",
+              "nameSort": "Thomas, Dave Clark",
+              "email": "dave clark.thomas@hotmail.com",
+              "age": 43,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "c4005302-1e28-4981-9506-38b866d3bc64",
+              "legacyCmisId": 5455268807,
+              "name": "Thomas, Curtis",
+              "nameSort": "Thomas, Curtis",
+              "email": "cthomas@gmail.com",
+              "age": 17,
+              "priesthoodOffice": "PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "3f6700b8-83b2-4374-b3aa-d614f9b0809e",
+              "youthBasedOnAge": true
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "caa7a1d0-29b1-4ef9-a7b5-7efe4347559c",
+              "legacyCmisId": 321835205,
+              "name": "Bennett, Joe Douglas & Diane",
+              "nameSort": "Bennett, Joe Douglas & Diane",
+              "age": 45,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "f0e8f18f-8ab7-4a9e-a04f-e79437591ffb",
+              "legacyCmisId": 2135718006,
+              "name": "Robinson, Anthony & Ana",
+              "nameSort": "Robinson, Anthony & Ana",
+              "age": 46,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "ebc13fb8-5057-4328-b939-e7de117965a0",
+              "legacyCmisId": 8354504479,
+              "name": "Reed, Jacob & Colleen",
+              "nameSort": "Reed, Jacob & Colleen",
+              "age": 59,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2024-10-14T00:58:43.745+00:00",
+          "recentlyChangedDateInMilliseconds": 1728867523745
+        },
+        {
+          "id": "ccd3b5a1-bf01-4164-8c77-b55cc02354ad",
+          "ministers": [
+            {
+              "personUuid": "dc79b87a-8a9b-4a8a-b730-89f5631c39b7",
+              "legacyCmisId": 5673502599,
+              "name": "Wood, Ronald",
+              "nameSort": "Wood, Ronald",
+              "email": "rwood@hotmail.com",
+              "age": 48,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "0fe687eb-476f-421e-bed8-a91905e4f45a",
+              "legacyCmisId": 2003697411,
+              "name": "Green, Ron",
+              "nameSort": "Green, Ron",
+              "email": "rongreen@gmail.com",
+              "age": 38,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "e88a6a00-78e1-4d36-b562-8c77db74e934",
+              "legacyCmisId": 3074658885,
+              "name": "Price, Keith & Leigh",
+              "nameSort": "Price, Keith & Leigh",
+              "age": 43,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "18ac9ef1-6058-4ed2-9198-4ee6e6b71e7b",
+              "legacyCmisId": 2201637426,
+              "name": "Parker, James & Gina",
+              "nameSort": "Parker, James & Gina",
+              "age": 77,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "05b1ee1f-4106-4a5d-9b5b-f147784aa917",
+              "legacyCmisId": 6325605546,
+              "name": "Gottlieb-Kihn, Marilyn",
+              "nameSort": "Gottlieb-Kihn, Marilyn",
+              "age": 42,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "eade7031-3612-4757-b6ae-11d8c3dea1ec",
+              "legacyCmisId": 2518123407,
+              "name": "Labadie, Clark",
+              "nameSort": "Labadie, Clark",
+              "age": 42,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "7c70be89-2336-4e83-b469-769310415cb9",
+              "legacyCmisId": 4991451827,
+              "name": "Reed, Norma",
+              "nameSort": "Reed, Norma",
+              "age": 70,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-10-19T20:35:34.698+00:00",
+          "recentlyChangedDateInMilliseconds": 1760906134698
+        },
+        {
+          "id": "77c3ec52-4580-4e14-a14d-93dccd98538e",
+          "ministers": [
+            {
+              "personUuid": "9eb2d478-dee0-4e04-8879-7e34e19a8b2d",
+              "legacyCmisId": 9204107931,
+              "name": "Reynolds, Neil Drew",
+              "nameSort": "Reynolds, Neil Drew",
+              "email": "neil drew66@hotmail.com",
+              "age": 46,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "9d3b0e1e-77ff-4a28-a889-0bb199a1a48c",
+              "legacyCmisId": 6485915921,
+              "name": "Reynolds, Eric",
+              "nameSort": "Reynolds, Eric",
+              "email": "ericreynolds@yahoo.com",
+              "age": 17,
+              "priesthoodOffice": "PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "3f6700b8-83b2-4374-b3aa-d614f9b0809e",
+              "youthBasedOnAge": true
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "2d7e7420-8169-442c-af12-f0f0d4f5a13c",
+              "legacyCmisId": 3664187686,
+              "name": "Wright, Craig & Jeannette",
+              "nameSort": "Wright, Craig & Jeannette",
+              "age": 84,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "818053fb-5183-48d9-aa8e-e8472a8137e9",
+              "legacyCmisId": 9061726742,
+              "name": "Peterson, Jonathan & Natalie",
+              "nameSort": "Peterson, Jonathan & Natalie",
+              "age": 74,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "4c815ec5-f1f3-4065-b8cd-6620a1b83827",
+              "legacyCmisId": 4015326509,
+              "name": "Morgan, Sue",
+              "nameSort": "Morgan, Sue",
+              "age": 65,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "22c7214c-5268-40a6-80ab-a586b91aa5ed",
+              "legacyCmisId": 5685377326,
+              "name": "Lee, Anne",
+              "nameSort": "Lee, Anne",
+              "age": 85,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2024-09-08T17:21:43.654+00:00",
+          "recentlyChangedDateInMilliseconds": 1725816103654
+        },
+        {
+          "id": "effb20dd-b4a5-476e-b395-a9e13c528a04",
+          "ministers": [
+            {
+              "personUuid": "ad03aea6-5bb9-44e8-8c35-d087c43e913f",
+              "legacyCmisId": 5250421209,
+              "name": "Cummerata, Sean Bryan",
+              "nameSort": "Cummerata, Sean Bryan",
+              "email": "sean bryancummerata@gmail.com",
+              "age": 43,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "678bb665-87eb-4ebf-9af2-09f638a5bfe4",
+              "legacyCmisId": 8291174921,
+              "name": "Cummerata, Fred",
+              "nameSort": "Cummerata, Fred",
+              "email": "fred.cummerata@icloud.com",
+              "age": 16,
+              "priesthoodOffice": "PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "3f6700b8-83b2-4374-b3aa-d614f9b0809e",
+              "youthBasedOnAge": true
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "a19792bd-310a-4983-9697-f2b66bbf21b9",
+              "legacyCmisId": 5775622355,
+              "name": "Bennett, Walter Shane & Marjorie",
+              "nameSort": "Bennett, Walter Shane & Marjorie",
+              "age": 44,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "67e1c202-c6d8-40b1-ac25-cf5d3ca34263",
+              "legacyCmisId": 3418954219,
+              "name": "White, Samantha",
+              "nameSort": "White, Samantha",
+              "age": 78,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "7cb51424-4afa-4ecb-965d-e70c40c8ae88",
+              "legacyCmisId": 2982271818,
+              "name": "Watson, Clayton & Jaime",
+              "nameSort": "Watson, Clayton & Jaime",
+              "age": 48,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "a2bbe3f2-9a67-4ea7-a201-fcf0a0c6194a",
+              "legacyCmisId": 4463698760,
+              "name": "White, Patrick & Maci",
+              "nameSort": "White, Patrick & Maci",
+              "age": 42,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2024-09-08T17:47:28.625+00:00",
+          "recentlyChangedDateInMilliseconds": 1725817648625
+        },
+        {
+          "id": "6541458c-6fdf-4e99-b2b9-8b786bedc0e4",
+          "ministers": [
+            {
+              "personUuid": "f2f137f7-8bfc-4341-ba24-e596156e56cc",
+              "legacyCmisId": 2049984220,
+              "name": "Ziemann, Ronald",
+              "nameSort": "Ziemann, Ronald",
+              "email": "ronald.ziemann@outlook.com",
+              "age": 18,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "a8278f5f-8332-4707-afac-174e2798d36c",
+              "legacyCmisId": 6818376181,
+              "name": "Ziemann, Vern",
+              "nameSort": "Ziemann, Vern",
+              "email": "vernziemann@outlook.com",
+              "age": 43,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "c518dc2a-33d3-440d-9cac-27517e0433e7",
+              "legacyCmisId": 5532847886,
+              "name": "Hintz, Dale & Amberlie",
+              "nameSort": "Hintz, Dale & Amberlie",
+              "age": 33,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "28bac78c-6b66-4c25-b353-9cc5f96dbb37",
+              "legacyCmisId": 4070569512,
+              "name": "Phillips, Rose",
+              "nameSort": "Phillips, Rose",
+              "age": 70,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "31149fee-241c-4183-93fc-d9daf49b6ef7",
+              "legacyCmisId": 3100727360,
+              "name": "Johnson, Marvin Tim",
+              "nameSort": "Johnson, Marvin Tim",
+              "age": 91,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "87f9c5d9-b48a-49ee-bfaf-d463030b65cd",
+              "legacyCmisId": 9656591435,
+              "name": "Nader, Carter & Margie",
+              "nameSort": "Nader, Carter & Margie",
+              "age": 66,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2021-09-18T14:30:16.629+00:00",
+          "recentlyChangedDateInMilliseconds": 1631975416629
+        }
+      ],
+      "districtName": "District 2",
+      "districtUuid": "db7605d6-7440-4979-98cc-c75e02690b87",
+      "supervisorName": "Price, Keith",
+      "supervisorLegacyCmisId": 5242921614,
+      "supervisorPersonUuid": "e88a6a00-78e1-4d36-b562-8c77db74e934"
+    },
+    {
+      "companionships": [
+        {
+          "id": "214b9798-41e9-4b7c-b90e-421bbbe589f4",
+          "ministers": [
+            {
+              "personUuid": "26f6a64f-6e33-40a5-9d7f-2dccdca20e9c",
+              "legacyCmisId": 1572469897,
+              "name": "Green, Seth",
+              "nameSort": "Green, Seth",
+              "email": "sethgreen@comcast.net",
+              "age": 71,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "c3cdec6f-6a2f-4bc1-acca-471735231e86",
+              "legacyCmisId": 873497325,
+              "name": "Reynolds, Pete",
+              "nameSort": "Reynolds, Pete",
+              "email": "preynolds@gmail.com",
+              "age": 66,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "8b935c80-c0b3-4f55-b24e-f57be966b095",
+              "legacyCmisId": 2174341076,
+              "name": "Reed, Don & Audrey",
+              "nameSort": "Reed, Don & Audrey",
+              "age": 45,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "3ff35ef7-58b4-4b00-a655-7534f679f3ab",
+              "legacyCmisId": 179923638,
+              "name": "Price, Allison Madison",
+              "nameSort": "Price, Allison Madison",
+              "age": 68,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "d7c9c5d4-8375-44f2-acf0-b406e098d1aa",
+              "legacyCmisId": 9979610121,
+              "name": "Nikolaus, Ron & Raven",
+              "nameSort": "Nikolaus, Ron & Raven",
+              "age": 78,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "5abb1a40-667b-4450-8a95-b878aa422ad6",
+              "legacyCmisId": 2423825826,
+              "name": "Nader, Rob & Allison",
+              "nameSort": "Nader, Rob & Allison",
+              "age": 52,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2024-09-08T17:39:24.652+00:00",
+          "recentlyChangedDateInMilliseconds": 1725817164652
+        },
+        {
+          "id": "9f11ba4d-2e31-4538-ba7a-50fd17a39832",
+          "ministers": [
+            {
+              "personUuid": "93a9209c-83a1-4722-a360-6876d280199e",
+              "legacyCmisId": 3293605816,
+              "name": "Murray, Glen",
+              "nameSort": "Murray, Glen",
+              "email": "glen.murray@yahoo.com",
+              "age": 43,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "1685ba5c-aa80-4b6f-9d94-357482f1ee8b",
+              "legacyCmisId": 8738427766,
+              "name": "Young, Wade",
+              "nameSort": "Young, Wade",
+              "email": "wade34@icloud.com",
+              "age": 41,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "d8d66e4d-7849-4504-a0ff-6b5acf6c4f09",
+              "legacyCmisId": 2194679945,
+              "name": "Wood, Leslie",
+              "nameSort": "Wood, Leslie",
+              "age": 71,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "b63af47a-8dc0-4fcd-8ad1-5e31cd2da8d6",
+              "legacyCmisId": 4740731845,
+              "name": "O'Conner, Kevin Blake",
+              "nameSort": "O'Conner, Kevin Blake",
+              "age": 58,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "05230350-9919-4ff0-ac51-458ab3545fcf",
+              "legacyCmisId": 6122450624,
+              "name": "Turner, Blake & Kamille",
+              "nameSort": "Turner, Blake & Kamille",
+              "age": 50,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-08-31T21:22:18.668+00:00",
+          "recentlyChangedDateInMilliseconds": 1756675338668
+        },
+        {
+          "id": "8368ca6f-1353-4a02-94ae-c2904c727367",
+          "ministers": [
+            {
+              "personUuid": "43eca42c-7390-4572-9f32-3c69007de18e",
+              "legacyCmisId": 9375992609,
+              "name": "Ross, Allen Darrell",
+              "nameSort": "Ross, Allen Darrell",
+              "email": "allen darrell87@outlook.com",
+              "age": 71,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "11996608-8211-4193-842f-d35370a8e2cc",
+              "legacyCmisId": 5019198608,
+              "name": "Ernser, Nick Brad",
+              "nameSort": "Ernser, Nick Brad",
+              "email": "nick bradernser@gmail.com",
+              "age": 58,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "bcd606a7-b5a2-4b83-84b7-3fbf67e8b471",
+              "legacyCmisId": 4501800009,
+              "name": "Stewart, Alan",
+              "nameSort": "Stewart, Alan",
+              "age": 86,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "92132489-ca96-476d-b30a-3ed11794b950",
+              "legacyCmisId": 3803638422,
+              "name": "McGlynn, Todd & Vida",
+              "nameSort": "McGlynn, Todd & Vida",
+              "age": 52,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "c751849f-137f-4ce5-bf10-de11013facc8",
+              "legacyCmisId": 5472960657,
+              "name": "Baker, Mitchell",
+              "nameSort": "Baker, Mitchell",
+              "age": 75,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "4581a5ad-2e8e-4396-ac97-e639977fb13f",
+              "legacyCmisId": 8527319395,
+              "name": "Jenkins, Hannah Pam",
+              "nameSort": "Jenkins, Hannah Pam",
+              "age": 90,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "96c8ef26-a44d-4fc8-b787-83ecaf41df90",
+              "legacyCmisId": 2890630129,
+              "name": "James, Dylan & Cassandra",
+              "nameSort": "James, Dylan & Cassandra",
+              "age": 20,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-08-31T21:00:38.817+00:00",
+          "recentlyChangedDateInMilliseconds": 1756674038817
+        },
+        {
+          "id": "e257df6e-22f8-427c-add9-d89c61593240",
+          "ministers": [
+            {
+              "personUuid": "ee59ef87-4f29-4446-bf09-12784514ff59",
+              "legacyCmisId": 2661284461,
+              "name": "Phillips, Brett",
+              "nameSort": "Phillips, Brett",
+              "email": "brettphillips@gmail.com",
+              "age": 65,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "18ac9ef1-6058-4ed2-9198-4ee6e6b71e7b",
+              "legacyCmisId": 2412637730,
+              "name": "Parker, James",
+              "nameSort": "Parker, James",
+              "email": "james.parker@msn.com",
+              "age": 77,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "22486492-457c-4389-9092-1ffc41a7170e",
+              "legacyCmisId": 2258869592,
+              "name": "Clark, Maria Joyce",
+              "nameSort": "Clark, Maria Joyce",
+              "age": 46,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "13074944-b0ed-4a9e-a213-c09fd81d911e",
+              "legacyCmisId": 8974679656,
+              "name": "Hill, Sean & Bessie",
+              "nameSort": "Hill, Sean & Bessie",
+              "age": 43,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "62810831-6ebd-4dfc-8952-af7b76685bde",
+              "legacyCmisId": 8535078584,
+              "name": "Cooper, Evan & Vena",
+              "nameSort": "Cooper, Evan & Vena",
+              "age": 78,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "29573d9f-912f-4b0b-a642-d1442804e457",
+              "legacyCmisId": 8484190285,
+              "name": "Green, Dustin",
+              "nameSort": "Green, Dustin",
+              "age": 89,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "38c464db-d211-428f-a5f0-e2e0f3476af9",
+              "legacyCmisId": 6644746124,
+              "name": "Taylor, Fred",
+              "nameSort": "Taylor, Fred",
+              "age": 48,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-08-31T20:59:36.908+00:00",
+          "recentlyChangedDateInMilliseconds": 1756673976908
+        },
+        {
+          "id": "d36adad7-bf2e-48ae-8668-074e17feb945",
+          "ministers": [
+            {
+              "personUuid": "cc07ad0d-8354-4802-9d23-78c7c91266b9",
+              "legacyCmisId": 7882472147,
+              "name": "Wood, Alex Ed",
+              "nameSort": "Wood, Alex Ed",
+              "email": "alex ed.wood@hotmail.com",
+              "age": 40,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "b14102e3-f937-43fd-80fb-1aa3c170fc25",
+              "legacyCmisId": 5594524476,
+              "name": "Moore, Doug",
+              "nameSort": "Moore, Doug",
+              "email": "dougmoore@comcast.net",
+              "age": 64,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "a8c8d88e-620c-49b3-b205-966e58c69df2",
+              "legacyCmisId": 850028998,
+              "name": "Rogers, Nancy Gail",
+              "nameSort": "Rogers, Nancy Gail",
+              "age": 82,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "ad03aea6-5bb9-44e8-8c35-d087c43e913f",
+              "legacyCmisId": 692013485,
+              "name": "Cummerata, Sean Bryan & Claire",
+              "nameSort": "Cummerata, Sean Bryan & Claire",
+              "age": 43,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "def7a656-b8db-40a6-97d8-eb8c00173f8a",
+              "legacyCmisId": 1432819253,
+              "name": "Stroman, Kirk & Kandice",
+              "nameSort": "Stroman, Kirk & Kandice",
+              "age": 39,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2024-09-08T17:40:04.619+00:00",
+          "recentlyChangedDateInMilliseconds": 1725817204619
+        },
+        {
+          "id": "017aa2a6-7c52-4d34-9bac-25284b006fef",
+          "ministers": [
+            {
+              "personUuid": "acd73bb3-e1fd-4bfb-9371-6b659d062b1a",
+              "legacyCmisId": 561028014,
+              "name": "Breitenberg, David",
+              "nameSort": "Breitenberg, David",
+              "email": "david.breitenberg@hotmail.com",
+              "age": 51,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "ca37c78c-a6e2-4f10-be3b-cdf4b16d598a",
+              "legacyCmisId": 656045028,
+              "name": "Breitenberg, Mark",
+              "nameSort": "Breitenberg, Mark",
+              "email": "mark.breitenberg@outlook.com",
+              "age": 21,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "4f9698c4-5efe-46c7-a739-25d311f86cd5",
+              "legacyCmisId": 3577131503,
+              "name": "Peterson, Chelsea",
+              "nameSort": "Peterson, Chelsea",
+              "age": 71,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "93a9209c-83a1-4722-a360-6876d280199e",
+              "legacyCmisId": 1214430490,
+              "name": "Murray, Glen & Nina",
+              "nameSort": "Murray, Glen & Nina",
+              "age": 43,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "8f14336d-e38a-4863-976c-c21e8d088d13",
+              "legacyCmisId": 4486708834,
+              "name": "Carter, Ken Ben & Aleen",
+              "nameSort": "Carter, Ken Ben & Aleen",
+              "age": 43,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "b14102e3-f937-43fd-80fb-1aa3c170fc25",
+              "legacyCmisId": 5781837966,
+              "name": "Moore, Doug & Verna",
+              "nameSort": "Moore, Doug & Verna",
+              "age": 64,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-10-19T20:30:25.576+00:00",
+          "recentlyChangedDateInMilliseconds": 1760905825576
+        },
+        {
+          "id": "2867382b-91e9-450a-85e0-0ff0b3bd1300",
+          "ministers": [
+            {
+              "personUuid": "b95951f2-1e4a-4564-a56b-8f089e09d3e0",
+              "legacyCmisId": 8026755328,
+              "name": "Harris, Terry",
+              "nameSort": "Harris, Terry",
+              "email": "terry.harris@hotmail.com",
+              "age": 93,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "b2eeaa0f-eea5-4e49-a1e2-38c930cfc7e6",
+              "legacyCmisId": 4349041019,
+              "name": "Jones, Harold",
+              "nameSort": "Jones, Harold",
+              "email": "hjones@gmail.com",
+              "age": 73,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "543245a1-3c25-4d21-8749-c2982947174d",
+              "legacyCmisId": 2651603465,
+              "name": "Russell, Jodi",
+              "nameSort": "Russell, Jodi",
+              "age": 75,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "bcf09651-9719-4bce-86fd-426699b81d4f",
+              "legacyCmisId": 6774455367,
+              "name": "Bennett, Norma Julia",
+              "nameSort": "Bennett, Norma Julia",
+              "age": 88,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "a69d07c8-a8f0-4712-a62f-f5a8da0cb8ee",
+              "legacyCmisId": 2742824874,
+              "name": "Palmer, Ted & Lexie",
+              "nameSort": "Palmer, Ted & Lexie",
+              "age": 75,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-06-29T20:36:23.385+00:00",
+          "recentlyChangedDateInMilliseconds": 1751229383385
+        },
+        {
+          "id": "4d029d5a-819d-4f0a-a609-16457583ad38",
+          "ministers": [
+            {
+              "personUuid": "54878a64-25bc-4a39-9978-79b1b21ff072",
+              "legacyCmisId": 5689798699,
+              "name": "Wood, Ralph",
+              "nameSort": "Wood, Ralph",
+              "email": "ralph.wood@hotmail.com",
+              "age": 83,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "0a403cd7-6f33-4426-9e96-e039906aba51",
+              "legacyCmisId": 5125723413,
+              "name": "Brown, Donald Rob & Alma",
+              "nameSort": "Brown, Donald Rob & Alma",
+              "age": 86,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "6c9b470d-f602-4a9c-84cb-5827e6d93986",
+              "legacyCmisId": 6577119161,
+              "name": "Scott, Brenda Stacy",
+              "nameSort": "Scott, Brenda Stacy",
+              "age": 76,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "b9991a77-d041-404f-94a1-9f4df94ad275",
+              "legacyCmisId": 7616156207,
+              "name": "Davis, Darrell",
+              "nameSort": "Davis, Darrell",
+              "age": 36,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2024-10-14T01:00:00.586+00:00",
+          "recentlyChangedDateInMilliseconds": 1728867600586
+        },
+        {
+          "id": "1f9539e8-a564-4b53-85db-5e10211a9abc",
+          "ministers": [
+            {
+              "personUuid": "d7c9c5d4-8375-44f2-acf0-b406e098d1aa",
+              "legacyCmisId": 6260804781,
+              "name": "Nikolaus, Ron",
+              "nameSort": "Nikolaus, Ron",
+              "email": "ronnikolaus@icloud.com",
+              "age": 78,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "818053fb-5183-48d9-aa8e-e8472a8137e9",
+              "legacyCmisId": 6569601190,
+              "name": "Peterson, Jonathan",
+              "nameSort": "Peterson, Jonathan",
+              "email": "jonathanpeterson@comcast.net",
+              "age": 74,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "f3b84c8a-5796-43f8-9b65-668872722e9a",
+              "legacyCmisId": 768948307,
+              "name": "Anderson, Clayton & Bernice",
+              "nameSort": "Anderson, Clayton & Bernice",
+              "age": 81,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "24992cc3-4fdb-4168-9279-5cd5d1d21a7e",
+              "legacyCmisId": 1061881460,
+              "name": "Price, Derek & Jeannie",
+              "nameSort": "Price, Derek & Jeannie",
+              "age": 67,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "d08318b6-a764-465a-b11a-8626ceb0a353",
+              "legacyCmisId": 7472017585,
+              "name": "Ross, Sara Cheryl",
+              "nameSort": "Ross, Sara Cheryl",
+              "age": 66,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "0c659b32-f96c-4833-a6d0-3e1a39619aaa",
+              "legacyCmisId": 8998854190,
+              "name": "Evans, Sherry Sherry",
+              "nameSort": "Evans, Sherry Sherry",
+              "age": 76,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2024-09-08T17:48:17.417+00:00",
+          "recentlyChangedDateInMilliseconds": 1725817697417
+        },
+        {
+          "id": "4a0643a2-dabe-4f87-a5b8-e345c1761681",
+          "ministers": [
+            {
+              "personUuid": "92132489-ca96-476d-b30a-3ed11794b950",
+              "legacyCmisId": 9596455256,
+              "name": "McGlynn, Todd",
+              "nameSort": "McGlynn, Todd",
+              "email": "todd.mcglynn@msn.com",
+              "age": 52,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "a75dd095-6d4f-42aa-a45d-c580371dbfbf",
+              "legacyCmisId": 9971443169,
+              "name": "McGlynn, Preston",
+              "nameSort": "McGlynn, Preston",
+              "email": "preston.mcglynn@yahoo.com",
+              "age": 15,
+              "priesthoodOffice": "PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "3f6700b8-83b2-4374-b3aa-d614f9b0809e",
+              "youthBasedOnAge": true
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "f9883b19-9e82-4913-a081-7eb13ae0c88f",
+              "legacyCmisId": 5654043084,
+              "name": "Carter, Connor & Nettie",
+              "nameSort": "Carter, Connor & Nettie",
+              "age": 74,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "9eb2d478-dee0-4e04-8879-7e34e19a8b2d",
+              "legacyCmisId": 8167473273,
+              "name": "Reynolds, Neil Drew & Edith",
+              "nameSort": "Reynolds, Neil Drew & Edith",
+              "age": 46,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "b51d53de-559b-419f-b4ef-4c3bc3bc5219",
+              "legacyCmisId": 6629025155,
+              "name": "Murphy, Joseph & Georgia",
+              "nameSort": "Murphy, Joseph & Georgia",
+              "age": 72,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "5cefa302-f7d7-4a03-b6a2-c5d1a4c6ae00",
+              "legacyCmisId": 9088433120,
+              "name": "Taylor, Brooke",
+              "nameSort": "Taylor, Brooke",
+              "age": 88,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-10-19T20:37:09.375+00:00",
+          "recentlyChangedDateInMilliseconds": 1760906229375
+        },
+        {
+          "id": "388d0620-2f3e-43ea-9195-676ac5ef0069",
+          "ministers": [
+            {
+              "personUuid": "aea58af4-deae-46fb-a0e7-7927d0406bcf",
+              "legacyCmisId": 2668196135,
+              "name": "Lynch, Ted",
+              "nameSort": "Lynch, Ted",
+              "email": "tlynch@icloud.com",
+              "age": 78,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "cc3a39af-0116-4ddb-9e51-0dbb56f1c40b",
+              "legacyCmisId": 6831763094,
+              "name": "Lewis, Bruce Jerry",
+              "nameSort": "Lewis, Bruce Jerry",
+              "email": "bruce jerry.lewis@hotmail.com",
+              "age": 72,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "f8f15332-9c92-4ca6-aa45-e47eb020a72f",
+              "legacyCmisId": 3449430075,
+              "name": "Russell, Aaron & Angelica",
+              "nameSort": "Russell, Aaron & Angelica",
+              "age": 81,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "37db91b2-c465-4d29-92be-67e879b1d61c",
+              "legacyCmisId": 1592281286,
+              "name": "Wilderman, Sara",
+              "nameSort": "Wilderman, Sara",
+              "age": 69,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "1fd7aa33-7e0c-407a-8a06-912a828e0a10",
+              "legacyCmisId": 6371827773,
+              "name": "Bennett, Vern",
+              "nameSort": "Bennett, Vern",
+              "age": 85,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "d3c9e26d-01f4-4f25-9ca9-8d372945701a",
+              "legacyCmisId": 343668755,
+              "name": "Cooper, Noah & Cali",
+              "nameSort": "Cooper, Noah & Cali",
+              "age": 82,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-10-19T20:31:33.944+00:00",
+          "recentlyChangedDateInMilliseconds": 1760905893944
+        },
+        {
+          "id": "c057ddb3-b338-4a00-8cd9-6db95364582c",
+          "ministers": [
+            {
+              "personUuid": "62810831-6ebd-4dfc-8952-af7b76685bde",
+              "legacyCmisId": 4861837030,
+              "name": "Cooper, Evan",
+              "nameSort": "Cooper, Evan",
+              "email": "evan.cooper@comcast.net",
+              "age": 78,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "a00a6202-fb8f-49b4-a926-0316d6da83e0",
+              "legacyCmisId": 8501839918,
+              "name": "James, Thomas Bradley",
+              "nameSort": "James, Thomas Bradley",
+              "email": "thomas bradleyjames@msn.com",
+              "age": 26,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "c2552cb3-51a1-4fc6-a9e8-26daadee18bc",
+              "legacyCmisId": 8815607654,
+              "name": "Green, Renee Jodi",
+              "nameSort": "Green, Renee Jodi",
+              "age": 69,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "81f33887-c89b-409e-806e-57f31dd78db4",
+              "legacyCmisId": 9545092623,
+              "name": "Ross, Vanessa",
+              "nameSort": "Ross, Vanessa",
+              "age": 87,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "f425b496-15b9-412a-bd59-240c6dbd42fb",
+              "legacyCmisId": 5176172955,
+              "name": "Cooper, Richard & Nancy",
+              "nameSort": "Cooper, Richard & Nancy",
+              "age": 76,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "cc3a39af-0116-4ddb-9e51-0dbb56f1c40b",
+              "legacyCmisId": 6008683448,
+              "name": "Lewis, Bruce Jerry & Sara",
+              "nameSort": "Lewis, Bruce Jerry & Sara",
+              "age": 72,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-08-31T21:01:09.264+00:00",
+          "recentlyChangedDateInMilliseconds": 1756674069264
+        },
+        {
+          "id": "9adb37f8-fda5-44a6-8cc4-b756e545382d",
+          "ministers": [
+            {
+              "personUuid": "627bc726-c6b8-43c1-b831-87bbb6a969f3",
+              "legacyCmisId": 6020744772,
+              "name": "Collins, Bryan Alan",
+              "nameSort": "Collins, Bryan Alan",
+              "email": "bcollins@gmail.com",
+              "age": 44,
+              "priesthoodOffice": "HIGH_PRIEST",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "09b538d5-44f5-40cb-92f9-86e341c993ac",
+              "legacyCmisId": 7709613572,
+              "name": "Collins, Sam",
+              "nameSort": "Collins, Sam",
+              "email": "sam81@icloud.com",
+              "age": 14,
+              "priesthoodOffice": "TEACHER",
+              "assignType": "EQ",
+              "unitOrgId": "b6735319-a976-4d87-b056-6989cdbf030a",
+              "youthBasedOnAge": true
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "9d009d55-940b-4a9b-aa35-22adfa21d99c",
+              "legacyCmisId": 2731689629,
+              "name": "Johnson, Amber Susan",
+              "nameSort": "Johnson, Amber Susan",
+              "age": 53,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "d3a6910e-4df3-44af-ae8c-2ff2414d615f",
+              "legacyCmisId": 7880129474,
+              "name": "Daniel, Leslie",
+              "nameSort": "Daniel, Leslie",
+              "age": 30,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "b95951f2-1e4a-4564-a56b-8f089e09d3e0",
+              "legacyCmisId": 9573000722,
+              "name": "Harris, Terry",
+              "nameSort": "Harris, Terry",
+              "age": 93,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "133f428d-a48b-4bad-9d96-ad0f27d37262",
+              "legacyCmisId": 9024746345,
+              "name": "Thomas, Penny",
+              "nameSort": "Thomas, Penny",
+              "age": 44,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-06-29T20:13:12.278+00:00",
+          "recentlyChangedDateInMilliseconds": 1751227992278
+        },
+        {
+          "id": "155116f9-97af-4917-9f69-12d446f1d5df",
+          "ministers": [
+            {
+              "personUuid": "a2342afa-965e-4f74-8c2c-d1ffe739636a",
+              "legacyCmisId": 1380628025,
+              "name": "Martin, Tim",
+              "nameSort": "Martin, Tim",
+              "email": "tim.martin@yahoo.com",
+              "age": 43,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "dc3f8f87-7587-4043-8d9c-faf4267e84b8",
+              "legacyCmisId": 2123543602,
+              "name": "Martin, Rob",
+              "nameSort": "Martin, Rob",
+              "email": "rmartin@hotmail.com",
+              "age": 14,
+              "priesthoodOffice": "TEACHER",
+              "assignType": "EQ",
+              "unitOrgId": "b6735319-a976-4d87-b056-6989cdbf030a",
+              "youthBasedOnAge": true
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "a8278f5f-8332-4707-afac-174e2798d36c",
+              "legacyCmisId": 6455320551,
+              "name": "Ziemann, Vern & Lydia",
+              "nameSort": "Ziemann, Vern & Lydia",
+              "age": 43,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "85a716f0-bda9-4b61-af6a-80fc2fb79181",
+              "legacyCmisId": 5152326849,
+              "name": "Thompson, Eugene John & Giovanna",
+              "nameSort": "Thompson, Eugene John & Giovanna",
+              "age": 43,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "b0c86892-6551-4225-9e36-4c033f92421c",
+              "legacyCmisId": 3532234732,
+              "name": "Brown, Larry & Mayra",
+              "nameSort": "Brown, Larry & Mayra",
+              "age": 42,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-11-03T19:38:20.973+00:00",
+          "recentlyChangedDateInMilliseconds": 1762198700973
+        },
+        {
+          "id": "548586d1-9966-4c4d-9eac-98f42492e6d3",
+          "ministers": [
+            {
+              "personUuid": "6057ff22-2c02-4831-8548-f15ee6b1bf87",
+              "legacyCmisId": 686311632,
+              "name": "Ross, Albert Dan",
+              "nameSort": "Ross, Albert Dan",
+              "email": "albert dan.ross@yahoo.com",
+              "age": 47,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "5255fb8f-e8e6-433a-a8aa-0083a894adfd",
+              "legacyCmisId": 6433464406,
+              "name": "Ross, Jeffrey",
+              "nameSort": "Ross, Jeffrey",
+              "email": "jeffreyross@hotmail.com",
+              "age": 20,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "80032445-610a-487a-8d6a-fd6a28f8e6f9",
+              "legacyCmisId": 3848649565,
+              "name": "Thomas, Dave Clark & Tara",
+              "nameSort": "Thomas, Dave Clark & Tara",
+              "age": 43,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "eae54d6b-2c84-47b0-9a83-c447ae261c7b",
+              "legacyCmisId": 7055294370,
+              "name": "Hall, Nick & Berta",
+              "nameSort": "Hall, Nick & Berta",
+              "age": 40,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2024-06-03T17:55:01.858+00:00",
+          "recentlyChangedDateInMilliseconds": 1717437301858
+        },
+        {
+          "id": "dd448fe5-ce4d-4453-a8d8-149991ce8bea",
+          "ministers": [
+            {
+              "personUuid": "188cf09a-ffb8-4269-8bab-6b222e1c37e9",
+              "legacyCmisId": 7241903692,
+              "name": "Russell, Hunter",
+              "nameSort": "Russell, Hunter",
+              "email": "hunter.russell@yahoo.com",
+              "age": 45,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "def7a656-b8db-40a6-97d8-eb8c00173f8a",
+              "legacyCmisId": 8981987946,
+              "name": "Stroman, Kirk",
+              "nameSort": "Stroman, Kirk",
+              "email": "kirk.stroman@icloud.com",
+              "age": 39,
+              "priesthoodOffice": "ELDER",
+              "assignType": "EQ",
+              "unitOrgId": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+              "youthBasedOnAge": false
+            }
+          ],
+          "assignments": [
+            {
+              "personUuid": "755c5317-7d36-4cd6-874e-1ea80762af8b",
+              "legacyCmisId": 8396552458,
+              "name": "Wilson, Kristen",
+              "nameSort": "Wilson, Kristen",
+              "age": 38,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "d65793c7-513f-4427-8405-8857f6437c3b",
+              "legacyCmisId": 4874953942,
+              "name": "Lee, Beverly",
+              "nameSort": "Lee, Beverly",
+              "age": 75,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "a4bc40e5-17c3-443f-939e-2ffe3acf2c52",
+              "legacyCmisId": 9022012261,
+              "name": "Walker, Leon",
+              "nameSort": "Walker, Leon",
+              "age": 23,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            },
+            {
+              "personUuid": "dc79b87a-8a9b-4a8a-b730-89f5631c39b7",
+              "legacyCmisId": 9977669767,
+              "name": "Wood, Ronald & Marjorie",
+              "nameSort": "Wood, Ronald & Marjorie",
+              "age": 48,
+              "assignType": "EQ",
+              "youthBasedOnAge": false
+            }
+          ],
+          "ministerErrors": [],
+          "ministerWarnings": [],
+          "assignmentErrors": [],
+          "assignmentWarnings": [],
+          "recentlyChangedDate": "2025-08-31T21:21:25.201+00:00",
+          "recentlyChangedDateInMilliseconds": 1756675285201
+        }
+      ],
+      "districtName": "District 3",
+      "districtUuid": "2b2d9fd1-2982-4290-9dcc-008f552aa17a",
+      "supervisorName": "Murphy, Garrett",
+      "supervisorLegacyCmisId": 6776199460,
+      "supervisorPersonUuid": "3e6be638-ec1b-49e1-a8e6-7145f47a27bd"
+    }
+  ],
+  "eldersQuorumSupervisors": [
+    {
+      "personUuid": "3e6be638-ec1b-49e1-a8e6-7145f47a27bd",
+      "name": "Murphy, Garrett",
+      "youthBasedOnAge": false
+    },
+    {
+      "personUuid": "e88a6a00-78e1-4d36-b562-8c77db74e934",
+      "name": "Price, Keith",
+      "youthBasedOnAge": false
+    },
+    {
+      "personUuid": "acd73bb3-e1fd-4bfb-9371-6b659d062b1a",
+      "name": "Breitenberg, David",
+      "youthBasedOnAge": false
+    }
+  ],
+  "unitOrgs": [
+    {
+      "children": null,
+      "unitOrgUuid": "31eea55b-eeca-412e-b901-a028ba3b35ba",
+      "unitUuid": null,
+      "unitNumber": null,
+      "unitOrgName": "Elders Quorum",
+      "unitOrgTypeIds": [
+        70
+      ],
+      "isClass": false
+    }
+  ],
+  "interviewViewAccess": false,
+  "error": false
+}
