@@ -19,6 +19,7 @@ Built because the Church's official ministering interface is hard to visualize a
   ![Adding ministers from sidebar](/public/images/new-companionship.png)
   ![Adding assignments from sidebar](/public/images/new-companionship-assignments.png)
 
+- **Dark mode** — Light, dark, or system theme with a toolbar picker. Defaults to your OS preference.
 - **Name format toggle** — Switch between "Last, First" and "First Last" display
 - **Member photos** — Displays profile photos when available, with colored initials as fallback
 - **EQ and RS support** — Same tool works for both Elders Quorum and Relief Society data
