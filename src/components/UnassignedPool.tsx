@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useDroppable } from "@dnd-kit/core";
-import { Home, UserCheck } from "lucide-react";
+import { ChevronLeft, Home, UserCheck, X } from "lucide-react";
 import { MinisterTile } from "./MinisterTile";
 import { FamilyTile } from "./FamilyTile";
 import { useStore } from "@/lib/store";
@@ -58,19 +58,7 @@ export function UnassignedPool({ isOpen, onToggle }: UnassignedPoolProps) {
           className="fixed right-0 top-1/2 -translate-y-1/2 z-50 bg-white dark:bg-gray-800 border border-r-0 border-gray-300 dark:border-gray-600 rounded-l-lg px-2 py-4 shadow-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
         >
           <div className="flex flex-col items-center gap-1">
-            <svg
-              className="w-4 h-4 text-gray-600 dark:text-gray-400"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M15 19l-7-7 7-7"
-              />
-            </svg>
+            <ChevronLeft className="w-4 h-4 text-gray-600 dark:text-gray-400" />
             <span className="text-xs font-medium text-gray-600 dark:text-gray-400 [writing-mode:vertical-lr]">
               Unassigned
             </span>
@@ -98,19 +86,7 @@ export function UnassignedPool({ isOpen, onToggle }: UnassignedPoolProps) {
               onClick={onToggle}
               className="p-1 hover:bg-gray-200 dark:hover:bg-gray-700 rounded"
             >
-              <svg
-                className="w-5 h-5 text-gray-500 dark:text-gray-400"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
+              <X className="w-5 h-5 text-gray-500 dark:text-gray-400" />
             </button>
           </div>
 

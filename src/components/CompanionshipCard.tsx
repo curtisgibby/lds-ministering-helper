@@ -1,5 +1,5 @@
 import { useDraggable, useDroppable } from "@dnd-kit/core";
-import { Home, Trash2, UserCheck } from "lucide-react";
+import { ChevronRight, GripHorizontal, Home, Trash2, UserCheck } from "lucide-react";
 import { MinisterTile } from "./MinisterTile";
 import { FamilyTile } from "./FamilyTile";
 import { useStore } from "@/lib/store";
@@ -64,18 +64,7 @@ export function CompanionshipCard({ companionship }: CompanionshipCardProps) {
         {...attributes}
         className="flex items-center justify-center h-3 bg-gray-50 dark:bg-gray-700/50 border-b border-gray-100 dark:border-gray-700 cursor-grab active:cursor-grabbing hover:bg-gray-100 dark:hover:bg-gray-600/50 transition-colors"
       >
-        <svg
-          className="w-4 h-3 text-gray-300 dark:text-gray-600"
-          viewBox="0 0 16 6"
-          fill="currentColor"
-        >
-          <circle cx="3" cy="1" r="1" />
-          <circle cx="8" cy="1" r="1" />
-          <circle cx="13" cy="1" r="1" />
-          <circle cx="3" cy="5" r="1" />
-          <circle cx="8" cy="5" r="1" />
-          <circle cx="13" cy="5" r="1" />
-        </svg>
+        <GripHorizontal className="w-4 h-3 text-gray-300 dark:text-gray-600" />
       </div>
 
       <div className="flex divide-x divide-gray-100 dark:divide-gray-700">
@@ -103,19 +92,7 @@ export function CompanionshipCard({ companionship }: CompanionshipCardProps) {
 
         {/* Divider arrow */}
         <div className="flex items-center px-1 text-gray-300 dark:text-gray-600">
-          <svg
-            className="w-4 h-4"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M9 5l7 7-7 7"
-            />
-          </svg>
+          <ChevronRight className="w-4 h-4" />
         </div>
 
         {/* Assignments side — 60% */}

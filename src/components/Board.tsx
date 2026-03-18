@@ -8,6 +8,7 @@ import {
   type DragEndEvent,
 } from "@dnd-kit/core";
 import { useState } from "react";
+import { GripHorizontal } from "lucide-react";
 import { DistrictBoard } from "./DistrictBoard";
 import { UnassignedPool } from "./UnassignedPool";
 import { Toolbar } from "./Toolbar";
@@ -150,14 +151,7 @@ export function Board() {
       <DragOverlay>
         {activeDrag && activeDrag.data.type === "companionship" && (
           <div className="flex items-center gap-2 px-4 py-3 rounded-xl shadow-xl border-2 bg-white dark:bg-gray-800 border-gray-400 dark:border-gray-500">
-            <svg className="w-4 h-4 text-gray-400" viewBox="0 0 16 6" fill="currentColor">
-              <circle cx="3" cy="1" r="1" />
-              <circle cx="8" cy="1" r="1" />
-              <circle cx="13" cy="1" r="1" />
-              <circle cx="3" cy="5" r="1" />
-              <circle cx="8" cy="5" r="1" />
-              <circle cx="13" cy="5" r="1" />
-            </svg>
+            <GripHorizontal className="w-4 h-4 text-gray-400" />
             <span className="text-sm font-medium text-gray-700 dark:text-gray-200">
               {activeDrag.name}
             </span>
