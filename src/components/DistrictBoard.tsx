@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useDroppable } from "@dnd-kit/core";
+import { Plus, Users } from "lucide-react";
 import { CompanionshipCard } from "./CompanionshipCard";
 import { useStore, districtColor } from "@/lib/store";
 import type { District } from "@/lib/types";
@@ -84,9 +85,11 @@ export function DistrictBoard({ district }: DistrictBoardProps) {
           </span>
           <button
             onClick={() => createCompanionship(district.id)}
-            className="text-xs bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 border dark:border-gray-700 rounded-full px-2.5 py-1 hover:shadow-sm"
+            className="text-xs bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 border dark:border-gray-700 rounded-full px-2.5 py-1 hover:shadow-sm flex items-center gap-1"
           >
-            + Companionship
+            <Plus className="w-3 h-3" />
+            <Users className="w-3 h-3" />
+            <span>Companionship</span>
           </button>
           {district.companionships.length === 0 && (
             <button

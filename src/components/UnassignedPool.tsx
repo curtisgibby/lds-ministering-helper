@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useDroppable } from "@dnd-kit/core";
+import { Home, UserCheck } from "lucide-react";
 import { MinisterTile } from "./MinisterTile";
 import { FamilyTile } from "./FamilyTile";
 import { useStore } from "@/lib/store";
@@ -117,22 +118,24 @@ export function UnassignedPool({ isOpen, onToggle }: UnassignedPoolProps) {
           <div className="flex border-b border-gray-200 dark:border-gray-700">
             <button
               onClick={() => setActiveTab("ministers")}
-              className={`flex-1 px-4 py-2.5 text-sm font-medium transition-colors ${
+              className={`flex-1 px-4 py-2.5 text-sm font-medium transition-colors flex items-center justify-center gap-1.5 ${
                 activeTab === "ministers"
                   ? "text-blue-600 dark:text-blue-400 border-b-2 border-blue-600 dark:border-blue-400 bg-blue-50/50 dark:bg-blue-900/20"
                   : "text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300"
               }`}
             >
+              <UserCheck className="w-4 h-4" />
               Ministers ({unassignedMinisters.length})
             </button>
             <button
               onClick={() => setActiveTab("families")}
-              className={`flex-1 px-4 py-2.5 text-sm font-medium transition-colors ${
+              className={`flex-1 px-4 py-2.5 text-sm font-medium transition-colors flex items-center justify-center gap-1.5 ${
                 activeTab === "families"
                   ? "text-amber-600 dark:text-yellow-400 border-b-2 border-amber-600 dark:border-yellow-400 bg-amber-50/50 dark:bg-yellow-900/20"
                   : "text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300"
               }`}
             >
+              <Home className="w-4 h-4" />
               Assignments ({unassignedFamilies.length})
             </button>
           </div>
