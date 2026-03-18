@@ -103,7 +103,7 @@ export function DistrictBoard({ district }: DistrictBoardProps) {
       </div>
 
       {/* Companionships grid */}
-      <div className="grid gap-3" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(500px, 1fr))' }}>
+      <div className="grid gap-3" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(min(500px, 100%), 1fr))' }}>
         {district.companionships.map((comp) => (
           <CompanionshipCard key={comp.id} companionship={comp} />
         ))}
