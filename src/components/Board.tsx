@@ -131,7 +131,7 @@ export function Board() {
       onDragEnd={handleDragEnd}
     >
       <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
-        <Toolbar onToggleSidebar={() => setSidebarOpen((o) => !o)} />
+        <Toolbar onToggleSidebar={() => setSidebarOpen((o) => !o)} sidebarOpen={sidebarOpen} />
         <div
           className="mx-auto p-4 space-y-6 transition-all duration-300"
           style={{ marginRight: sidebarOpen ? "360px" : undefined }}

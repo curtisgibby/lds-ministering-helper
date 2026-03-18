@@ -18,9 +18,10 @@ import {
 
 interface ToolbarProps {
   onToggleSidebar: () => void;
+  sidebarOpen?: boolean;
 }
 
-export function Toolbar({ onToggleSidebar }: ToolbarProps) {
+export function Toolbar({ onToggleSidebar, sidebarOpen }: ToolbarProps) {
   const [showConfirmReset, setShowConfirmReset] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const settingsRef = useRef<HTMLDivElement>(null);
@@ -83,7 +84,7 @@ export function Toolbar({ onToggleSidebar }: ToolbarProps) {
   const unassignedTotal = unassignedMinisters.length + unassignedFamilies.length;
 
   return (
-    <div className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 sticky top-0 z-40">
+    <div className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 sticky top-0 z-40 transition-all duration-300" style={{ marginRight: sidebarOpen ? "360px" : undefined }}>
       <div className="mx-auto px-4 py-3 flex items-center justify-between">
         {/* Left: title + stats */}
         <div className="flex items-center gap-4">
