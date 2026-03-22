@@ -126,13 +126,23 @@ export function UnassignedPool({ isOpen, onToggle }: UnassignedPoolProps) {
               } ${isMinisterPoolOver ? "bg-blue-50 dark:bg-blue-900/30" : ""}`}
             >
               <div className="p-3">
-                <input
-                  type="text"
-                  placeholder="Search ministers..."
-                  value={ministerSearch}
-                  onChange={(e) => setMinisterSearch(e.target.value)}
-                  className="w-full px-3 py-1.5 text-sm border border-blue-200 dark:border-blue-800 rounded-lg bg-white dark:bg-gray-700 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600"
-                />
+                <div className="relative">
+                  <input
+                    type="text"
+                    placeholder="Search ministers..."
+                    value={ministerSearch}
+                    onChange={(e) => setMinisterSearch(e.target.value)}
+                    className="w-full px-3 py-1.5 pr-8 text-sm border border-blue-200 dark:border-blue-800 rounded-lg bg-white dark:bg-gray-700 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600"
+                  />
+                  {ministerSearch && (
+                    <button
+                      onClick={() => setMinisterSearch("")}
+                      className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
+                    >
+                      <X className="w-4 h-4" />
+                    </button>
+                  )}
+                </div>
               </div>
               <div className="flex-1 overflow-y-auto px-3 pb-3 space-y-1.5">
                 {filteredMinisters.map((minister) => (
@@ -158,13 +168,23 @@ export function UnassignedPool({ isOpen, onToggle }: UnassignedPoolProps) {
               } ${isFamilyPoolOver ? "bg-amber-50 dark:bg-yellow-900/30" : ""}`}
             >
               <div className="p-3">
-                <input
-                  type="text"
-                  placeholder="Search assignments..."
-                  value={familySearch}
-                  onChange={(e) => setFamilySearch(e.target.value)}
-                  className="w-full px-3 py-1.5 text-sm border border-amber-200 dark:border-yellow-800 rounded-lg bg-white dark:bg-gray-700 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-300 dark:focus:ring-amber-600"
-                />
+                <div className="relative">
+                  <input
+                    type="text"
+                    placeholder="Search assignments..."
+                    value={familySearch}
+                    onChange={(e) => setFamilySearch(e.target.value)}
+                    className="w-full px-3 py-1.5 pr-8 text-sm border border-amber-200 dark:border-yellow-800 rounded-lg bg-white dark:bg-gray-700 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-300 dark:focus:ring-amber-600"
+                  />
+                  {familySearch && (
+                    <button
+                      onClick={() => setFamilySearch("")}
+                      className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
+                    >
+                      <X className="w-4 h-4" />
+                    </button>
+                  )}
+                </div>
               </div>
               <div className="flex-1 overflow-y-auto px-3 pb-3 space-y-1.5">
                 {filteredFamilies.map((assignment) => (
