@@ -154,9 +154,24 @@ export function parseMinisteringData(
     for (const comp of district.companionships) {
       for (const minister of comp.ministers) {
         assignedMinisterIds.add(minister.personId);
+        if (!people[minister.personId]) {
+          console.warn(
+            `[parseMinisteringData] Minister "${minister.name}" references personId ${minister.personId} which was not found in the families data.`
+          );
+        }
       }
       for (const assignment of comp.assignments) {
         assignedFamilyIds.add(assignment.personId);
+        const person = people[assignment.personId];
+        if (!person) {
+          console.warn(
+            `[parseMinisteringData] Assignment "${assignment.name}" references personId ${assignment.personId} which was not found in the families data. This family will not appear in the unassigned pool.`
+          );
+        } else if (person.householdRole !== "HEAD") {
+          console.warn(
+            `[parseMinisteringData] Assignment "${assignment.name}" references personId ${assignment.personId} who has role "${person.householdRole}" instead of "HEAD". This family may not be tracked correctly.`
+          );
+        }
       }
     }
   }
