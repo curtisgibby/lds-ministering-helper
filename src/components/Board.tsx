@@ -18,6 +18,8 @@ import type { DragData, DropTarget } from "@/lib/dnd";
 
 export function Board() {
   const districts = useStore((s) => s.districts);
+  const unassignedMinisters = useStore((s) => s.unassignedMinisters);
+  const unassignedFamilies = useStore((s) => s.unassignedFamilies);
   const moveMinister = useStore((s) => s.moveMinister);
   const moveAssignment = useStore((s) => s.moveAssignment);
   const moveCompanionship = useStore((s) => s.moveCompanionship);
@@ -26,6 +28,7 @@ export function Board() {
     name: string;
   } | null>(null);
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [sidebarTab, setSidebarTab] = useState<"ministers" | "families">("ministers");
   const [searchQuery, setSearchQuery] = useState("");
   const [currentMatchIndex, setCurrentMatchIndex] = useState(0);
   const searchInputRef = useRef<HTMLInputElement>(null);
@@ -45,8 +48,14 @@ export function Board() {
         }
       }
     }
+    for (const m of unassignedMinisters) {
+      if (m.name.toLowerCase().includes(query)) keys.add(`minister-${m.personId}`);
+    }
+    for (const a of unassignedFamilies) {
+      if (a.name.toLowerCase().includes(query)) keys.add(`assignment-${a.personId}`);
+    }
     return keys;
-  }, [searchQuery, districts]);
+  }, [searchQuery, districts, unassignedMinisters, unassignedFamilies]);
 
   // Read match order from the DOM so navigation follows visual (top-to-bottom, left-to-right) order
   const getDomOrderedMatchKeys = useCallback(() => {
@@ -70,6 +79,16 @@ export function Board() {
     setCurrentMatchIndex(0);
   }, []);
 
+  // Build sets for quick lookup of unassigned personIds
+  const unassignedMinisterIds = useMemo(
+    () => new Set(unassignedMinisters.map((m) => m.personId)),
+    [unassignedMinisters]
+  );
+  const unassignedFamilyIds = useMemo(
+    () => new Set(unassignedFamilies.map((a) => a.personId)),
+    [unassignedFamilies]
+  );
+
   // After matchSet updates, resolve the active match from DOM order
   useEffect(() => {
     if (matchSet.size === 0) {
@@ -82,11 +101,22 @@ export function Board() {
       const ordered = getDomOrderedMatchKeys();
       if (ordered.length > 0) {
         const idx = currentMatchIndex % ordered.length;
-        setActiveMatchId(ordered[idx]);
+        const key = ordered[idx];
+        setActiveMatchId(key);
+
+        // Auto-open sidebar and switch tab if match is unassigned
+        const personId = key.replace(/^(minister|assignment)-/, "");
+        if (key.startsWith("minister-") && unassignedMinisterIds.has(personId)) {
+          setSidebarOpen(true);
+          setSidebarTab("ministers");
+        } else if (key.startsWith("assignment-") && unassignedFamilyIds.has(personId)) {
+          setSidebarOpen(true);
+          setSidebarTab("families");
+        }
       }
     });
     return () => cancelAnimationFrame(raf);
-  }, [matchSet, currentMatchIndex, getDomOrderedMatchKeys]);
+  }, [matchSet, currentMatchIndex, getDomOrderedMatchKeys, unassignedMinisterIds, unassignedFamilyIds]);
 
   const handleNextMatch = useCallback(() => {
     setCurrentMatchIndex((i) => (matchCount > 0 ? (i + 1) % matchCount : 0));
@@ -238,6 +268,9 @@ export function Board() {
       <UnassignedPool
         isOpen={sidebarOpen}
         onToggle={() => setSidebarOpen((o) => !o)}
+        searchQuery={searchQuery}
+        activeMatchId={activeMatchId}
+        requestedTab={sidebarTab}
       />
 
       <DragOverlay>

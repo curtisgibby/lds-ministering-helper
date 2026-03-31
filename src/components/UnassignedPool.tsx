@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useDroppable } from "@dnd-kit/core";
 import { ChevronLeft, Home, UserCheck, X } from "lucide-react";
 import { MinisterTile } from "./MinisterTile";
@@ -9,9 +9,12 @@ import type { DropTarget } from "@/lib/dnd";
 interface UnassignedPoolProps {
   isOpen: boolean;
   onToggle: () => void;
+  searchQuery?: string;
+  activeMatchId?: string | null;
+  requestedTab?: "ministers" | "families";
 }
 
-export function UnassignedPool({ isOpen, onToggle }: UnassignedPoolProps) {
+export function UnassignedPool({ isOpen, onToggle, searchQuery, activeMatchId, requestedTab }: UnassignedPoolProps) {
   const unassignedMinisters = useStore((s) => s.unassignedMinisters);
   const unassignedFamilies = useStore((s) => s.unassignedFamilies);
   const [ministerSearch, setMinisterSearch] = useState("");
@@ -19,6 +22,10 @@ export function UnassignedPool({ isOpen, onToggle }: UnassignedPoolProps) {
   const [activeTab, setActiveTab] = useState<"ministers" | "families">(
     "ministers"
   );
+
+  useEffect(() => {
+    if (requestedTab) setActiveTab(requestedTab);
+  }, [requestedTab]);
 
   const ministerDrop: DropTarget = { type: "minister", companionshipId: null };
   const assignmentDrop: DropTarget = {
@@ -49,13 +56,23 @@ export function UnassignedPool({ isOpen, onToggle }: UnassignedPoolProps) {
   const totalUnassigned =
     unassignedMinisters.length + unassignedFamilies.length;
 
+  const query = searchQuery?.toLowerCase() ?? "";
+  const hasUnassignedMatch = query.length > 0 && (
+    unassignedMinisters.some((m) => m.name.toLowerCase().includes(query)) ||
+    unassignedFamilies.some((a) => a.name.toLowerCase().includes(query))
+  );
+
   return (
     <>
       {/* Toggle tab on the edge of screen when closed */}
       {!isOpen && (
         <button
           onClick={onToggle}
-          className="fixed right-0 top-1/2 -translate-y-1/2 z-50 bg-white dark:bg-gray-800 border border-r-0 border-gray-300 dark:border-gray-600 rounded-l-lg px-2 py-4 shadow-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
+          className={`fixed right-0 top-1/2 -translate-y-1/2 z-50 border border-r-0 rounded-l-lg px-2 py-4 shadow-lg transition-colors ${
+            hasUnassignedMatch
+              ? "bg-yellow-100 dark:bg-yellow-900/50 border-yellow-400 dark:border-yellow-600 ring-2 ring-yellow-300 dark:ring-yellow-600"
+              : "bg-white dark:bg-gray-800 border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700"
+          }`}
         >
           <div className="flex flex-col items-center gap-1">
             <ChevronLeft className="w-4 h-4 text-gray-600 dark:text-gray-400" />
@@ -150,6 +167,8 @@ export function UnassignedPool({ isOpen, onToggle }: UnassignedPoolProps) {
                     key={minister.personId}
                     minister={minister}
                     companionshipId={null}
+                    searchQuery={searchQuery}
+                    activeMatchId={activeMatchId}
                   />
                 ))}
                 {filteredMinisters.length === 0 && (
@@ -192,6 +211,8 @@ export function UnassignedPool({ isOpen, onToggle }: UnassignedPoolProps) {
                     key={assignment.personId}
                     assignment={assignment}
                     companionshipId={null}
+                    searchQuery={searchQuery}
+                    activeMatchId={activeMatchId}
                   />
                 ))}
                 {filteredFamilies.length === 0 && (
