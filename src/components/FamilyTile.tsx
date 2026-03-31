@@ -6,9 +6,11 @@ import { useStore, getPersonDetails, displayName } from "@/lib/store";
 interface FamilyTileProps {
   assignment: Assignment;
   companionshipId: string | null;
+  searchQuery?: string;
+  activeMatchId?: string | null;
 }
 
-export function FamilyTile({ assignment, companionshipId }: FamilyTileProps) {
+export function FamilyTile({ assignment, companionshipId, searchQuery, activeMatchId }: FamilyTileProps) {
   const people = useStore((s) => s.people);
   const nameFormat = useStore((s) => s.nameFormat);
   const moveAssignment = useStore((s) => s.moveAssignment);
@@ -28,6 +30,8 @@ export function FamilyTile({ assignment, companionshipId }: FamilyTileProps) {
       personId={assignment.personId}
       displayName={displayName(assignment.name, nameFormat)}
       subtitle={person?.address ?? undefined}
+      searchQuery={searchQuery}
+      activeMatchId={activeMatchId}
       onRemove={
         companionshipId !== null
           ? () => moveAssignment(assignment.personId, companionshipId, null)

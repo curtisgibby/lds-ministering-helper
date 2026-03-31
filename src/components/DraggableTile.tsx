@@ -1,3 +1,4 @@
+import { useEffect, useRef } from "react";
 import { useDraggable } from "@dnd-kit/core";
 import { CircleMinus } from "lucide-react";
 import { Avatar } from "./Avatar";
@@ -24,6 +25,8 @@ interface DraggableTileProps {
   displayName: string;
   subtitle?: string;
   dashed?: boolean;
+  searchQuery?: string;
+  activeMatchId?: string | null;
   onRemove?: () => void;
 }
 
@@ -35,6 +38,8 @@ export function DraggableTile({
   displayName,
   subtitle,
   dashed,
+  searchQuery,
+  activeMatchId,
   onRemove,
 }: DraggableTileProps) {
   const { attributes, listeners, setNodeRef, transform, isDragging } =
@@ -45,16 +50,39 @@ export function DraggableTile({
     : undefined;
 
   const colors = variants[variant];
+  const scrollRef = useRef<HTMLDivElement>(null);
+
+  const query = searchQuery?.toLowerCase() ?? "";
+  const isSearching = query.length > 0;
+  const isMatch = isSearching && displayName.toLowerCase().includes(query);
+  const matchKey = `${variant}-${personId}`;
+  const isActiveMatch = isMatch && activeMatchId === matchKey;
+
+  useEffect(() => {
+    if (isActiveMatch && scrollRef.current) {
+      scrollRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+  }, [isActiveMatch, activeMatchId]);
 
   return (
     <div
-      ref={setNodeRef}
+      ref={(node) => {
+        setNodeRef(node);
+        (scrollRef as React.MutableRefObject<HTMLDivElement | null>).current = node;
+      }}
+      data-match-key={matchKey}
       style={style}
       {...listeners}
       {...attributes}
-      className={`group flex items-center gap-2 px-2 py-1.5 border rounded-lg cursor-grab active:cursor-grabbing select-none ${colors.tile} ${
+      className={`group relative flex items-center gap-2 px-2 py-1.5 border rounded-lg cursor-grab active:cursor-grabbing select-none transition-all ${colors.tile} ${
         isDragging ? "opacity-50 shadow-lg z-50" : "hover:shadow-sm"
-      } ${dashed ? "border-dashed" : ""}`}
+      } ${dashed ? "border-dashed" : ""} ${
+        isActiveMatch
+          ? "ring-2 ring-orange-400 dark:ring-orange-500 border-orange-400 dark:border-orange-500 shadow-md shadow-orange-200 dark:shadow-orange-900"
+          : isMatch
+            ? "ring-2 ring-yellow-300/60 dark:ring-yellow-600/60 border-yellow-300 dark:border-yellow-600"
+            : ""
+      } ${isSearching && !isMatch ? "opacity-50" : ""}`}
     >
       <Avatar name={displayName} personId={personId} size="sm" />
       <div className="min-w-0 flex-1">
@@ -74,7 +102,7 @@ export function DraggableTile({
             e.stopPropagation();
             onRemove();
           }}
-          className={`shrink-0 opacity-0 group-hover:opacity-100 transition-opacity p-0.5 rounded-full ${colors.button}`}
+          className={`absolute right-0.5 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity p-1.5 rounded-full backdrop-blur-sm bg-white/70 dark:bg-gray-900/70 ${colors.button}`}
           title="Remove from companionship"
         >
           <CircleMinus className="w-4 h-4" />

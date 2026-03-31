@@ -15,9 +15,11 @@ const OFFICE_LABELS: Record<string, string> = {
 interface MinisterTileProps {
   minister: Minister;
   companionshipId: string | null;
+  searchQuery?: string;
+  activeMatchId?: string | null;
 }
 
-export function MinisterTile({ minister, companionshipId }: MinisterTileProps) {
+export function MinisterTile({ minister, companionshipId, searchQuery, activeMatchId }: MinisterTileProps) {
   const people = useStore((s) => s.people);
   const nameFormat = useStore((s) => s.nameFormat);
   const moveMinister = useStore((s) => s.moveMinister);
@@ -41,6 +43,8 @@ export function MinisterTile({ minister, companionshipId }: MinisterTileProps) {
       displayName={displayName(minister.name, nameFormat)}
       subtitle={subtitle || undefined}
       dashed={minister.youthBasedOnAge}
+      searchQuery={searchQuery}
+      activeMatchId={activeMatchId}
       onRemove={
         companionshipId !== null
           ? () => moveMinister(minister.personId, companionshipId, null)

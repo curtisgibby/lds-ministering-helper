@@ -3,25 +3,36 @@ import { useStore, type NameFormat } from "@/lib/store";
 import { useThemeStore, type Theme } from "@/lib/theme";
 import {
   ArrowRightLeft,
+  ChevronDown,
+  ChevronUp,
   Download,
   Home,
   LayoutGrid,
   Moon,
   Plus,
   RotateCcw,
+  Search,
   Settings,
   Sun,
   Upload,
   Users,
   UserCheck,
+  X,
 } from "lucide-react";
 
 interface ToolbarProps {
   onToggleSidebar: () => void;
   sidebarOpen?: boolean;
+  searchQuery: string;
+  onSearchChange: (query: string) => void;
+  matchCount: number;
+  currentMatchIndex: number;
+  onNextMatch: () => void;
+  onPrevMatch: () => void;
+  searchInputRef?: React.RefObject<HTMLInputElement | null>;
 }
 
-export function Toolbar({ onToggleSidebar, sidebarOpen }: ToolbarProps) {
+export function Toolbar({ onToggleSidebar, sidebarOpen, searchQuery, onSearchChange, matchCount, currentMatchIndex, onNextMatch, onPrevMatch, searchInputRef }: ToolbarProps) {
   const [showConfirmReset, setShowConfirmReset] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const settingsRef = useRef<HTMLDivElement>(null);
@@ -116,6 +127,60 @@ export function Toolbar({ onToggleSidebar, sidebarOpen }: ToolbarProps) {
               {totalFamilies}/{totalFamilies + unassignedFamilies.length}
             </span>
           </div>
+        </div>
+
+        {/* Center: search */}
+        <div className="flex items-center gap-0.5 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 focus-within:ring-2 focus-within:ring-blue-300 dark:focus-within:ring-blue-600">
+          <Search className="ml-2.5 w-4 h-4 text-gray-400 shrink-0" />
+          <input
+            ref={searchInputRef}
+            type="text"
+            placeholder="Find person..."
+            value={searchQuery}
+            onChange={(e) => onSearchChange(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" && matchCount > 0) {
+                e.preventDefault();
+                if (e.shiftKey) onPrevMatch();
+                else onNextMatch();
+              } else if (e.key === "Escape") {
+                onSearchChange("");
+                (e.target as HTMLInputElement).blur();
+              }
+            }}
+            className="pl-2 py-1.5 text-sm bg-transparent dark:text-gray-200 focus:outline-none w-36"
+          />
+          {searchQuery && (
+            <>
+              <span className="text-xs text-gray-400 dark:text-gray-500 whitespace-nowrap px-1">
+                {matchCount > 0 ? `${currentMatchIndex + 1}/${matchCount}` : "0/0"}
+              </span>
+              <span className="text-gray-300 dark:text-gray-600">|</span>
+              <button
+                onClick={onPrevMatch}
+                disabled={matchCount === 0}
+                className="p-1 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 disabled:opacity-30"
+                title="Previous match (Shift+Enter)"
+              >
+                <ChevronUp className="w-4 h-4" />
+              </button>
+              <button
+                onClick={onNextMatch}
+                disabled={matchCount === 0}
+                className="p-1 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 disabled:opacity-30"
+                title="Next match (Enter)"
+              >
+                <ChevronDown className="w-4 h-4" />
+              </button>
+              <button
+                onClick={() => onSearchChange("")}
+                className="p-1 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
+                title="Clear search"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </>
+          )}
         </div>
 
         {/* Right: actions */}

@@ -8,9 +8,11 @@ import type { DragData, DropTarget } from "@/lib/dnd";
 
 interface CompanionshipCardProps {
   companionship: Companionship;
+  searchQuery?: string;
+  activeMatchId?: string | null;
 }
 
-export function CompanionshipCard({ companionship }: CompanionshipCardProps) {
+export function CompanionshipCard({ companionship, searchQuery, activeMatchId }: CompanionshipCardProps) {
   const removeEmptyCompanionship = useStore((s) => s.removeEmptyCompanionship);
   const isEmpty =
     companionship.ministers.length === 0 &&
@@ -51,14 +53,25 @@ export function CompanionshipCard({ companionship }: CompanionshipCardProps) {
       data: assignmentDrop,
     });
 
+  const query = searchQuery?.toLowerCase() ?? "";
+  const isSearching = query.length > 0;
+  const hasMatch = isSearching && (
+    companionship.ministers.some((m) => m.name.toLowerCase().includes(query)) ||
+    companionship.assignments.some((a) => a.name.toLowerCase().includes(query))
+  );
+
   return (
     <div
       ref={setDragRef}
       {...listeners}
       {...attributes}
-      className={`bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm overflow-hidden transition-opacity flex flex-col cursor-grab active:cursor-grabbing ${
+      className={`bg-white dark:bg-gray-800 rounded-xl border shadow-sm overflow-hidden transition-all flex flex-col cursor-grab active:cursor-grabbing ${
         isDragging ? "opacity-40" : ""
-      }`}
+      } ${
+        isSearching && hasMatch
+          ? "border-yellow-400 dark:border-yellow-500 ring-2 ring-yellow-300 dark:ring-yellow-600"
+          : "border-gray-200 dark:border-gray-700"
+      } ${isSearching && !hasMatch ? "opacity-50" : ""}`}
     >
 
       <div className="flex divide-x divide-gray-100 dark:divide-gray-700">
@@ -80,6 +93,8 @@ export function CompanionshipCard({ companionship }: CompanionshipCardProps) {
               key={minister.personId}
               minister={minister}
               companionshipId={companionship.id}
+              searchQuery={searchQuery}
+              activeMatchId={activeMatchId}
             />
           ))}
         </div>
@@ -107,6 +122,8 @@ export function CompanionshipCard({ companionship }: CompanionshipCardProps) {
               key={assignment.personId}
               assignment={assignment}
               companionshipId={companionship.id}
+              searchQuery={searchQuery}
+              activeMatchId={activeMatchId}
             />
           ))}
         </div>

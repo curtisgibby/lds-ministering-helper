@@ -7,7 +7,7 @@ import {
   type DragStartEvent,
   type DragEndEvent,
 } from "@dnd-kit/core";
-import { useState } from "react";
+import { useMemo, useState, useCallback, useEffect, useRef } from "react";
 import { GripHorizontal } from "lucide-react";
 import { DistrictBoard } from "./DistrictBoard";
 import { UnassignedPool } from "./UnassignedPool";
@@ -26,6 +26,88 @@ export function Board() {
     name: string;
   } | null>(null);
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [currentMatchIndex, setCurrentMatchIndex] = useState(0);
+  const searchInputRef = useRef<HTMLInputElement>(null);
+
+  // Build a set of matching keys (variant-personId) for highlighting
+  const matchSet = useMemo(() => {
+    const query = searchQuery.toLowerCase();
+    if (!query) return new Set<string>();
+    const keys = new Set<string>();
+    for (const district of districts) {
+      for (const comp of district.companionships) {
+        for (const m of comp.ministers) {
+          if (m.name.toLowerCase().includes(query)) keys.add(`minister-${m.personId}`);
+        }
+        for (const a of comp.assignments) {
+          if (a.name.toLowerCase().includes(query)) keys.add(`assignment-${a.personId}`);
+        }
+      }
+    }
+    return keys;
+  }, [searchQuery, districts]);
+
+  // Read match order from the DOM so navigation follows visual (top-to-bottom, left-to-right) order
+  const getDomOrderedMatchKeys = useCallback(() => {
+    const nodes = document.querySelectorAll<HTMLElement>("[data-match-key]");
+    const keys: string[] = [];
+    nodes.forEach((node) => {
+      const key = node.dataset.matchKey;
+      if (key && matchSet.has(key) && !keys.includes(key)) {
+        keys.push(key);
+      }
+    });
+    return keys;
+  }, [matchSet]);
+
+  const matchCount = matchSet.size;
+  const [activeMatchId, setActiveMatchId] = useState<string | null>(null);
+
+  // When search changes, jump to first DOM-order match
+  const handleSearchChange = useCallback((query: string) => {
+    setSearchQuery(query);
+    setCurrentMatchIndex(0);
+  }, []);
+
+  // After matchSet updates, resolve the active match from DOM order
+  useEffect(() => {
+    if (matchSet.size === 0) {
+      setActiveMatchId(null);
+      setCurrentMatchIndex(0);
+      return;
+    }
+    // Use requestAnimationFrame to ensure DOM has rendered the data-match-key attributes
+    const raf = requestAnimationFrame(() => {
+      const ordered = getDomOrderedMatchKeys();
+      if (ordered.length > 0) {
+        const idx = currentMatchIndex % ordered.length;
+        setActiveMatchId(ordered[idx]);
+      }
+    });
+    return () => cancelAnimationFrame(raf);
+  }, [matchSet, currentMatchIndex, getDomOrderedMatchKeys]);
+
+  const handleNextMatch = useCallback(() => {
+    setCurrentMatchIndex((i) => (matchCount > 0 ? (i + 1) % matchCount : 0));
+  }, [matchCount]);
+
+  const handlePrevMatch = useCallback(() => {
+    setCurrentMatchIndex((i) => (matchCount > 0 ? (i - 1 + matchCount) % matchCount : 0));
+  }, [matchCount]);
+
+  // Cmd+F / Ctrl+F override
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === "f") {
+        e.preventDefault();
+        searchInputRef.current?.focus();
+        searchInputRef.current?.select();
+      }
+    };
+    document.addEventListener("keydown", handler);
+    return () => document.removeEventListener("keydown", handler);
+  }, []);
 
   const sensors = useSensors(
     useSensor(PointerSensor, {
@@ -132,13 +214,23 @@ export function Board() {
       onDragEnd={handleDragEnd}
     >
       <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
-        <Toolbar onToggleSidebar={() => setSidebarOpen((o) => !o)} sidebarOpen={sidebarOpen} />
+        <Toolbar
+          onToggleSidebar={() => setSidebarOpen((o) => !o)}
+          sidebarOpen={sidebarOpen}
+          searchQuery={searchQuery}
+          onSearchChange={handleSearchChange}
+          matchCount={matchCount}
+          currentMatchIndex={matchCount > 0 ? currentMatchIndex : -1}
+          onNextMatch={handleNextMatch}
+          onPrevMatch={handlePrevMatch}
+          searchInputRef={searchInputRef}
+        />
         <div
           className="mx-auto p-4 space-y-6 transition-all duration-300"
           style={{ marginRight: sidebarOpen ? "360px" : undefined }}
         >
           {districts.map((district) => (
-            <DistrictBoard key={district.id} district={district} />
+            <DistrictBoard key={district.id} district={district} searchQuery={searchQuery} activeMatchId={activeMatchId} />
           ))}
         </div>
       </div>

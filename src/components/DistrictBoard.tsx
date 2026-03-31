@@ -8,9 +8,11 @@ import type { DropTarget } from "@/lib/dnd";
 
 interface DistrictBoardProps {
   district: District;
+  searchQuery?: string;
+  activeMatchId?: string | null;
 }
 
-export function DistrictBoard({ district }: DistrictBoardProps) {
+export function DistrictBoard({ district, searchQuery, activeMatchId }: DistrictBoardProps) {
   const [isEditing, setIsEditing] = useState(false);
   const [editName, setEditName] = useState(district.name);
   const createCompanionship = useStore((s) => s.createCompanionship);
@@ -105,7 +107,7 @@ export function DistrictBoard({ district }: DistrictBoardProps) {
       {/* Companionships grid */}
       <div className="grid gap-3" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(min(500px, 100%), 1fr))' }}>
         {district.companionships.map((comp) => (
-          <CompanionshipCard key={comp.id} companionship={comp} />
+          <CompanionshipCard key={comp.id} companionship={comp} searchQuery={searchQuery} activeMatchId={activeMatchId} />
         ))}
       </div>
 
