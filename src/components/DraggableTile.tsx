@@ -22,11 +22,14 @@ interface DraggableTileProps {
   dragData: DragData;
   dragId: string;
   personId: string;
+  personName: string;
   displayName: string;
   subtitle?: string;
   dashed?: boolean;
   searchQuery?: string;
   activeMatchId?: string | null;
+  spousePersonId?: string;
+  spouseName?: string;
   onRemove?: () => void;
 }
 
@@ -35,11 +38,14 @@ export function DraggableTile({
   dragData,
   dragId,
   personId,
+  personName,
   displayName,
   subtitle,
   dashed,
   searchQuery,
   activeMatchId,
+  spousePersonId,
+  spouseName,
   onRemove,
 }: DraggableTileProps) {
   const { attributes, listeners, setNodeRef, transform, isDragging } =
@@ -84,7 +90,18 @@ export function DraggableTile({
             : ""
       } ${isSearching && !isMatch ? "opacity-50" : ""}`}
     >
-      <Avatar name={displayName} personId={personId} size="sm" />
+      {spousePersonId ? (
+        <div className="relative shrink-0 w-[53px] h-7">
+          <div className="absolute left-0 top-0 z-10">
+            <Avatar name={personName} personId={personId} size="sm" />
+          </div>
+          <div className="absolute left-[25px] top-0">
+            <Avatar name={spouseName ?? ""} personId={spousePersonId} size="sm" />
+          </div>
+        </div>
+      ) : (
+        <Avatar name={personName} personId={personId} size="sm" />
+      )}
       <div className="min-w-0 flex-1">
         <div className="text-sm font-medium text-gray-900 dark:text-gray-100 truncate">
           {displayName}

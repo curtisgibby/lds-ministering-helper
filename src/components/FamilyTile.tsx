@@ -53,10 +53,13 @@ export function FamilyTile({ assignment, companionshipId, searchQuery, activeMat
       dragData={dragData}
       dragId={`assignment-${assignment.personId}-${companionshipId ?? "pool"}`}
       personId={assignment.personId}
+      personName={person?.name ?? assignment.name}
       displayName={displayName(assignment.name, nameFormat)}
       subtitle={subtitle || undefined}
       searchQuery={searchQuery}
       activeMatchId={activeMatchId}
+      spousePersonId={spouse?.id}
+      spouseName={spouse?.name}
       onRemove={
         companionshipId !== null
           ? () => moveAssignment(assignment.personId, companionshipId, null)

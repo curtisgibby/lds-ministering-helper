@@ -48,6 +48,7 @@ export function MinisterTile({ minister, companionshipId, searchQuery, activeMat
       dragData={dragData}
       dragId={`minister-${minister.personId}-${companionshipId ?? "pool"}`}
       personId={minister.personId}
+      personName={minister.name}
       displayName={displayName(minister.name, nameFormat)}
       subtitle={subtitle || undefined}
       dashed={minister.youthBasedOnAge}
