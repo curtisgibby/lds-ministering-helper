@@ -28,7 +28,9 @@ export function FamilyTile({ assignment, companionshipId, searchQuery, activeMat
   const spouse = useMemo(() => {
     if (!person) return null;
     return Object.values(people).find(
-      (p) => p.householdId === person.householdId && p.householdRole === "SPOUSE"
+      (p) => p.householdId === person.householdId
+        && p.id !== person.id
+        && (p.householdRole === "HEAD" || p.householdRole === "SPOUSE")
     ) ?? null;
   }, [people, person]);
 
@@ -58,8 +60,8 @@ export function FamilyTile({ assignment, companionshipId, searchQuery, activeMat
       subtitle={subtitle || undefined}
       searchQuery={searchQuery}
       activeMatchId={activeMatchId}
-      spousePersonId={spouse?.id}
-      spouseName={spouse?.name}
+      spousePersonId={person?.householdRole === "HEAD" && spouse ? spouse.id : undefined}
+      spouseName={person?.householdRole === "HEAD" && spouse ? spouse.name : undefined}
       onRemove={
         companionshipId !== null
           ? () => moveAssignment(assignment.personId, companionshipId, null)
