@@ -141,6 +141,7 @@ export function parseMinisteringData(
   }
 
   // Parse districts — detect EQ vs RS
+  const isElders = !!companionshipsJson.elders;
   const rawDistricts =
     companionshipsJson.elders ??
     companionshipsJson.reliefSociety ??
@@ -168,7 +169,7 @@ export function parseMinisteringData(
           console.warn(
             `[parseMinisteringData] Assignment "${assignment.name}" references personId ${assignment.personId} which was not found in the families data. This family will not appear in the unassigned pool.`
           );
-        } else if (person.householdRole !== "HEAD") {
+        } else if (isElders && person.householdRole !== "HEAD") {
           console.warn(
             `[parseMinisteringData] Assignment "${assignment.name}" references personId ${assignment.personId} who has role "${person.householdRole}" instead of "HEAD". This family may not be tracked correctly.`
           );
@@ -194,19 +195,32 @@ export function parseMinisteringData(
   }
   unassignedMinisters.sort((a, b) => a.name.localeCompare(b.name));
 
-  // Unassigned families: household heads not assigned to any companionship
-  // We use household heads to represent families
+  // Unassigned families/sisters
   const unassignedFamilies: Assignment[] = [];
-  const householdHeads = Object.values(people).filter(
-    (p) => p.householdRole === "HEAD"
-  );
-  for (const head of householdHeads) {
-    if (!assignedFamilyIds.has(head.id)) {
-      unassignedFamilies.push({
-        personId: head.id,
-        name: head.householdName,
-        age: head.age,
-      });
+  if (isElders) {
+    // EQ: household heads not assigned to any companionship
+    const householdHeads = Object.values(people).filter(
+      (p) => p.householdRole === "HEAD"
+    );
+    for (const head of householdHeads) {
+      if (!assignedFamilyIds.has(head.id)) {
+        unassignedFamilies.push({
+          personId: head.id,
+          name: head.householdName,
+          age: head.age,
+        });
+      }
+    }
+  } else {
+    // RS: individual adult women not assigned to any companionship
+    for (const person of Object.values(people)) {
+      if (person.sex === "F" && person.age >= 18 && !assignedFamilyIds.has(person.id)) {
+        unassignedFamilies.push({
+          personId: person.id,
+          name: person.name,
+          age: person.age,
+        });
+      }
     }
   }
   unassignedFamilies.sort((a, b) => a.name.localeCompare(b.name));
