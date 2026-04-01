@@ -12,6 +12,7 @@ export interface Person {
   householdName: string;
   householdRole: string;
   address: string | null;
+  addressLines: string[];
   eligibleMinister: boolean;
 }
 

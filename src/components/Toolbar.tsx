@@ -1,5 +1,5 @@
 import { useRef, useState, useEffect } from "react";
-import { useStore, type NameFormat } from "@/lib/store";
+import { useStore, type NameFormat, type AddressDisplay } from "@/lib/store";
 import { useThemeStore, type Theme } from "@/lib/theme";
 import {
   ArrowRightLeft,
@@ -44,6 +44,10 @@ export function Toolbar({ onToggleSidebar, sidebarOpen, searchQuery, onSearchCha
   const unassignedFamilies = useStore((s) => s.unassignedFamilies);
   const nameFormat = useStore((s) => s.nameFormat);
   const setNameFormat = useStore((s) => s.setNameFormat);
+  const ministerFields = useStore((s) => s.ministerFields);
+  const setMinisterFields = useStore((s) => s.setMinisterFields);
+  const familyFields = useStore((s) => s.familyFields);
+  const setFamilyFields = useStore((s) => s.setFamilyFields);
   const theme = useThemeStore((s) => s.theme);
   const setTheme = useThemeStore((s) => s.setTheme);
 
@@ -253,6 +257,60 @@ export function Toolbar({ onToggleSidebar, sidebarOpen, searchQuery, onSearchCha
                     <option value="lastFirst">Last, First</option>
                     <option value="firstLast">First Last</option>
                   </select>
+                </div>
+
+                {/* Show on ministers */}
+                <div className="px-3 py-2">
+                  <div className="text-sm font-medium text-gray-600 dark:text-gray-300 mb-1.5">Show on ministers</div>
+                  <div className="space-y-1">
+                    <label className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-300 cursor-pointer">
+                      <input type="checkbox" checked={ministerFields.priesthoodOffice} onChange={(e) => setMinisterFields({ priesthoodOffice: e.target.checked })} className="rounded" />
+                      Priesthood office
+                    </label>
+                    <label className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-300 cursor-pointer">
+                      <input type="checkbox" checked={ministerFields.phone} onChange={(e) => setMinisterFields({ phone: e.target.checked })} className="rounded" />
+                      Phone
+                    </label>
+                    <label className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-300 cursor-pointer">
+                      <input type="checkbox" checked={ministerFields.email} onChange={(e) => setMinisterFields({ email: e.target.checked })} className="rounded" />
+                      Email
+                    </label>
+                    <label className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-300 cursor-pointer">
+                      <input type="checkbox" checked={ministerFields.age} onChange={(e) => setMinisterFields({ age: e.target.checked })} className="rounded" />
+                      Age
+                    </label>
+                  </div>
+                </div>
+
+                {/* Show on families */}
+                <div className="px-3 py-2">
+                  <div className="text-sm font-medium text-gray-600 dark:text-gray-300 mb-1.5">Show on families</div>
+                  <div className="space-y-1">
+                    <div className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-300">
+                      <span>Address</span>
+                      <select
+                        value={familyFields.address}
+                        onChange={(e) => setFamilyFields({ address: e.target.value as AddressDisplay })}
+                        className="flex-1 text-sm px-2 py-1 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-600 dark:text-gray-300"
+                      >
+                        <option value="full">Full</option>
+                        <option value="street">Street only</option>
+                        <option value="hidden">Hidden</option>
+                      </select>
+                    </div>
+                    <label className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-300 cursor-pointer">
+                      <input type="checkbox" checked={familyFields.phone} onChange={(e) => setFamilyFields({ phone: e.target.checked })} className="rounded" />
+                      Phone
+                    </label>
+                    <label className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-300 cursor-pointer">
+                      <input type="checkbox" checked={familyFields.email} onChange={(e) => setFamilyFields({ email: e.target.checked })} className="rounded" />
+                      Email
+                    </label>
+                    <label className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-300 cursor-pointer">
+                      <input type="checkbox" checked={familyFields.age} onChange={(e) => setFamilyFields({ age: e.target.checked })} className="rounded" />
+                      Age
+                    </label>
+                  </div>
                 </div>
 
                 <div className="border-t border-gray-200 dark:border-gray-700 my-1" />

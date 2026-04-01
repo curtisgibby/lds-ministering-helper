@@ -1,3 +1,4 @@
+import { useMemo } from "react";
 import { DraggableTile } from "./DraggableTile";
 import type { DragData } from "@/lib/dnd";
 import type { Assignment } from "@/lib/types";
@@ -13,6 +14,7 @@ interface FamilyTileProps {
 export function FamilyTile({ assignment, companionshipId, searchQuery, activeMatchId }: FamilyTileProps) {
   const people = useStore((s) => s.people);
   const nameFormat = useStore((s) => s.nameFormat);
+  const fields = useStore((s) => s.familyFields);
   const moveAssignment = useStore((s) => s.moveAssignment);
   const person = getPersonDetails(people, assignment.personId);
 
@@ -22,6 +24,29 @@ export function FamilyTile({ assignment, companionshipId, searchQuery, activeMat
     companionshipId,
   };
 
+  // Find spouse for dual-age display
+  const spouse = useMemo(() => {
+    if (!person) return null;
+    return Object.values(people).find(
+      (p) => p.householdId === person.householdId && p.householdRole === "SPOUSE"
+    ) ?? null;
+  }, [people, person]);
+
+  const parts: string[] = [];
+  if (fields.address !== "hidden" && person) {
+    const addr = fields.address === "street"
+      ? (person.addressLines?.[0] ?? person.address?.split(",")[0])
+      : person.address;
+    if (addr) parts.push(addr);
+  }
+  if (fields.phone && person?.phone) parts.push(person.phone);
+  if (fields.email && person?.email) parts.push(person.email);
+  if (fields.age) {
+    const ages = [person?.age, spouse?.age].filter((a): a is number => a != null);
+    if (ages.length > 0) parts.push(ages.join(" & "));
+  }
+  const subtitle = parts.join(" · ");
+
   return (
     <DraggableTile
       variant="assignment"
@@ -29,7 +54,7 @@ export function FamilyTile({ assignment, companionshipId, searchQuery, activeMat
       dragId={`assignment-${assignment.personId}-${companionshipId ?? "pool"}`}
       personId={assignment.personId}
       displayName={displayName(assignment.name, nameFormat)}
-      subtitle={person?.address ?? undefined}
+      subtitle={subtitle || undefined}
       searchQuery={searchQuery}
       activeMatchId={activeMatchId}
       onRemove={

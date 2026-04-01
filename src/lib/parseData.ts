@@ -87,6 +87,7 @@ function parsePerson(raw: RawFamilyMember): Person {
     householdName: hh.directoryPreferredLocal,
     householdRole: m.householdMember.householdRole,
     address: hh.address?.addressLines?.join(", ") ?? null,
+    addressLines: hh.address?.addressLines ?? [],
     eligibleMinister: raw.eligibleMinister,
   };
 }

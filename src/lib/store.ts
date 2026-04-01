@@ -10,15 +10,48 @@ import type {
 } from "./types";
 
 export type NameFormat = "lastFirst" | "firstLast";
+export type AddressDisplay = "full" | "street" | "hidden";
+
+export interface MinisterFieldSettings {
+  priesthoodOffice: boolean;
+  phone: boolean;
+  email: boolean;
+  age: boolean;
+}
+
+export interface FamilyFieldSettings {
+  address: AddressDisplay;
+  phone: boolean;
+  email: boolean;
+  age: boolean;
+}
+
+const defaultMinisterFields: MinisterFieldSettings = {
+  priesthoodOffice: true,
+  phone: true,
+  email: false,
+  age: false,
+};
+
+const defaultFamilyFields: FamilyFieldSettings = {
+  address: "full",
+  phone: false,
+  email: false,
+  age: false,
+};
 
 interface StoreState extends MinisteringState {
   originalState: MinisteringState | null;
   hasImported: boolean;
   nameFormat: NameFormat;
+  ministerFields: MinisterFieldSettings;
+  familyFields: FamilyFieldSettings;
 
   importData: (state: MinisteringState) => void;
   reset: () => void;
   setNameFormat: (format: NameFormat) => void;
+  setMinisterFields: (fields: Partial<MinisterFieldSettings>) => void;
+  setFamilyFields: (fields: Partial<FamilyFieldSettings>) => void;
 
   moveMinister: (
     ministerId: string,
@@ -67,8 +100,14 @@ export const useStore = create<StoreState>()(
       originalState: null,
       hasImported: false,
       nameFormat: "lastFirst" as NameFormat,
+      ministerFields: defaultMinisterFields,
+      familyFields: defaultFamilyFields,
 
       setNameFormat: (format: NameFormat) => set({ nameFormat: format }),
+      setMinisterFields: (fields: Partial<MinisterFieldSettings>) =>
+        set((state) => ({ ministerFields: { ...state.ministerFields, ...fields } })),
+      setFamilyFields: (fields: Partial<FamilyFieldSettings>) =>
+        set((state) => ({ familyFields: { ...state.familyFields, ...fields } })),
 
       importData: (state: MinisteringState) =>
         set({

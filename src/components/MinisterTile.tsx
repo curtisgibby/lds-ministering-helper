@@ -22,6 +22,7 @@ interface MinisterTileProps {
 export function MinisterTile({ minister, companionshipId, searchQuery, activeMatchId }: MinisterTileProps) {
   const people = useStore((s) => s.people);
   const nameFormat = useStore((s) => s.nameFormat);
+  const fields = useStore((s) => s.ministerFields);
   const moveMinister = useStore((s) => s.moveMinister);
   const person = getPersonDetails(people, minister.personId);
 
@@ -31,8 +32,15 @@ export function MinisterTile({ minister, companionshipId, searchQuery, activeMat
     companionshipId,
   };
 
-  const office = OFFICE_LABELS[minister.priesthoodOffice] ?? minister.priesthoodOffice;
-  const subtitle = [office, person?.phone].filter(Boolean).join(" · ");
+  const parts: string[] = [];
+  if (fields.priesthoodOffice) {
+    const office = OFFICE_LABELS[minister.priesthoodOffice] ?? minister.priesthoodOffice;
+    if (office) parts.push(office);
+  }
+  if (fields.phone && person?.phone) parts.push(person.phone);
+  if (fields.email && person?.email) parts.push(person.email);
+  if (fields.age) parts.push(`${minister.age}`);
+  const subtitle = parts.join(" · ");
 
   return (
     <DraggableTile
