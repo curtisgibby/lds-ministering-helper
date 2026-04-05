@@ -27,6 +27,14 @@ export function UnassignedPool({ isOpen, onToggle, searchQuery, activeMatchId, r
     if (requestedTab) setActiveTab(requestedTab);
   }, [requestedTab]);
 
+  // Clear sidebar filters when the global Cmd+F search becomes active
+  useEffect(() => {
+    if (searchQuery) {
+      setMinisterSearch("");
+      setFamilySearch("");
+    }
+  }, [searchQuery]);
+
   const ministerDrop: DropTarget = { type: "minister", companionshipId: null };
   const assignmentDrop: DropTarget = {
     type: "assignment",

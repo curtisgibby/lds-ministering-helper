@@ -19,15 +19,24 @@ Built because the Church's official ministering interface is hard to visualize a
   ![Adding ministers from sidebar](/public/images/new-companionship.png)
   ![Adding assignments from sidebar](/public/images/new-companionship-assignments.png)
 
+- **Find (Cmd+F / Ctrl+F)** — Chrome-style search across all districts and the unassigned pool, with match-by-match navigation
+
+  ![Search with highlighting](/public/images/search.png)
+
+- **Configurable field visibility** — Show or hide fields like priesthood office, phone, email, age, and address on minister and family tiles
+
+  ![Settings dropdown](/public/images/settings.png)
+
+- **Church-matching sort order** — Companionships, ministers, and assignments automatically sort to match the ordering in the Church's ministering system
 - **Dark mode** — Light, dark, or system theme with a toolbar picker. Defaults to your OS preference.
 - **Name format toggle** — Switch between "Last, First" and "First Last" display
-- **Member photos** — Displays profile photos when available, with colored initials as fallback
+- **Member photos** — Displays profile photos when available, with paired head/spouse photos on family tiles in EQ mode. Colored initials as fallback.
 - **EQ and RS support** — Same tool works for both Elders Quorum and Relief Society data
 
   ![Relief Society board view](/public/images/district-1-companionships-rs.png)
 
 - **Create and remove** districts and companionships
-- **Export/import** — Save your work as a JSON snapshot; auto-saves to browser localStorage
+- **Export/import** — Save your work as a JSON snapshot and re-import it on another browser; auto-saves to browser localStorage
 - **Reset** — One-click reset to the original imported state
 - **Fully static** — No server, no database, no accounts. All data stays in your browser.
 
@@ -57,7 +66,7 @@ Then open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ### 3. Import your data
 
-Upload both JSON files using the import form.
+Upload both JSON files using the import form, or import a previously exported snapshot.
 
 ![Import dialog](/public/images/import.png)
 

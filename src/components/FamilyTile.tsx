@@ -24,13 +24,13 @@ export function FamilyTile({ assignment, companionshipId, searchQuery, activeMat
     companionshipId,
   };
 
-  // Find spouse for dual-age display
+  // Find spouse for dual-age/photo display (EQ only — HEAD assignments represent households)
   const spouse = useMemo(() => {
-    if (!person) return null;
+    if (!person || person.householdRole !== "HEAD") return null;
     return Object.values(people).find(
       (p) => p.householdId === person.householdId
         && p.id !== person.id
-        && (p.householdRole === "HEAD" || p.householdRole === "SPOUSE")
+        && p.householdRole === "SPOUSE"
     ) ?? null;
   }, [people, person]);
 
@@ -60,8 +60,8 @@ export function FamilyTile({ assignment, companionshipId, searchQuery, activeMat
       subtitle={subtitle || undefined}
       searchQuery={searchQuery}
       activeMatchId={activeMatchId}
-      spousePersonId={person?.householdRole === "HEAD" && spouse ? spouse.id : undefined}
-      spouseName={person?.householdRole === "HEAD" && spouse ? spouse.name : undefined}
+      spousePersonId={spouse?.id}
+      spouseName={spouse?.name}
       onRemove={
         companionshipId !== null
           ? () => moveAssignment(assignment.personId, companionshipId, null)
