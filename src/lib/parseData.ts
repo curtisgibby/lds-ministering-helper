@@ -112,20 +112,28 @@ function parseAssignment(raw: RawAssignment): Assignment {
 }
 
 function parseCompanionship(raw: RawCompanionship): Companionship {
-  return {
-    id: raw.id,
-    ministers: raw.ministers.map(parseMinister),
-    assignments: raw.assignments.map(parseAssignment),
-  };
+  const ministers = raw.ministers.map(parseMinister);
+  ministers.sort((a, b) => a.name.localeCompare(b.name));
+  const assignments = raw.assignments.map(parseAssignment);
+  assignments.sort((a, b) => a.name.localeCompare(b.name));
+  return { id: raw.id, ministers, assignments };
+}
+
+function companionshipSortKey(comp: Companionship): string {
+  return comp.ministers[0]?.name.split(",")[0] ?? "";
 }
 
 function parseDistrict(raw: RawDistrict): District {
+  const companionships = raw.companionships.map(parseCompanionship);
+  companionships.sort((a, b) =>
+    companionshipSortKey(a).localeCompare(companionshipSortKey(b))
+  );
   return {
     id: raw.districtUuid,
     name: raw.districtName,
     supervisorName: raw.supervisorName,
     supervisorId: raw.supervisorPersonUuid,
-    companionships: raw.companionships.map(parseCompanionship),
+    companionships,
   };
 }
 

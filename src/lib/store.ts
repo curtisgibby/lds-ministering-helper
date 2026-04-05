@@ -9,6 +9,27 @@ import type {
   Person,
 } from "./types";
 
+function sortMinisteringState(state: MinisteringState): MinisteringState {
+  const districts = structuredClone(state.districts);
+  for (const district of districts) {
+    for (const comp of district.companionships) {
+      comp.ministers.sort((a, b) => a.name.localeCompare(b.name));
+      comp.assignments.sort((a, b) => a.name.localeCompare(b.name));
+    }
+    district.companionships.sort((a, b) => {
+      const aLast = a.ministers[0]?.name.split(",")[0] ?? "";
+      const bLast = b.ministers[0]?.name.split(",")[0] ?? "";
+      return aLast.localeCompare(bLast);
+    });
+  }
+  return {
+    ...state,
+    districts,
+    unassignedMinisters: [...state.unassignedMinisters].sort((a, b) => a.name.localeCompare(b.name)),
+    unassignedFamilies: [...state.unassignedFamilies].sort((a, b) => a.name.localeCompare(b.name)),
+  };
+}
+
 export type NameFormat = "lastFirst" | "firstLast";
 export type AddressDisplay = "full" | "street" | "hidden";
 
@@ -109,12 +130,14 @@ export const useStore = create<StoreState>()(
       setFamilyFields: (fields: Partial<FamilyFieldSettings>) =>
         set((state) => ({ familyFields: { ...state.familyFields, ...fields } })),
 
-      importData: (state: MinisteringState) =>
+      importData: (raw: MinisteringState) => {
+        const state = sortMinisteringState(raw);
         set({
           ...state,
           originalState: structuredClone(state),
           hasImported: true,
-        }),
+        });
+      },
 
       reset: () => {
         const original = get().originalState;
@@ -164,6 +187,9 @@ export const useStore = create<StoreState>()(
             const found = findCompanionship(districts, toCompanionshipId);
             if (found) {
               found.companionship.ministers.push(minister);
+              found.companionship.ministers.sort((a, b) =>
+                a.name.localeCompare(b.name)
+              );
             }
           } else {
             unassignedMinisters.push(minister);
@@ -208,6 +234,9 @@ export const useStore = create<StoreState>()(
             const found = findCompanionship(districts, toCompanionshipId);
             if (found) {
               found.companionship.assignments.push(assignment);
+              found.companionship.assignments.sort((a, b) =>
+                a.name.localeCompare(b.name)
+              );
             }
           } else {
             unassignedFamilies.push(assignment);
@@ -235,7 +264,16 @@ export const useStore = create<StoreState>()(
           if (!comp) return state;
 
           const target = districts.find((d) => d.id === toDistrictId);
-          if (target) target.companionships.push(comp);
+          if (target) {
+            target.companionships.push(comp);
+            target.companionships.sort((a, b) => {
+              const aName = a.ministers[0]?.name ?? "";
+              const bName = b.ministers[0]?.name ?? "";
+              const aLast = aName.split(",")[0] ?? "";
+              const bLast = bName.split(",")[0] ?? "";
+              return aLast.localeCompare(bLast);
+            });
+          }
 
           return { districts };
         }),
