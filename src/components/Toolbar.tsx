@@ -124,6 +124,11 @@ export function Toolbar({ onToggleSidebar, sidebarOpen, searchQuery, onSearchCha
       <div className="mx-auto px-4 py-3 flex items-center justify-between">
         {/* Left: title + stats */}
         <div className="flex items-center gap-4">
+          <img 
+            src="/images/ministering-mark.svg" 
+            alt="Ministering Helper Logo" 
+            className="w-8 h-8 dark:invert"
+          />
           <h1 className="text-lg font-bold text-gray-800 dark:text-gray-100">
             Ministering Helper
           </h1>
