@@ -1,8 +1,10 @@
 import { useRef, useState, useEffect } from "react";
 import { useStore, type NameFormat, type AddressDisplay } from "@/lib/store";
 import { useThemeStore, type Theme } from "@/lib/theme";
+import { storePhotos } from "@/lib/photoStore";
 import {
   ArrowRightLeft,
+  Camera,
   ChevronDown,
   ChevronUp,
   Download,
@@ -35,7 +37,9 @@ interface ToolbarProps {
 export function Toolbar({ onToggleSidebar, sidebarOpen, searchQuery, onSearchChange, matchCount, currentMatchIndex, onNextMatch, onPrevMatch, searchInputRef }: ToolbarProps) {
   const [showConfirmReset, setShowConfirmReset] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
+  const [photoStatus, setPhotoStatus] = useState<string | null>(null);
   const settingsRef = useRef<HTMLDivElement>(null);
+  const photoInputRef = useRef<HTMLInputElement>(null);
   const reset = useStore((s) => s.reset);
   const exportState = useStore((s) => s.exportState);
   const createDistrict = useStore((s) => s.createDistrict);
@@ -89,6 +93,22 @@ export function Toolbar({ onToggleSidebar, sidebarOpen, searchQuery, onSearchCha
     a.download = `ministering-snapshot-${new Date().toISOString().slice(0, 10)}.json`;
     a.click();
     URL.revokeObjectURL(url);
+  };
+
+  const handleLoadPhotos = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    try {
+      setPhotoStatus("Loading...");
+      const json = JSON.parse(await file.text()) as Record<string, string>;
+      const count = await storePhotos(json);
+      setPhotoStatus(`${count} photos loaded`);
+      setTimeout(() => setPhotoStatus(null), 3000);
+      window.location.reload();
+    } catch {
+      setPhotoStatus("Failed to load photos");
+      setTimeout(() => setPhotoStatus(null), 3000);
+    }
   };
 
   const handleClearAndReimport = () => {
@@ -323,6 +343,22 @@ export function Toolbar({ onToggleSidebar, sidebarOpen, searchQuery, onSearchCha
                   <Download className="w-4 h-4" />
                   Export JSON
                 </button>
+
+                {/* Load photos */}
+                <button
+                  onClick={() => photoInputRef.current?.click()}
+                  className="w-full px-3 py-2 text-sm text-left text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 flex items-center gap-2"
+                >
+                  <Camera className="w-4 h-4" />
+                  {photoStatus ?? "Load photos"}
+                </button>
+                <input
+                  ref={photoInputRef}
+                  type="file"
+                  accept=".json"
+                  onChange={handleLoadPhotos}
+                  className="hidden"
+                />
 
                 {/* Re-import */}
                 <button

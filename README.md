@@ -86,7 +86,7 @@ Since the app is fully static (`npm run build` produces a `dist/` folder), you c
 
 ## Optional: Member Photos
 
-Member photos aren't included in the exported JSON. You can optionally download them using a browser console script while logged into the Church directory site. See the "Optional: Download member photos" section in [IMPORT-GUIDE.md](IMPORT-GUIDE.md) for instructions.
+Member photos aren't included in the exported JSON. You can optionally download them using a browser console script while logged into the Church directory site, then load them into the app via the import dialog or Settings > Load photos. Photos are stored in your browser's IndexedDB — they never leave your machine. See the "Optional: Download member photos" section in [IMPORT-GUIDE.md](IMPORT-GUIDE.md) for instructions.
 
 The app works fine without photos — it generates colored initials avatars as a fallback.
 

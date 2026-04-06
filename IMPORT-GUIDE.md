@@ -75,20 +75,39 @@ This guide walks you through downloading the two JSON files that Ministering Hel
 
 Member photos require an extra step because they're served from a separate authenticated API.
 
+### Step 1: Download the photos
+
 1. While logged into [directory.churchofjesuschrist.org](https://directory.churchofjesuschrist.org), open the browser console (Developer Tools > **Console** tab)
 2. Copy and paste the contents of `download-photos.js` (included with Ministering Helper) and press Enter
-3. When a file picker appears, select the `members.json` file you saved in Step 4
-4. Wait for it to finish — it will log progress as it downloads each batch
+3. A blue banner will appear at the top of the page — click **Select members.json** and choose the `members.json` file you saved in Step 4 above
+
+   ![Photo downloader banner](/public/images/photo-downloader.png)
+
+4. Wait for it to finish — the banner shows progress as it downloads each batch
 5. It will download a `member-photos.json` file to your Downloads folder
-6. Move `member-photos.json` into the ministering-helper project folder
-7. In your terminal, run:
+
+### Step 2: Load photos into the app
+
+You can load photos either during import or at any time afterward:
+
+- **During import:** Select the `member-photos.json` file in the optional "Member photos" field on the import dialog
+- **After import:** Click the Settings gear icon in the toolbar, then click **Load photos** and select the `member-photos.json` file
+
+Photos are stored in your browser's IndexedDB and persist across page reloads. They never leave your machine.
+
+### Alternative: Extract to disk (local development only)
+
+If you're running the app locally and prefer to serve photos as static files, you can extract them to individual image files instead:
+
+1. Move `member-photos.json` into the ministering-helper project folder
+2. In your terminal, run:
 
    ```bash
    node extract-photos.cjs
    ```
 
-8. This extracts all photos into `public/images/{uuid}.jpg`
-9. Refresh the app to see photos
+3. This extracts all photos into `public/images/{uuid}.jpg`
+4. Refresh the app to see photos
 
 **Note:** This step is optional. The app works fine with initials-based avatars if you skip this. Not all members will have photos — those without photos will continue to show initials.
 
@@ -116,6 +135,6 @@ Make sure you're running it on `directory.churchofjesuschrist.org`, not `lcr.chu
 
 ## Privacy Note
 
-All data stays on your computer. Ministering Helper runs entirely in your browser — no member data is ever sent to any server. Your ward's information is stored only in your browser's local storage and can be cleared at any time by clicking "Re-import" or clearing your browser data.
+All data stays on your computer. Ministering Helper runs entirely in your browser — no member data is ever sent to any server. Your ward's information is stored in your browser's localStorage (assignment data) and IndexedDB (photos), and can be cleared at any time by clicking "Re-import" or clearing your browser data.
 
-The photo download script runs in your browser and uses your existing authenticated session — no passwords are stored or transmitted. The downloaded photos are saved as local files on your machine only.
+The photo download script runs in your browser and uses your existing authenticated session — no passwords are stored or transmitted. Photos are stored locally in your browser's IndexedDB and are never uploaded to any server.

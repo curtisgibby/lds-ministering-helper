@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import { parseMinisteringData } from "@/lib/parseData";
 import { useStore } from "@/lib/store";
+import { storePhotos } from "@/lib/photoStore";
 import type { MinisteringState } from "@/lib/types";
 
 function isSnapshot(json: unknown): json is MinisteringState {
@@ -20,6 +21,15 @@ export function ImportDialog() {
   const familiesRef = useRef<HTMLInputElement>(null);
   const companionshipsRef = useRef<HTMLInputElement>(null);
   const snapshotRef = useRef<HTMLInputElement>(null);
+  const photosRef = useRef<HTMLInputElement>(null);
+
+  const loadPhotos = async () => {
+    const photosFile = photosRef.current?.files?.[0];
+    if (!photosFile) return;
+    const photosJson = JSON.parse(await photosFile.text()) as Record<string, string>;
+    const count = await storePhotos(photosJson);
+    console.log(`Stored ${count} photos in IndexedDB`);
+  };
 
   const handleImport = async () => {
     setError(null);
@@ -36,6 +46,7 @@ export function ImportDialog() {
           setError("This file doesn't look like a valid snapshot. It should have districts, people, unassignedMinisters, and unassignedFamilies.");
           return;
         }
+        await loadPhotos();
         importData(json);
         return;
       }
@@ -57,6 +68,7 @@ export function ImportDialog() {
       const companionshipsJson = JSON.parse(companionshipsText);
 
       const state = parseMinisteringData(familiesJson, companionshipsJson);
+      await loadPhotos();
       importData(state);
     } catch (e) {
       setError(`Failed to parse files: ${e instanceof Error ? e.message : String(e)}`);
@@ -145,6 +157,21 @@ export function ImportDialog() {
               />
             </div>
           )}
+
+          <div>
+            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+              Member photos
+              <span className="text-gray-400 dark:text-gray-500 font-normal ml-1">
+                (optional — member-photos.json)
+              </span>
+            </label>
+            <input
+              ref={photosRef}
+              type="file"
+              accept=".json"
+              className="block w-full text-sm text-gray-500 dark:text-gray-400 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-medium file:bg-green-50 dark:file:bg-green-900/50 file:text-green-700 dark:file:text-green-300 hover:file:bg-green-100 dark:hover:file:bg-green-900/70"
+            />
+          </div>
 
           {error && (
             <div className="text-sm text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-900/30 rounded-lg p-3">
