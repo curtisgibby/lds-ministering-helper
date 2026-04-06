@@ -66,7 +66,7 @@ This guide walks you through downloading the two JSON files that Ministering Hel
 ## Step 5: Import into Ministering Helper
 
 1. Open Ministering Helper in your browser
-2. Upload both files using the import form
+2. Load both files using the import form
 3. You're ready to go!
 
 ![Import dialog](/public/images/import.png)

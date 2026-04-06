@@ -2,6 +2,8 @@
 
 A visual, drag-and-drop whiteboard for organizing ministering assignments in LDS wards. Works for both Elders Quorum and Relief Society.
 
+**Try it now:** [lds-ministering-helper.curtisgibby.com](https://lds-ministering-helper.curtisgibby.com/)
+
 Built because the Church's official ministering interface is hard to visualize at a glance and cumbersome to reorganize. This tool gives presidency members a bird's-eye view of their districts, companionships, and assignments — like a digital version of the whiteboards many presidencies already maintain by hand.
 
 ![Elders Quorum board view](/public/images/district-1-companionships.png)
@@ -55,7 +57,9 @@ In short: open DevTools, navigate to the Ministering page, and save two API resp
 - `members.json` — the ward member list
 - `companionships.json` — the current companionship assignments
 
-### 2. Run the app
+### 2. Open the app
+
+Use the hosted version at [lds-ministering-helper.curtisgibby.com](https://lds-ministering-helper.curtisgibby.com/), or run it locally:
 
 ```bash
 npm install
@@ -66,7 +70,7 @@ Then open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ### 3. Import your data
 
-Upload both JSON files using the import form, or import a previously exported snapshot.
+Load both JSON files using the import form, or import a previously exported snapshot.
 
 ![Import dialog](/public/images/import.png)
 

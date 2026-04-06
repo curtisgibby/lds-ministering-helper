@@ -8,6 +8,7 @@ import {
   ChevronDown,
   ChevronUp,
   Download,
+  ExternalLink,
   Home,
   LayoutGrid,
   Moon,
@@ -368,6 +369,17 @@ export function Toolbar({ onToggleSidebar, sidebarOpen, searchQuery, onSearchCha
                   <Upload className="w-4 h-4" />
                   Re-import
                 </button>
+
+                {/* GitHub */}
+                <a
+                  href="https://github.com/curtisgibby/lds-ministering-helper"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full px-3 py-2 text-sm text-left text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 flex items-center gap-2"
+                >
+                  <ExternalLink className="w-4 h-4" />
+                  GitHub
+                </a>
 
                 <div className="border-t border-gray-200 dark:border-gray-700 my-1" />
 

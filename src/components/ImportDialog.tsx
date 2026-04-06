@@ -82,7 +82,7 @@ export function ImportDialog() {
           Ministering Helper
         </h1>
         <p className="text-gray-500 dark:text-gray-400 mb-6">
-          Upload your ward's JSON data files to get started.
+          Load your ward's JSON data files to get started.
         </p>
 
         <div className="flex gap-2 mb-6">
