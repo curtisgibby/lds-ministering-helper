@@ -88,6 +88,14 @@ Load both JSON files using the import form, or import a previously exported snap
 
 Since the app is fully static (`npm run build` produces a `dist/` folder), you can host it anywhere that serves static files — GitHub Pages, Netlify, Vercel, shared hosting, etc. No server runtime needed.
 
+### Build and deploy
+
+`dist/` is generated and Git-ignored. Run `npm run build` on a machine with Node.js/npm, then copy the generated `dist/` folder to the server's static web root and reload or purge any CDN cache.
+
+```bash
+rsync -av --delete dist/ user@server:/path/to/served/dist/
+```
+
 ## Optional: Member Photos
 
 Member photos aren't included in the exported JSON. You can optionally download them using a browser console script while logged into the Church directory site, then load them into the app via the import dialog or Settings > Load photos. Photos are stored in your browser's IndexedDB — they never leave your machine. See the "Optional: Download member photos" section in [IMPORT-GUIDE.md](IMPORT-GUIDE.md) for instructions.
