@@ -11,6 +11,7 @@ import {
   ExternalLink,
   Home,
   LayoutGrid,
+  ClipboardList,
   Moon,
   Plus,
   RotateCcw,
@@ -33,9 +34,11 @@ interface ToolbarProps {
   onNextMatch: () => void;
   onPrevMatch: () => void;
   searchInputRef?: React.RefObject<HTMLInputElement | null>;
+  onOpenChanges: () => void;
+  proposedChangesCount: number;
 }
 
-export function Toolbar({ onToggleSidebar, sidebarOpen, searchQuery, onSearchChange, matchCount, currentMatchIndex, onNextMatch, onPrevMatch, searchInputRef }: ToolbarProps) {
+export function Toolbar({ onToggleSidebar, sidebarOpen, searchQuery, onSearchChange, matchCount, currentMatchIndex, onNextMatch, onPrevMatch, searchInputRef, onOpenChanges, proposedChangesCount }: ToolbarProps) {
   const [showConfirmReset, setShowConfirmReset] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [photoStatus, setPhotoStatus] = useState<string | null>(null);
@@ -232,6 +235,20 @@ export function Toolbar({ onToggleSidebar, sidebarOpen, searchQuery, onSearchCha
             {unassignedTotal > 0 && (
               <span className="bg-blue-600 text-white text-xs rounded-full px-1.5 py-0.5">
                 {unassignedTotal}
+              </span>
+            )}
+          </button>
+
+          <button
+            onClick={onOpenChanges}
+            className="text-sm px-3 py-1.5 border border-gray-300 dark:border-gray-600 text-gray-600 dark:text-gray-300 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 flex items-center gap-1.5"
+            title="Show proposed local changes"
+          >
+            <ClipboardList className="w-4 h-4" />
+            <span className="hidden sm:inline">Changes</span>
+            {proposedChangesCount > 0 && (
+              <span className="bg-amber-500 text-white text-xs rounded-full px-1.5 py-0.5">
+                {proposedChangesCount}
               </span>
             )}
           </button>

@@ -14,7 +14,9 @@ import { UnassignedPool } from "./UnassignedPool";
 import { Toolbar } from "./Toolbar";
 import { useStore } from "@/lib/store";
 import { Avatar } from "./Avatar";
+import { ChangesDialog } from "./ChangesDialog";
 import type { DragData, DropTarget } from "@/lib/dnd";
+import { getProposedChanges } from "@/lib/changes";
 
 export function Board() {
   const districts = useStore((s) => s.districts);
@@ -28,10 +30,19 @@ export function Board() {
     name: string;
   } | null>(null);
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [changesOpen, setChangesOpen] = useState(false);
   const [sidebarTab, setSidebarTab] = useState<"ministers" | "families">("ministers");
   const [searchQuery, setSearchQuery] = useState("");
   const [currentMatchIndex, setCurrentMatchIndex] = useState(0);
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const originalState = useStore((s) => s.originalState);
+  const unassignedChanges = useStore((s) => s.unassignedMinisters);
+  const unassignedFamiliesForChanges = useStore((s) => s.unassignedFamilies);
+  const people = useStore((s) => s.people);
+  const proposedChangesCount = useMemo(
+    () => getProposedChanges({ districts, unassignedMinisters: unassignedChanges, unassignedFamilies: unassignedFamiliesForChanges, people }, originalState).total,
+    [districts, unassignedChanges, unassignedFamiliesForChanges, people, originalState]
+  );
 
   // Build a set of matching keys (variant-personId) for highlighting
   const matchSet = useMemo(() => {
@@ -254,6 +265,8 @@ export function Board() {
           onNextMatch={handleNextMatch}
           onPrevMatch={handlePrevMatch}
           searchInputRef={searchInputRef}
+          onOpenChanges={() => setChangesOpen(true)}
+          proposedChangesCount={proposedChangesCount}
         />
         <div
           className="mx-auto p-4 space-y-6 transition-all duration-300"
@@ -295,6 +308,7 @@ export function Board() {
           </div>
         )}
       </DragOverlay>
+      {changesOpen && <ChangesDialog onClose={() => setChangesOpen(false)} />}
     </DndContext>
   );
 }
